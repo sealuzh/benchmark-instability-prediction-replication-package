@@ -47,3 +47,7 @@ To get statistics, run the R function `run_individual_features_stats`.
 * [`group_importance_study.ipynb`](study/group_importance_study.ipynb) is a *Jupyter Notebook* we used to study the feature importance of feature categories.
 
 For Jupyter Notebooks, we also provide the compiled *HTML* file with included output.
+
+
+## Contact
+Contact information is available in the file [CONTACT.md](CONTACT.md).
