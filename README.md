@@ -5,6 +5,8 @@
 This replication package can be used to replicate the study we performed
 in our paper with the title *Predicting Unstable Software Benchmarks Using Static Source Code Features* authored by Christoph Laaber, Mikael Basmaci, and Pasquale Salza.
 
+This replication package is also available on GitHub:  [sealuzh/benchmark-instability-prediction-replication-package](https://github.com/sealuzh/benchmark-instability-prediction-replication-package).
+
 
 ### Approach
 [`approach/`](approach/) contains all data and scripts of our approach, including feature extraction and combination, variability computation, and generating the resulting files for the machine learning part in [`study/`](study/).
@@ -44,10 +46,3 @@ To get statistics, run the R function `run_individual_features_stats`.
 * [`group_importance_study.ipynb`](study/group_importance_study.ipynb) is a *Jupyter Notebook* we used to study the feature importance of feature categories.
 
 For Jupyter Notebooks, we also provide the compiled *HTML* file with included output.
-
-
-## Links
-
-GitHub: [sealuzh/benchmark-instability-prediction-replication-package](https://github.com/sealuzh/benchmark-instability-prediction-replication-package)
-
-Zenodo: []()
