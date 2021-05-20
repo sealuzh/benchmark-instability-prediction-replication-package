@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/{github_id}.svg)](https://zenodo.org/badge/latestdoi/369158102)
+
 # Predicting Unstable Software Benchmarks Using Static Source Code Features
 
 ## Replication package
