@@ -4,7 +4,7 @@
 
 # Predicting Unstable Software Benchmarks Using Static Source Code Features
 
-This replication package of the paper *Predicting Unstable Software Benchmarks Using Static Source Code Features* authored by Christoph Laaber, Mikael Basmaci, and Pasquale Salza.
+This is the replication package of the paper "Predicting Unstable Software Benchmarks Using Static Source Code Features" authored by Christoph Laaber, Mikael Basmaci, and Pasquale Salza.
 
 This replication package is also available on GitHub:  [sealuzh/benchmark-instability-prediction-replication-package](https://github.com/sealuzh/benchmark-instability-prediction-replication-package).
 
