@@ -1,0 +1,32 @@
+Error while executing goptc (e2a56d9bb404cb0e47cc737fdc3fe1fd6c095743): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/7f/9f/202485/repo/src/github.com/adjust/redismq': exit status 2
+
+Out: # github.com/adjust/redismq/example
+example/load.go:10:6: main redeclared in this block
+	previous declaration at example/buffered_queue.go:12:6
+example/load.go:22:26: randomString redeclared in this block
+	previous declaration at example/buffered_queue.go:35:26
+example/load.go:30:32: randInt redeclared in this block
+	previous declaration at example/buffered_queue.go:43:32
+example/load.go:34:19: write redeclared in this block
+	previous declaration at example/buffered_queue.go:47:19
+example/load.go:41:40: read redeclared in this block
+	previous declaration at example/buffered_queue.go:54:48
+example/multi_get.go:10:6: main redeclared in this block
+	previous declaration at example/load.go:10:6
+example/multi_get.go:23:26: randomString redeclared in this block
+	previous declaration at example/load.go:22:26
+example/multi_get.go:31:32: randInt redeclared in this block
+	previous declaration at example/load.go:30:32
+example/multi_get.go:35:18: write redeclared in this block
+	previous declaration at example/load.go:34:19
+example/multi_get.go:43:25: read redeclared in this block
+	previous declaration at example/load.go:41:40
+example/multi_get.go:43:25: too many errors
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

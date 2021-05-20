@@ -1,0 +1,22 @@
+Error while executing goptc (7d98658c987a228e92f2ca9271f8101f7e3ec974): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/59/ab/140751/repo/src/github.com/rainycape/memcache': exit status 2
+
+Out: # github.com/rainycape/memcache/memcache
+memcache/memcache.go:60:21: undefined: os.Error
+memcache/memcache.go:119:34: undefined: os.Error
+memcache/memcache.go:125:49: undefined: os.Error
+memcache/memcache.go:140:90: undefined: os.Error
+memcache/memcache.go:158:51: undefined: os.Error
+memcache/memcache.go:174:34: undefined: os.Error
+memcache/memcache.go:178:56: undefined: os.Error
+memcache/memcache.go:188:77: undefined: os.Error
+memcache/memcache.go:227:34: undefined: os.Error
+memcache/selector.go:30:36: undefined: os.Error
+memcache/memcache.go:227:34: too many errors
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

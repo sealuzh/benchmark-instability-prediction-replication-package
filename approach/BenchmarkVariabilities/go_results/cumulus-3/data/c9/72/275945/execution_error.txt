@@ -1,0 +1,32 @@
+Error while executing goptc (1c20e334b2fb74c7ce5aff95a6aeed88bd4dcfe0): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c9/72/275945/repo/src/github.com/istio/mixer': exit status 1
+
+Out: package istio.io/mixer/adapter/denyChecker: cannot find package "istio.io/mixer/adapter/denyChecker" in any of:
+	/home/ext-laaber/go-install/go/src/istio.io/mixer/adapter/denyChecker (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/c9/72/275945/repo/src/istio.io/mixer/adapter/denyChecker (from $GOPATH)
+package istio.io/mixer/adapter/genericListChecker: cannot find package "istio.io/mixer/adapter/genericListChecker" in any of:
+	/home/ext-laaber/go-install/go/src/istio.io/mixer/adapter/genericListChecker (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/c9/72/275945/repo/src/istio.io/mixer/adapter/genericListChecker (from $GOPATH)
+package istio.io/mixer/adapter/ipListChecker: cannot find package "istio.io/mixer/adapter/ipListChecker" in any of:
+	/home/ext-laaber/go-install/go/src/istio.io/mixer/adapter/ipListChecker (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/c9/72/275945/repo/src/istio.io/mixer/adapter/ipListChecker (from $GOPATH)
+package github.com/googleapis/googleapis/google/rpc: no Go files in /home/ext-laaber/go-experiments/data/c9/72/275945/repo/src/github.com/googleapis/googleapis/google/rpc
+package istio.io/mixer/adapter/memQuota: cannot find package "istio.io/mixer/adapter/memQuota" in any of:
+	/home/ext-laaber/go-install/go/src/istio.io/mixer/adapter/memQuota (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/c9/72/275945/repo/src/istio.io/mixer/adapter/memQuota (from $GOPATH)
+package istio.io/mixer/adapter/noop2: cannot find package "istio.io/mixer/adapter/noop2" in any of:
+	/home/ext-laaber/go-install/go/src/istio.io/mixer/adapter/noop2 (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/c9/72/275945/repo/src/istio.io/mixer/adapter/noop2 (from $GOPATH)
+package istio.io/mixer/adapter/redisquota: cannot find package "istio.io/mixer/adapter/redisquota" in any of:
+	/home/ext-laaber/go-install/go/src/istio.io/mixer/adapter/redisquota (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/c9/72/275945/repo/src/istio.io/mixer/adapter/redisquota (from $GOPATH)
+package istio.io/mixer/adapter/stdioLogger: cannot find package "istio.io/mixer/adapter/stdioLogger" in any of:
+	/home/ext-laaber/go-install/go/src/istio.io/mixer/adapter/stdioLogger (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/c9/72/275945/repo/src/istio.io/mixer/adapter/stdioLogger (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

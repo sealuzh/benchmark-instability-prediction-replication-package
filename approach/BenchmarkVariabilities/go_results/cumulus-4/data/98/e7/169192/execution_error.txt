@@ -1,0 +1,13 @@
+Error while executing goptc (15216a0883d113fadc33198d24850974eae0f841): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/98/e7/169192/repo/src/github.com/gin-gonic/gin': exit status 2
+
+Out: # github.com/gin-gonic/gin
+./gin.go:94:25: cannot use engine.handle404 (type func(http.ResponseWriter, *http.Request)) as type http.Handler in assignment:
+	func(http.ResponseWriter, *http.Request) does not implement http.Handler (missing ServeHTTP method)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

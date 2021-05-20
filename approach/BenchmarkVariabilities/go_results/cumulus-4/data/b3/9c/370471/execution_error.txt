@@ -1,0 +1,102 @@
+Error while executing goptc (6871a5e21df83fa877db826ca38b5b9ac7f6e694): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin': exit status 1
+
+Out: can't load package: package github.com/upspin/upspin/access: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/access expects import "upspin.io/access"
+can't load package: package github.com/upspin/upspin/bind: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/bind expects import "upspin.io/bind"
+can't load package: package github.com/upspin/upspin/cache: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cache expects import "upspin.io/cache"
+can't load package: package github.com/upspin/upspin/client: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/client expects import "upspin.io/client"
+can't load package: package github.com/upspin/upspin/client/clientutil: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/client/clientutil expects import "upspin.io/client/clientutil"
+can't load package: package github.com/upspin/upspin/client/file: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/client/file expects import "upspin.io/client/file"
+can't load package: package github.com/upspin/upspin/cloud/https: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cloud/https expects import "upspin.io/cloud/https"
+can't load package: package github.com/upspin/upspin/cloud/mail: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cloud/mail expects import "upspin.io/cloud/mail"
+can't load package: package github.com/upspin/upspin/cloud/mail/sendgrid: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cloud/mail/sendgrid expects import "upspin.io/cloud/mail/sendgrid"
+can't load package: package github.com/upspin/upspin/cloud/storage: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cloud/storage expects import "upspin.io/cloud/storage"
+can't load package: package github.com/upspin/upspin/cloud/storage/disk: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cloud/storage/disk expects import "upspin.io/cloud/storage/disk"
+can't load package: package github.com/upspin/upspin/cloud/storage/disk/internal/local: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cloud/storage/disk/internal/local expects import "upspin.io/cloud/storage/disk/internal/local"
+can't load package: package github.com/upspin/upspin/cloud/storage/storagetest: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cloud/storage/storagetest expects import "upspin.io/cloud/storage/storagetest"
+can't load package: package github.com/upspin/upspin/cmd/cacheserver: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cmd/cacheserver expects import "upspin.io/cmd/cacheserver"
+can't load package: package github.com/upspin/upspin/cmd/cacheserver/cacheutil: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cmd/cacheserver/cacheutil expects import "upspin.io/cmd/cacheserver/cacheutil"
+can't load package: package github.com/upspin/upspin/cmd/dirserver: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cmd/dirserver expects import "upspin.io/cmd/dirserver"
+can't load package: package github.com/upspin/upspin/cmd/frontend: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cmd/frontend expects import "upspin.io/cmd/frontend"
+can't load package: package github.com/upspin/upspin/cmd/keyserver: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cmd/keyserver expects import "upspin.io/cmd/keyserver"
+can't load package: package github.com/upspin/upspin/cmd/storeserver: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cmd/storeserver expects import "upspin.io/cmd/storeserver"
+can't load package: package github.com/upspin/upspin/cmd/upspin: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cmd/upspin expects import "upspin.io/cmd/upspin"
+can't load package: package github.com/upspin/upspin/cmd/upspinfs: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cmd/upspinfs expects import "upspin.io/cmd/upspinfs"
+can't load package: package github.com/upspin/upspin/cmd/upspinfs/internal/ose: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cmd/upspinfs/internal/ose expects import "upspin.io/cmd/upspinfs/internal/ose"
+can't load package: package github.com/upspin/upspin/cmd/upspinserver: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/cmd/upspinserver expects import "upspin.io/cmd/upspinserver"
+can't load package: package github.com/upspin/upspin/config: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/config expects import "upspin.io/config"
+can't load package: package github.com/upspin/upspin/dir/dircache: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/dir/dircache expects import "upspin.io/dir/dircache"
+can't load package: package github.com/upspin/upspin/dir/inprocess: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/dir/inprocess expects import "upspin.io/dir/inprocess"
+can't load package: package github.com/upspin/upspin/dir/remote: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/dir/remote expects import "upspin.io/dir/remote"
+can't load package: package github.com/upspin/upspin/dir/server: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/dir/server expects import "upspin.io/dir/server"
+can't load package: package github.com/upspin/upspin/dir/server/tree: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/dir/server/tree expects import "upspin.io/dir/server/tree"
+can't load package: package github.com/upspin/upspin/dir/unassigned: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/dir/unassigned expects import "upspin.io/dir/unassigned"
+can't load package: package github.com/upspin/upspin/exp/client/gobind: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/exp/client/gobind expects import "upspin.io/exp/client/gobind"
+can't load package: package github.com/upspin/upspin/exp/filesystem: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/exp/filesystem expects import "upspin.io/exp/filesystem"
+can't load package: package github.com/upspin/upspin/factotum: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/factotum expects import "upspin.io/factotum"
+can't load package: package github.com/upspin/upspin/flags: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/flags expects import "upspin.io/flags"
+can't load package: package github.com/upspin/upspin/key/inprocess: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/key/inprocess expects import "upspin.io/key/inprocess"
+can't load package: package github.com/upspin/upspin/key/proquint: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/key/proquint expects import "upspin.io/key/proquint"
+can't load package: package github.com/upspin/upspin/key/remote: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/key/remote expects import "upspin.io/key/remote"
+can't load package: package github.com/upspin/upspin/key/server: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/key/server expects import "upspin.io/key/server"
+can't load package: package github.com/upspin/upspin/key/sha256key: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/key/sha256key expects import "upspin.io/key/sha256key"
+can't load package: package github.com/upspin/upspin/key/transports: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/key/transports expects import "upspin.io/key/transports"
+can't load package: package github.com/upspin/upspin/key/unassigned: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/key/unassigned expects import "upspin.io/key/unassigned"
+can't load package: package github.com/upspin/upspin/key/usercache: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/key/usercache expects import "upspin.io/key/usercache"
+can't load package: package github.com/upspin/upspin/log: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/log expects import "upspin.io/log"
+can't load package: package github.com/upspin/upspin/metric: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/metric expects import "upspin.io/metric"
+can't load package: package github.com/upspin/upspin/pack: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/pack expects import "upspin.io/pack"
+can't load package: package github.com/upspin/upspin/pack/ee: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/pack/ee expects import "upspin.io/pack/ee"
+can't load package: package github.com/upspin/upspin/pack/eeintegrity: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/pack/eeintegrity expects import "upspin.io/pack/eeintegrity"
+can't load package: package github.com/upspin/upspin/pack/internal: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/pack/internal expects import "upspin.io/pack/internal"
+can't load package: package github.com/upspin/upspin/pack/internal/packtest: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/pack/internal/packtest expects import "upspin.io/pack/internal/packtest"
+can't load package: package github.com/upspin/upspin/pack/packutil: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/pack/packutil expects import "upspin.io/pack/packutil"
+can't load package: package github.com/upspin/upspin/pack/plain: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/pack/plain expects import "upspin.io/pack/plain"
+can't load package: package github.com/upspin/upspin/path: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/path expects import "upspin.io/path"
+can't load package: package github.com/upspin/upspin/rpc: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/rpc expects import "upspin.io/rpc"
+can't load package: package github.com/upspin/upspin/rpc/dirserver: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/rpc/dirserver expects import "upspin.io/rpc/dirserver"
+can't load package: package github.com/upspin/upspin/rpc/keyserver: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/rpc/keyserver expects import "upspin.io/rpc/keyserver"
+can't load package: package github.com/upspin/upspin/rpc/local: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/rpc/local expects import "upspin.io/rpc/local"
+can't load package: package github.com/upspin/upspin/rpc/storeserver: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/rpc/storeserver expects import "upspin.io/rpc/storeserver"
+can't load package: package github.com/upspin/upspin/serverutil: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/serverutil expects import "upspin.io/serverutil"
+can't load package: package github.com/upspin/upspin/serverutil/dirserver: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/serverutil/dirserver expects import "upspin.io/serverutil/dirserver"
+can't load package: package github.com/upspin/upspin/serverutil/frontend: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/serverutil/frontend expects import "upspin.io/serverutil/frontend"
+can't load package: package github.com/upspin/upspin/serverutil/keyserver: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/serverutil/keyserver expects import "upspin.io/serverutil/keyserver"
+can't load package: package github.com/upspin/upspin/serverutil/perm: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/serverutil/perm expects import "upspin.io/serverutil/perm"
+can't load package: package github.com/upspin/upspin/serverutil/storeserver: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/serverutil/storeserver expects import "upspin.io/serverutil/storeserver"
+can't load package: package github.com/upspin/upspin/serverutil/upspinserver: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/serverutil/upspinserver expects import "upspin.io/serverutil/upspinserver"
+can't load package: package github.com/upspin/upspin/shutdown: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/shutdown expects import "upspin.io/shutdown"
+can't load package: package github.com/upspin/upspin/store/inprocess: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/store/inprocess expects import "upspin.io/store/inprocess"
+can't load package: package github.com/upspin/upspin/store/remote: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/store/remote expects import "upspin.io/store/remote"
+can't load package: package github.com/upspin/upspin/store/server: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/store/server expects import "upspin.io/store/server"
+can't load package: package github.com/upspin/upspin/store/storecache: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/store/storecache expects import "upspin.io/store/storecache"
+can't load package: package github.com/upspin/upspin/store/transports: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/store/transports expects import "upspin.io/store/transports"
+can't load package: package github.com/upspin/upspin/store/unassigned: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/store/unassigned expects import "upspin.io/store/unassigned"
+can't load package: package github.com/upspin/upspin/subcmd: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/subcmd expects import "upspin.io/subcmd"
+can't load package: package github.com/upspin/upspin/test/servermux: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/test/servermux expects import "upspin.io/test/servermux"
+can't load package: package github.com/upspin/upspin/test/testenv: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/test/testenv expects import "upspin.io/test/testenv"
+can't load package: package github.com/upspin/upspin/test/testfixtures: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/test/testfixtures expects import "upspin.io/test/testfixtures"
+can't load package: package github.com/upspin/upspin/test/testutil: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/test/testutil expects import "upspin.io/test/testutil"
+can't load package: package github.com/upspin/upspin/transports: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/transports expects import "upspin.io/transports"
+can't load package: package github.com/upspin/upspin/upbox: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/upbox expects import "upspin.io/upbox"
+can't load package: package github.com/upspin/upspin/upspin: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/upspin expects import "upspin.io/upspin"
+can't load package: package github.com/upspin/upspin/upspin/proto: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/upspin/proto expects import "upspin.io/upspin/proto"
+can't load package: package github.com/upspin/upspin/user: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/user expects import "upspin.io/user"
+can't load package: package github.com/upspin/upspin/valid: code in directory /home/ext-laaber/go-experiments/data/b3/9c/370471/repo/src/github.com/upspin/upspin/valid expects import "upspin.io/valid"
+github.com/upspin/upspin/cmd/upbox
+github.com/upspin/upspin/cmd/upspin-setupstorage
+github.com/upspin/upspin/errors
+github.com/upspin/upspin/exp/cmd/camclient
+github.com/upspin/upspin/exp/cmd/camserver
+github.com/upspin/upspin/exp/cmd/demoserver
+github.com/upspin/upspin/exp/cmd/fileserver
+github.com/upspin/upspin/exp/cmd/issueserver
+github.com/upspin/upspin/serverutil/web
+github.com/upspin/upspin/test
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

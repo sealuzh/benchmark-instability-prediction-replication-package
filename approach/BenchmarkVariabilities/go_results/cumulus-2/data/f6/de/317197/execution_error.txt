@@ -1,0 +1,28 @@
+Error while executing goptc (734f0bc02291c40a50bce298da43a2db849c42a3): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/f6/de/317197/repo/src/github.com/julienschmidt/go-http-routing-benchmark': exit status 2
+
+Out: # github.com/julienschmidt/go-http-routing-benchmark
+./routers.go:1151:33: rc.Controller.Request.RequestURI undefined (type *revel.Request has no field or method RequestURI)
+./routers.go:1167:27: cannot use r (type *http.Request) as type revel.ServerRequest in argument to revel.NewRequest:
+	*http.Request does not implement revel.ServerRequest (missing Get method)
+./routers.go:1168:28: cannot use w (type http.ResponseWriter) as type revel.ServerResponse in argument to revel.NewResponse:
+	http.ResponseWriter does not implement revel.ServerResponse (missing Get method)
+./routers.go:1169:30: too many arguments in call to revel.NewController
+	have (*revel.Request, *revel.Response)
+	want (revel.ServerContext)
+./routers.go:1171:6: req.Websocket undefined (type *revel.Request has no field or method Websocket, but does have WebSocket)
+./routers.go:1179:23: invalid type assertion: resp.Out.(io.Closer) (non-interface type revel.OutResponse on left)
+./routers.go:1218:33: not enough arguments in call to revel.NewRoute
+	have (string, string, string, string, string, number)
+	want (*revel.Module, string, string, string, string, string, int)
+./routers.go:1223:14: cannot use "github.com/robfig/pathtree".New() (type *"github.com/robfig/pathtree".Node) as type *"github.com/revel/pathtree".Node in assignment
+./routers.go:1244:25: not enough arguments in call to revel.NewRoute
+	have (string, string, string, string, string, number)
+	want (*revel.Module, string, string, string, string, string, int)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

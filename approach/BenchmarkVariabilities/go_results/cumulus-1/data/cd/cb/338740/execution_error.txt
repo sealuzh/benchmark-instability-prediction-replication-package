@@ -1,0 +1,19 @@
+Error while executing goptc (da59b0c40f6f3d8720dbfc1899a52c771e861ddd): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/cd/cb/338740/repo/src/github.com/fujiwara/fluent-agent-hydra': exit status 2
+
+Out: # github.com/fujiwara/fluent-agent-hydra/cmd/tail-f
+cmd/tail-f/main.go:23:26: undefined: hydra.NewChannel
+cmd/tail-f/main.go:29:32: too many arguments in call to hydra.NewInTail
+cmd/tail-f/main.go:30:16: not enough arguments in call to watcher.Run
+	have ()
+	want (*hydra.Context)
+cmd/tail-f/main.go:31:15: not enough arguments in call to inTail.Run
+	have ()
+	want (*hydra.Context)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

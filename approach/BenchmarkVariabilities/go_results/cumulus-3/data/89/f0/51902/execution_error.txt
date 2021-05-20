@@ -1,0 +1,11 @@
+Error while executing goptc (19076358ad3d3ada83ad35cba33a25269442b4fc): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/89/f0/51902/repo/src/github.com/lionkov/ninep': exit status 1
+
+Out: package code.google.com/p/go9p/p: unrecognized import path "code.google.com/p/go9p/p" (parse https://code.google.com/p/go9p/p?go-get=1: no go-import meta tags ())
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

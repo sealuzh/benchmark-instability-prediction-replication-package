@@ -1,0 +1,96 @@
+Error while executing goptc (9710806c9b514d11fa67d339a03aabe0b8d26948): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/8d/ea/165320/repo/src/github.com/m3db/m3db': exit status 1
+
+Out: [0;32m[INFO]	[mDownloading dependencies. Please wait...
+[0;32m[INFO]	[m--> Found desired version locally github.com/apache/thrift 53dd39833a08ce33582e5ff31fa18bb4735d6731!
+[0;32m[INFO]	[m--> Found desired version locally github.com/davecgh/go-spew 346938d642f2ec3594ed81d874461961cd0faa76!
+[0;32m[INFO]	[m--> Found desired version locally github.com/facebookgo/clock 600d898af40aa09a7a93ecb9265d87b0504b6f03!
+[0;32m[INFO]	[m--> Found desired version locally github.com/go-ole/go-ole de8695c8edbf8236f30d6e1376e20b198a028d42!
+[0;32m[INFO]	[m--> Found desired version locally github.com/golang/mock bd3c8e81be01eef76d4b503f5e687d2d1354d2d9!
+[0;32m[INFO]	[m--> Found desired version locally github.com/golang/protobuf 3852dcfda249c2097355a6aabb199a28d97b30df!
+[0;32m[INFO]	[m--> Found desired version locally github.com/inconshreveable/mousetrap 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75!
+[0;32m[INFO]	[m--> Found desired version locally github.com/pmezard/go-difflib 792786c7400a136282c1664665ae0a8db921c6c2!
+[0;32m[INFO]	[m--> Found desired version locally github.com/shirou/gopsutil b62e301a8b9958eebb7299683eb57fab229a9501!
+[0;32m[INFO]	[m--> Found desired version locally github.com/shirou/w32 bb4de0191aa41b5507caa14b0650cdbddcd9280b!
+[0;32m[INFO]	[m--> Found desired version locally github.com/spf13/cobra 7c674d9e72017ed25f6d2b5e497a1368086b6a6f!
+[0;32m[INFO]	[m--> Found desired version locally github.com/spf13/pflag 4f9190456aed1c2113ca51ea9b89219747458dc1!
+[0;32m[INFO]	[m--> Found desired version locally github.com/StackExchange/wmi e542ed97d15e640bdc14b5c12162d59e8fc67324!
+[0;32m[INFO]	[m--> Found desired version locally github.com/stretchr/testify 6fe211e493929a8aac0469b93f28b1d0688a9a3a!
+[0;32m[INFO]	[m--> Found desired version locally github.com/uber-go/atomic e682c1008ac17bf26d2e4b5ad6cdd08520ed0b22!
+[0;32m[INFO]	[m--> Found desired version locally github.com/uber-go/tally 4b9d9de43ffcb0b7efe67dab2a92c2d58dbf16ab!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/net 61557ac0112b576429a0df080e1c2cef5dfbb642!
+[0;32m[INFO]	[m--> Found desired version locally google.golang.org/appengine 2e4a801b39fc199db615bfca7d0b9f8cd9580599!
+[0;32m[INFO]	[m--> Found desired version locally google.golang.org/grpc 777daa17ff9b5daef1cfdf915088a2ada3332bf0!
+[0;32m[INFO]	[m--> Found desired version locally gopkg.in/validator.v2 3e4f037f12a1221a0864cf0dd2e81c452ab22448!
+[0;32m[INFO]	[m--> Found desired version locally gopkg.in/yaml.v2 a83829b6f1293c91addabc89d0571c246397bbf4!
+[0;32m[INFO]	[m--> Fetching github.com/grpc-ecosystem/go-grpc-prometheus
+[0;32m[INFO]	[m--> Fetching github.com/grpc-ecosystem/grpc-gateway
+[0;32m[INFO]	[m--> Fetching github.com/m3db/m3cluster
+[0;32m[INFO]	[m--> Fetching github.com/prometheus/procfs
+[0;32m[INFO]	[m--> Fetching github.com/prometheus/common
+[0;32m[INFO]	[m--> Fetching github.com/matttproud/golang_protobuf_extensions
+[0;32m[INFO]	[m--> Fetching github.com/nu7hatch/gouuid
+[0;32m[INFO]	[m--> Fetching github.com/prometheus/client_model
+[0;32m[INFO]	[m--> Fetching github.com/ghodss/yaml
+[0;32m[INFO]	[m--> Fetching github.com/beorn7/perks
+[0;32m[INFO]	[m--> Fetching github.com/m3db/m3em
+[0;32m[INFO]	[m--> Fetching github.com/coreos/etcd
+[0;32m[INFO]	[m--> Fetching gopkg.in/vmihailenco/msgpack.v2
+[0;32m[INFO]	[m--> Fetching github.com/pborman/getopt
+[0;32m[INFO]	[m--> Fetching github.com/willf/bitset
+[0;32m[INFO]	[m--> Fetching github.com/prometheus/client_golang
+[0;32m[INFO]	[m--> Fetching github.com/opentracing/opentracing-go
+[0;32m[INFO]	[m--> Fetching github.com/m3db/m3x
+[0;32m[INFO]	[m--> Fetching updates for github.com/uber/tchannel-go
+[0;32m[INFO]	[m--> Fetching github.com/spaolacci/murmur3
+[0;32m[INFO]	[mSetting references.
+[0;32m[INFO]	[m--> Setting version for github.com/apache/thrift to 53dd39833a08ce33582e5ff31fa18bb4735d6731.
+[0;32m[INFO]	[m--> Setting version for github.com/golang/protobuf to 3852dcfda249c2097355a6aabb199a28d97b30df.
+[0;32m[INFO]	[m--> Setting version for github.com/nu7hatch/gouuid to 179d4d0c4d8d407a32af483c2354df1d2c91e6c3.
+[0;32m[INFO]	[m--> Setting version for github.com/m3db/m3x to bd6be18ffb184691512eb442561b16a59c15d797.
+[0;32m[INFO]	[m--> Setting version for github.com/m3db/m3em to f5b48d1c5d2d6a990b8b4ef534a3431639027c12.
+[0;32m[INFO]	[m--> Setting version for github.com/pborman/getopt to ec82d864f599c39673eef89f91b93fa5576567a1.
+[0;32m[INFO]	[m--> Setting version for github.com/matttproud/golang_protobuf_extensions to c12348ce28de40eed0136aa2b644d0ee0650e56c.
+[0;32m[INFO]	[m--> Setting version for github.com/opentracing/opentracing-go to 855519783f479520497c6b3445611b05fc42f009.
+[0;32m[INFO]	[m--> Setting version for github.com/grpc-ecosystem/grpc-gateway to 84398b94e188ee336f307779b57b3aa91af7063c.
+[0;32m[INFO]	[m--> Setting version for github.com/ghodss/yaml to 73d445a93680fa1a78ae23a5839bad48f32ba1ee.
+[0;32m[INFO]	[m--> Setting version for github.com/m3db/m3cluster to 2eb541bb4b0883e27c78f7594f0eda09f8bf9665.
+[0;32m[INFO]	[m--> Setting version for github.com/davecgh/go-spew to 346938d642f2ec3594ed81d874461961cd0faa76.
+[0;32m[INFO]	[m--> Setting version for github.com/pmezard/go-difflib to 792786c7400a136282c1664665ae0a8db921c6c2.
+[0;32m[INFO]	[m--> Setting version for github.com/grpc-ecosystem/go-grpc-prometheus to 6b7015e65d366bf3f19b2b2a000a831940f0f7e0.
+[0;32m[INFO]	[m--> Setting version for github.com/go-ole/go-ole to de8695c8edbf8236f30d6e1376e20b198a028d42.
+[0;32m[INFO]	[m--> Setting version for github.com/golang/mock to bd3c8e81be01eef76d4b503f5e687d2d1354d2d9.
+[0;32m[INFO]	[m--> Setting version for github.com/facebookgo/clock to 600d898af40aa09a7a93ecb9265d87b0504b6f03.
+[0;32m[INFO]	[m--> Setting version for github.com/beorn7/perks to 4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9.
+[0;32m[INFO]	[m--> Setting version for github.com/coreos/etcd to 8ba2897a21e4fc51b298ca553d251318425f93ae.
+[0;32m[INFO]	[m--> Setting version for github.com/inconshreveable/mousetrap to 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75.
+[0;32m[INFO]	[m--> Setting version for github.com/prometheus/client_golang to c5b7fccd204277076155f10851dad72b76a49317.
+[0;32m[INFO]	[m--> Setting version for github.com/prometheus/client_model to fa8ad6fec33561be4280a8f0514318c79d7f6cb6.
+[0;32m[INFO]	[m--> Setting version for github.com/prometheus/common to 195bde7883f7c39ea62b0d92ab7359b5327065cb.
+[0;32m[INFO]	[m--> Setting version for github.com/prometheus/procfs to 1878d9fbb537119d24b21ca07effd591627cd160.
+[0;32m[INFO]	[m--> Setting version for github.com/shirou/gopsutil to b62e301a8b9958eebb7299683eb57fab229a9501.
+[0;32m[INFO]	[m--> Setting version for github.com/shirou/w32 to bb4de0191aa41b5507caa14b0650cdbddcd9280b.
+[0;32m[INFO]	[m--> Setting version for github.com/spaolacci/murmur3 to 0d12bf811670bf6a1a63828dfbd003eded177fce.
+[0;32m[INFO]	[m--> Setting version for github.com/spf13/cobra to 7c674d9e72017ed25f6d2b5e497a1368086b6a6f.
+[0;32m[INFO]	[m--> Setting version for github.com/spf13/pflag to 4f9190456aed1c2113ca51ea9b89219747458dc1.
+[0;32m[INFO]	[m--> Setting version for github.com/StackExchange/wmi to e542ed97d15e640bdc14b5c12162d59e8fc67324.
+[0;32m[INFO]	[m--> Setting version for github.com/stretchr/testify to 6fe211e493929a8aac0469b93f28b1d0688a9a3a.
+[0;32m[INFO]	[m--> Setting version for github.com/uber-go/atomic to e682c1008ac17bf26d2e4b5ad6cdd08520ed0b22.
+[0;32m[INFO]	[m--> Setting version for github.com/uber-go/tally to 4b9d9de43ffcb0b7efe67dab2a92c2d58dbf16ab.
+[0;32m[INFO]	[m--> Setting version for github.com/uber/tchannel-go to 5d979b31a7405a676919fca637bb2f715fb9ed65.
+[0;32m[INFO]	[m--> Setting version for github.com/willf/bitset to 5c3c0fce48842b2c0bbaa99b4e61b0175d84b47c.
+[0;31m[ERROR]	[mFailed to set version on github.com/uber/tchannel-go to 5d979b31a7405a676919fca637bb2f715fb9ed65: Unable to update checked out version: exit status 128
+[0;32m[INFO]	[m--> Setting version for golang.org/x/net to 61557ac0112b576429a0df080e1c2cef5dfbb642.
+[0;32m[INFO]	[m--> Setting version for google.golang.org/appengine to 2e4a801b39fc199db615bfca7d0b9f8cd9580599.
+[0;32m[INFO]	[m--> Setting version for google.golang.org/grpc to 777daa17ff9b5daef1cfdf915088a2ada3332bf0.
+[0;32m[INFO]	[m--> Setting version for gopkg.in/vmihailenco/msgpack.v2 to a1382b1ce0c749733b814157c245e02cc1f41076.
+[0;32m[INFO]	[m--> Setting version for gopkg.in/yaml.v2 to a83829b6f1293c91addabc89d0571c246397bbf4.
+[0;32m[INFO]	[m--> Setting version for gopkg.in/validator.v2 to 3e4f037f12a1221a0864cf0dd2e81c452ab22448.
+[0;31m[ERROR]	[mFailed to set references: Unable to update checked out version: exit status 128 (Skip to cleanup)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

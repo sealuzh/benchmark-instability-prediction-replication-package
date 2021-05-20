@@ -1,0 +1,12 @@
+Error while executing goptc (22430d5d4329139c5eb8c5bf61a14a759df0fee5): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/fd/02/313912/repo/src/github.com/allmad/madq': exit status 1
+
+Out: internal/lfs/const.go:8:2: use of internal package not allowed
+internal/lfs/inode_mgr.go:11:2: use of internal package not allowed
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,20 @@
+Error while executing goptc (9841dc289feb4454304a0d45a05c0555acfb432f): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/7b/96/4610/repo/src/github.com/dgraph-io/experiments': exit status 2
+
+Out: # github.com/dgraph-io/experiments/concurrent
+concurrent/map.go:152:25: c.status undefined (type unsafe.Pointer has no field or method status)
+concurrent/map.go:155:15: c.sz undefined (type unsafe.Pointer has no field or method sz)
+concurrent/map.go:156:9: c.list undefined (type unsafe.Pointer has no field or method list)
+concurrent/map.go:173:25: c.status undefined (type unsafe.Pointer has no field or method status)
+concurrent/map.go:177:24: c.sz undefined (type unsafe.Pointer has no field or method sz)
+concurrent/map.go:179:22: c.list undefined (type unsafe.Pointer has no field or method list)
+concurrent/map.go:192:25: c.status undefined (type unsafe.Pointer has no field or method status)
+concurrent/map.go:195:24: c.sz undefined (type unsafe.Pointer has no field or method sz)
+concurrent/map.go:196:23: c.list undefined (type unsafe.Pointer has no field or method list)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

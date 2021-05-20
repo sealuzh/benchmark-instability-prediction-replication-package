@@ -1,0 +1,11 @@
+Error while executing goptc (b17f89cf571459c1be032b965f88c480cec926da): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/59/a8/436618/repo/src/github.com/v2ray/v2ray-core': exit status 1
+
+Out: app/log/access.go:3:8: use of internal package not allowed
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,15 @@
+Error while executing goptc (bbb0a2f5807b0b6a33dee71e7ef9ccedf4fdc050): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/65/3f/312091/repo/src/github.com/cayleygraph/cayley': exit status 1
+
+Out: package cayley_config: unrecognized import path "cayley_config" (import path does not begin with hostname)
+package cayley_http: unrecognized import path "cayley_http" (import path does not begin with hostname)
+package graph: unrecognized import path "graph" (import path does not begin with hostname)
+package graph_memstore: unrecognized import path "graph_memstore" (import path does not begin with hostname)
+package nquads: unrecognized import path "nquads" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

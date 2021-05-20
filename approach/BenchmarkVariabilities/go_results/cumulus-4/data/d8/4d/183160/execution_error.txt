@@ -1,0 +1,11 @@
+Error while executing goptc (3b6e4dffdf45443e9445c928dbdd8692eaabbd30): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/d8/4d/183160/repo/src/github.com/biogo/hts': exit status 1
+
+Out: package code.google.com/p/biogo.bam/bgzf/egzip: unrecognized import path "code.google.com/p/biogo.bam/bgzf/egzip" (parsing code.google.com/p/biogo.bam/bgzf/egzip: XML syntax error on line 32: unescaped < inside quoted string)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

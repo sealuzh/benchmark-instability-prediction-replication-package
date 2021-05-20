@@ -1,0 +1,12 @@
+Error while executing goptc (522450d1e655d86ef13b0bfad42d090a0240ce03): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/57/46/234458/repo/src/github.com/ericlagergren/decimal': exit status 2
+
+Out: # github.com/ericlagergren/decimal/math
+math/sqrt.go:28:10: z.Sqrt undefined (type *decimal.Big has no field or method Sqrt)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

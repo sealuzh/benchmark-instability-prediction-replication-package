@@ -1,0 +1,11 @@
+Error while executing goptc (9a2573d4ae52a2bf9f5b7900a50e2f8bcceeb774): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/62/c8/388275/repo/src/github.com/go-mgo/mgo': exit status 1
+
+Out: auth.go:38:2: use of internal package not allowed
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

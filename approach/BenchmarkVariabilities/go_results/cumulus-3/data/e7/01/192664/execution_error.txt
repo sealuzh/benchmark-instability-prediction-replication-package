@@ -1,0 +1,19 @@
+Error while executing goptc (19160d9192fc3111473e70440590edb08a7dc87d): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/e7/01/192664/repo/src/github.com/remind101/empire': exit status 2
+
+Out: # cd .; git clone https://code.google.com/p/go-decimal-inf.exp /home/ext-laaber/go-experiments/data/e7/01/192664/repo/.cache/govendor/speter.net/go/exp/math/dec/inf
+Cloning into '/home/ext-laaber/go-experiments/data/e7/01/192664/repo/.cache/govendor/speter.net/go/exp/math/dec/inf'...
+fatal: https://code.google.com/p/go-decimal-inf.exp/info/refs not valid: is this a git repository?
+Error: Remotes failed for:
+	Failed for "code.google.com/p/go-uuid/uuid" (failed to ping remote repo): unrecognized import path "code.google.com/p/go-uuid/uuid"
+	Failed for "code.google.com/p/goauth2/oauth" (failed to ping remote repo): unrecognized import path "code.google.com/p/goauth2/oauth"
+	Failed for "code.google.com/p/goauth2/oauth/jwt" (failed to ping remote repo): unrecognized import path "code.google.com/p/goauth2/oauth/jwt"
+	Failed for "speter.net/go/exp/math/dec/inf" (failed to clone repo): exit status 128
+
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

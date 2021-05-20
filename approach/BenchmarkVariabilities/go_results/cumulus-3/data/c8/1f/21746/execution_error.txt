@@ -1,0 +1,11 @@
+Error while executing goptc (1bc2d4f1283e9ad2a67b1419539e3b85eff3d7e6): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c8/1f/21746/repo/src/github.com/gocraft/web': exit status 1
+
+Out: package web: unrecognized import path "web" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

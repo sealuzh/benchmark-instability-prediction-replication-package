@@ -1,0 +1,16 @@
+Error while executing goptc (9b771569af3f609fd904ac2c8a71685747356b10): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/7d/2f/378052/repo/src/github.com/appc/spec': exit status 1
+
+Out: package github.com/coreos-inc/rkt/app-container/schema: cannot find package "github.com/coreos-inc/rkt/app-container/schema" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coreos-inc/rkt/app-container/schema (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/7d/2f/378052/repo/src/github.com/coreos-inc/rkt/app-container/schema (from $GOPATH)
+package github.com/coreos-inc/rkt/app-container/schema/types: cannot find package "github.com/coreos-inc/rkt/app-container/schema/types" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coreos-inc/rkt/app-container/schema/types (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/7d/2f/378052/repo/src/github.com/coreos-inc/rkt/app-container/schema/types (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

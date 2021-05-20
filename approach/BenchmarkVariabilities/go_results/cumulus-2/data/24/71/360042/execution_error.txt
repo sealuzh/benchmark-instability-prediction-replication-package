@@ -1,0 +1,16 @@
+Error while executing goptc (8bca8efa60b09f59e9189f4e428f9176e5bf58b7): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/24/71/360042/repo/src/github.com/dustin/seriesly': exit status 2
+
+Out: # github.com/dustin/go-couchstore
+In file included from ../go-couchstore/bulk.go:4:0:
+./csgo.h:4:36: fatal error: libcouchstore/couch_db.h: No such file or directory
+ #include <libcouchstore/couch_db.h>
+                                    ^
+compilation terminated.
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

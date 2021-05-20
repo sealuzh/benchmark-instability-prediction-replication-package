@@ -1,0 +1,18 @@
+Error while executing goptc (8a280d667cb74d9b94d898c81694c5cec1f8047e): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/78/a9/254554/repo/src/github.com/phil-mansfield/shellfish': exit status 1
+
+Out: # cd /home/ext-laaber/go-experiments/data/78/a9/254554/repo/src/github.com/phil-mansfield/shellfish; git pull --ff-only
+You are not currently on a branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+package github.com/phil-mansfield/shellfish/render/halo: exit status 1
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

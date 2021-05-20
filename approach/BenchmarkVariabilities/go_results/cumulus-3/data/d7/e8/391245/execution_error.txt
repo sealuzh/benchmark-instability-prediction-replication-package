@@ -1,0 +1,12 @@
+Error while executing goptc (333db579acd3d8f76b9610c23337d000526255c7): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/d7/e8/391245/repo/src/github.com/mndrix/golog': exit status 2
+
+Out: # github.com/mndrix/golog/bin
+bin/golog.go:49:21: undefined: ps.Any
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

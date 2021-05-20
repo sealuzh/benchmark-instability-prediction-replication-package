@@ -1,0 +1,11 @@
+Error while executing goptc (bf1b02676d697b188677042f39d15457630268d2): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/8c/ce/377976/repo/src/github.com/cosiner/gohper': exit status 1
+
+Out: 2017/11/04 23:11:36 command "fetch" failed: fetch: import path missing
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

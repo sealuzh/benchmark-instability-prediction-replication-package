@@ -1,0 +1,14 @@
+Error while executing goptc (a33bff8d67ee178f83a07d2e7849a5e6d8b4e72b): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/6f/35/306661/repo/src/github.com/biogo/biogo': exit status 1
+
+Out: package bio: unrecognized import path "bio" (import path does not begin with hostname)
+package bio/alignment: unrecognized import path "bio/alignment" (import path does not begin with hostname)
+package bio/seq: unrecognized import path "bio/seq" (import path does not begin with hostname)
+package bio/util: unrecognized import path "bio/util" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

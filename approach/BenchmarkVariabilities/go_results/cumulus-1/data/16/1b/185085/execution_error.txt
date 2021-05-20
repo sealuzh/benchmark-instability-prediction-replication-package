@@ -1,0 +1,14 @@
+Error while executing goptc (5a99b4033d2091bc9bb483ec84c71069beb08c56): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/16/1b/185085/repo/src/github.com/mdlayher/waveform': exit status 1
+
+Out: ../../../gopkg.in/mewkiz/flac.v1/frame/frame.go:36:2: use of internal package not allowed
+../../../gopkg.in/mewkiz/flac.v1/frame/frame.go:37:2: use of internal package not allowed
+../../../gopkg.in/mewkiz/flac.v1/frame/frame.go:38:2: use of internal package not allowed
+../../../gopkg.in/mewkiz/flac.v1/frame/frame.go:39:2: use of internal package not allowed
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

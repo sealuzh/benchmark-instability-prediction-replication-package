@@ -1,0 +1,13 @@
+Error while executing goptc (5d497db34c775cefe554f398d3ef2c43975cb0a3): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/06/3c/236180/repo/src/github.com/mailru/easyjson': exit status 2
+
+Out: # github.com/mailru/easyjson/opt/optional
+opt/optional/opt.go:35:4: w.Optional undefined (type *jwriter.Writer has no field or method Optional)
+opt/optional/opt.go:47:10: l.Optional undefined (type *jlexer.Lexer has no field or method Optional)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

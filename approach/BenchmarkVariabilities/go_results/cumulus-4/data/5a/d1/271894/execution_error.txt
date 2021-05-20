@@ -1,0 +1,13 @@
+Error while executing goptc (22d247e5366095f491cd83edf779ee99a78f5ead): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/5a/d1/271894/repo/src/github.com/stevedonovan/luar': exit status 2
+
+Out: # github.com/aarzilli/golua/lua
+/usr/bin/ld: cannot find -llua5.1
+collect2: error: ld returned 1 exit status
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

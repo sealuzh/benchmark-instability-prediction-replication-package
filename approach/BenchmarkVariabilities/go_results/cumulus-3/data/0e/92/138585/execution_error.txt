@@ -1,0 +1,11 @@
+Error while executing goptc (ccfdceb7de024d5518ec397dde4b2dc386d91ded): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/0e/92/138585/repo/src/github.com/satyrius/gonx': exit status 1
+
+Out: benchmarks/bufio_read_entry.go:6:2: local import ".." in non-local package
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

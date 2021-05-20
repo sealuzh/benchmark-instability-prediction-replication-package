@@ -1,0 +1,11 @@
+Error while executing goptc (78e53c1b7269ff22c98673520d2f2e29e6b17aac): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/28/71/128335/repo/src/github.com/asteris-llc/converge': exit status 1
+
+Out: package warning: "./..." matched no packages: unrecognized import path "warning: \"./...\" matched no packages" (https fetch: parse https://warning: "./..." matched no packages: invalid character " " in host name)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

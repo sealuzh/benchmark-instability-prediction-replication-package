@@ -1,0 +1,13 @@
+Error while executing goptc (6e21c1c7adb128352a2047e280189941ad682356): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/b8/94/22929/repo/src/github.com/janelia-flyem/dvid': exit status 2
+
+Out: # github.com/janelia-flyem/dvid
+runtime.main_main·f: relocation target main.main not defined
+runtime.main_main·f: undefined: "main.main"
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

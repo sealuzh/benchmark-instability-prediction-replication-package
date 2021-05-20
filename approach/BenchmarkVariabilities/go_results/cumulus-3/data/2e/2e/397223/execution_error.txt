@@ -1,0 +1,37 @@
+Error while executing goptc (26adb03f65aa57473bd1942a41f2840bc47ea793): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/2e/2e/397223/repo/src/github.com/zombiezen/go-capnproto2': exit status 1
+
+Out: can't load package: package github.com/zombiezen/go-capnproto2: code in directory /home/ext-laaber/go-experiments/data/2e/2e/397223/repo/src/github.com/zombiezen/go-capnproto2 expects import "zombiezen.com/go/capnproto2"
+can't load package: package github.com/zombiezen/go-capnproto2/pogs: code in directory /home/ext-laaber/go-experiments/data/2e/2e/397223/repo/src/github.com/zombiezen/go-capnproto2/pogs expects import "zombiezen.com/go/capnproto2/pogs"
+can't load package: package github.com/zombiezen/go-capnproto2/rpc: code in directory /home/ext-laaber/go-experiments/data/2e/2e/397223/repo/src/github.com/zombiezen/go-capnproto2/rpc expects import "zombiezen.com/go/capnproto2/rpc"
+can't load package: package github.com/zombiezen/go-capnproto2/server: code in directory /home/ext-laaber/go-experiments/data/2e/2e/397223/repo/src/github.com/zombiezen/go-capnproto2/server expects import "zombiezen.com/go/capnproto2/server"
+github.com/zombiezen/go-capnproto2/capnpc-go
+github.com/zombiezen/go-capnproto2/encoding/text
+github.com/zombiezen/go-capnproto2/internal/aircraftlib
+github.com/zombiezen/go-capnproto2/internal/capnptool
+github.com/zombiezen/go-capnproto2/internal/demo
+github.com/zombiezen/go-capnproto2/internal/demo/books
+github.com/zombiezen/go-capnproto2/internal/demo/hashes
+github.com/zombiezen/go-capnproto2/internal/fulfiller
+github.com/zombiezen/go-capnproto2/internal/nodemap
+github.com/zombiezen/go-capnproto2/internal/packed
+github.com/zombiezen/go-capnproto2/internal/queue
+github.com/zombiezen/go-capnproto2/rpc/internal/logtransport
+github.com/zombiezen/go-capnproto2/rpc/internal/logutil
+github.com/zombiezen/go-capnproto2/rpc/internal/pipetransport
+github.com/zombiezen/go-capnproto2/rpc/internal/refcount
+github.com/zombiezen/go-capnproto2/rpc/internal/testcapnp
+github.com/zombiezen/go-capnproto2/schemas
+github.com/zombiezen/go-capnproto2/std/capnp/cxx
+github.com/zombiezen/go-capnproto2/std/capnp/json
+github.com/zombiezen/go-capnproto2/std/capnp/persistent
+github.com/zombiezen/go-capnproto2/std/capnp/rpc
+github.com/zombiezen/go-capnproto2/std/capnp/rpctwoparty
+github.com/zombiezen/go-capnproto2/std/capnp/schema
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

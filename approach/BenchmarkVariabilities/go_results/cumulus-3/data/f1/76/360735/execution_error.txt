@@ -1,0 +1,16 @@
+Error while executing goptc (b2b2401dc637f9e643f16abcec1b992da9c30cec): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/f1/76/360735/repo/src/github.com/stratumn/sdk': exit status 1
+
+Out: package github.com/stratumn/go/fossilizer/dummyadapter: cannot find package "github.com/stratumn/go/fossilizer/dummyadapter" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/stratumn/go/fossilizer/dummyadapter (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f1/76/360735/repo/src/github.com/stratumn/go/fossilizer/dummyadapter (from $GOPATH)
+package github.com/stratumn/go/fossilizer/httpserver: cannot find package "github.com/stratumn/go/fossilizer/httpserver" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/stratumn/go/fossilizer/httpserver (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f1/76/360735/repo/src/github.com/stratumn/go/fossilizer/httpserver (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

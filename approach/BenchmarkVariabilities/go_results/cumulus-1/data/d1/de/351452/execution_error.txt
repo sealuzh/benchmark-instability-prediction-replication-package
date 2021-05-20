@@ -1,0 +1,13 @@
+Error while executing goptc (3e188c9e7ecc83d0fe7040a9161ce3c67885470d): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/d1/de/351452/repo/src/github.com/mkideal/pkg': exit status 2
+
+Out: # github.com/mkideal/pkg/encoding/cso
+encoding/cso/cso.go:5:2: imported and not used: "fmt"
+encoding/cso/cso.go:124:27: undefined: filenname
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

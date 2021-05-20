@@ -1,0 +1,158 @@
+Error while executing goptc (80d3b9a56b5cc58770f2a9c5c38dca7b8462b53a): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu': exit status 1
+
+Out: can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/bcrypt: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/bcrypt expects import "golang.org/x/crypto/bcrypt"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/blake2b: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/blake2b expects import "golang.org/x/crypto/blake2b"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/blake2s: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/blake2s expects import "golang.org/x/crypto/blake2s"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/blowfish: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/blowfish expects import "golang.org/x/crypto/blowfish"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/bn256: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/bn256 expects import "golang.org/x/crypto/bn256"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/cast5: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/cast5 expects import "golang.org/x/crypto/cast5"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/chacha20poly1305: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/chacha20poly1305 expects import "golang.org/x/crypto/chacha20poly1305"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/cryptobyte: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/cryptobyte expects import "golang.org/x/crypto/cryptobyte"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/curve25519: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/curve25519 expects import "golang.org/x/crypto/curve25519"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/hkdf: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/hkdf expects import "golang.org/x/crypto/hkdf"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/md4: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/md4 expects import "golang.org/x/crypto/md4"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/nacl/box: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/nacl/box expects import "golang.org/x/crypto/nacl/box"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/nacl/secretbox: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/nacl/secretbox expects import "golang.org/x/crypto/nacl/secretbox"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ocsp: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ocsp expects import "golang.org/x/crypto/ocsp"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp expects import "golang.org/x/crypto/openpgp"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp/armor: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp/armor expects import "golang.org/x/crypto/openpgp/armor"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp/clearsign: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp/clearsign expects import "golang.org/x/crypto/openpgp/clearsign"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp/elgamal: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp/elgamal expects import "golang.org/x/crypto/openpgp/elgamal"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp/errors: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp/errors expects import "golang.org/x/crypto/openpgp/errors"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp/packet: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp/packet expects import "golang.org/x/crypto/openpgp/packet"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp/s2k: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/openpgp/s2k expects import "golang.org/x/crypto/openpgp/s2k"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/otr: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/otr expects import "golang.org/x/crypto/otr"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/pbkdf2: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/pbkdf2 expects import "golang.org/x/crypto/pbkdf2"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/poly1305: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/poly1305 expects import "golang.org/x/crypto/poly1305"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ripemd160: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ripemd160 expects import "golang.org/x/crypto/ripemd160"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/salsa20: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/salsa20 expects import "golang.org/x/crypto/salsa20"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/salsa20/salsa: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/salsa20/salsa expects import "golang.org/x/crypto/salsa20/salsa"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/scrypt: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/scrypt expects import "golang.org/x/crypto/scrypt"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/sha3: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/sha3 expects import "golang.org/x/crypto/sha3"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ssh: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ssh expects import "golang.org/x/crypto/ssh"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ssh/agent: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ssh/agent expects import "golang.org/x/crypto/ssh/agent"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ssh/terminal: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ssh/terminal expects import "golang.org/x/crypto/ssh/terminal"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ssh/test: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ssh/test expects import "golang.org/x/crypto/ssh/test"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/twofish: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/twofish expects import "golang.org/x/crypto/twofish"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/xtea: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/xtea expects import "golang.org/x/crypto/xtea"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/xts: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/xts expects import "golang.org/x/crypto/xts"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/bpf: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/bpf expects import "golang.org/x/net/bpf"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/context: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/context expects import "golang.org/x/net/context"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/context/ctxhttp: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/context/ctxhttp expects import "golang.org/x/net/context/ctxhttp"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/dict: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/dict expects import "golang.org/x/net/dict"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/html: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/html expects import "golang.org/x/net/html"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/html/atom: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/html/atom expects import "golang.org/x/net/html/atom"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/html/charset: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/html/charset expects import "golang.org/x/net/html/charset"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/http2: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/http2 expects import "golang.org/x/net/http2"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/icmp: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/icmp expects import "golang.org/x/net/icmp"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/idna: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/idna expects import "golang.org/x/net/idna"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/internal/iana: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/internal/iana expects import "golang.org/x/net/internal/iana"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/internal/nettest: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/internal/nettest expects import "golang.org/x/net/internal/nettest"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/internal/timeseries: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/internal/timeseries expects import "golang.org/x/net/internal/timeseries"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/ipv4: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/ipv4 expects import "golang.org/x/net/ipv4"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/ipv6: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/ipv6 expects import "golang.org/x/net/ipv6"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/netutil: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/netutil expects import "golang.org/x/net/netutil"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/proxy: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/proxy expects import "golang.org/x/net/proxy"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/publicsuffix: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/publicsuffix expects import "golang.org/x/net/publicsuffix"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/trace: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/trace expects import "golang.org/x/net/trace"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/webdav: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/webdav expects import "golang.org/x/net/webdav"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/websocket: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/websocket expects import "golang.org/x/net/websocket"
+can't load package: package github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/xsrftoken: code in directory /home/ext-laaber/go-experiments/data/b9/03/56380/repo/src/github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/xsrftoken expects import "golang.org/x/net/xsrftoken"
+github.com/lxc/lxd-pkg-ubuntu
+github.com/lxc/lxd-pkg-ubuntu/client
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/dustinkirkland/golang-petname
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/dustinkirkland/golang-petname/cmd/petname
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/descriptor
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/jsonpb
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/jsonpb/jsonpb_test_proto
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/proto
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/proto/proto3_proto
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/protoc-gen-go
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/protoc-gen-go/descriptor
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/protoc-gen-go/generator
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/protoc-gen-go/grpc
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/protoc-gen-go/plugin
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/ptypes
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/ptypes/any
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/ptypes/duration
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/ptypes/empty
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/ptypes/struct
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/ptypes/timestamp
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/golang/protobuf/ptypes/wrappers
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/gorilla/context
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/gorilla/mux
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/gorilla/websocket
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/gorilla/websocket/examples/autobahn
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/gorilla/websocket/examples/chat
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/gorilla/websocket/examples/command
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/gorilla/websocket/examples/filewatch
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/gosexy/gettext
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/gosexy/gettext/go-xgettext
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/mattn/go-colorable
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/mattn/go-runewidth
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/mattn/go-sqlite3
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/mattn/go-sqlite3/sqlite3_test
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/olekukonko/tablewriter
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/olekukonko/tablewriter/csv2table
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/pborman/uuid
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/stretchr/testify
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/stretchr/testify/assert
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/stretchr/testify/http
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/stretchr/testify/mock
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/stretchr/testify/require
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/stretchr/testify/suite
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/syndtr/gocapability/capability
+github.com/lxc/lxd-pkg-ubuntu/dist/src/github.com/syndtr/gocapability/capability/enumgen
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/acme
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/acme/autocert
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/chacha20poly1305/internal/chacha20
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ed25519
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ed25519/internal/edwards25519
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/pkcs12
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/pkcs12/internal/rc2
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/ssh/knownhosts
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/crypto/tea
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/dns/dnsmessage
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/http2/h2i
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/http2/hpack
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/internal/netreflect
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/lex/httplex
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/nettest
+github.com/lxc/lxd-pkg-ubuntu/dist/src/golang.org/x/net/webdav/internal/xml
+github.com/lxc/lxd-pkg-ubuntu/dist/src/gopkg.in/flosch/pongo2.v3
+github.com/lxc/lxd-pkg-ubuntu/dist/src/gopkg.in/inconshreveable/log15.v2
+github.com/lxc/lxd-pkg-ubuntu/dist/src/gopkg.in/inconshreveable/log15.v2/ext
+github.com/lxc/lxd-pkg-ubuntu/dist/src/gopkg.in/inconshreveable/log15.v2/stack
+github.com/lxc/lxd-pkg-ubuntu/dist/src/gopkg.in/inconshreveable/log15.v2/term
+github.com/lxc/lxd-pkg-ubuntu/dist/src/gopkg.in/lxc/go-lxc.v2
+github.com/lxc/lxd-pkg-ubuntu/dist/src/gopkg.in/lxc/go-lxc.v2/examples
+github.com/lxc/lxd-pkg-ubuntu/dist/src/gopkg.in/tomb.v2
+github.com/lxc/lxd-pkg-ubuntu/dist/src/gopkg.in/yaml.v2
+github.com/lxc/lxd-pkg-ubuntu/fuidshift
+github.com/lxc/lxd-pkg-ubuntu/lxc
+github.com/lxc/lxd-pkg-ubuntu/lxc/config
+github.com/lxc/lxd-pkg-ubuntu/lxd
+github.com/lxc/lxd-pkg-ubuntu/lxd/types
+github.com/lxc/lxd-pkg-ubuntu/lxd-bridge/lxd-bridge-proxy
+github.com/lxc/lxd-pkg-ubuntu/shared
+github.com/lxc/lxd-pkg-ubuntu/shared/api
+github.com/lxc/lxd-pkg-ubuntu/shared/cmd
+github.com/lxc/lxd-pkg-ubuntu/shared/gnuflag
+github.com/lxc/lxd-pkg-ubuntu/shared/i18n
+github.com/lxc/lxd-pkg-ubuntu/shared/ioprogress
+github.com/lxc/lxd-pkg-ubuntu/shared/logger
+github.com/lxc/lxd-pkg-ubuntu/shared/logging
+github.com/lxc/lxd-pkg-ubuntu/shared/osarch
+github.com/lxc/lxd-pkg-ubuntu/shared/simplestreams
+github.com/lxc/lxd-pkg-ubuntu/shared/termios
+github.com/lxc/lxd-pkg-ubuntu/shared/version
+github.com/lxc/lxd-pkg-ubuntu/test/deps
+github.com/lxc/lxd-pkg-ubuntu/test/lxd-benchmark
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

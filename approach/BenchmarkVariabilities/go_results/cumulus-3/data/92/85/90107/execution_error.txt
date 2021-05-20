@@ -1,0 +1,11 @@
+Error while executing goptc (109ffb8e37383eb0e84811aefd5c6b952dfb005d): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/92/85/90107/repo/src/github.com/simonz05/godis': exit status 1
+
+Out: exp/example/list.go:5:5: no Go files in /home/ext-laaber/go-experiments/data/92/85/90107/repo/src/github.com/simonz05/godis
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

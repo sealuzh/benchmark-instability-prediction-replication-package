@@ -1,0 +1,14 @@
+Error while executing goptc (b6d3b3cbeafe84959e27943cdb11ca2715d84bb6): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/95/77/380610/repo/src/github.com/SchumacherFM/wanderlust': exit status 1
+
+Out: package helpers: unrecognized import path "helpers" (import path does not begin with hostname)
+package provisionerApi: unrecognized import path "provisionerApi" (import path does not begin with hostname)
+package provisioners: unrecognized import path "provisioners" (import path does not begin with hostname)
+package rucksack: unrecognized import path "rucksack" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,32 @@
+Error while executing goptc (0f3b54da6bdc2c31c505f9afbc5f434dd2089658): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/f0/b7/445709/repo/src/github.com/aerospike/aerospike-client-go': exit status 2
+
+Out: # github.com/aerospike/aerospike-client-go/examples
+examples/append.go:26:6: main redeclared in this block
+	previous declaration at examples/add.go:27:6
+examples/append.go:31:25: runExample redeclared in this block
+	previous declaration at examples/add.go:32:25
+examples/batch.go:28:6: main redeclared in this block
+	previous declaration at examples/append.go:26:6
+examples/blob.go:38:6: main redeclared in this block
+	previous declaration at examples/batch.go:28:6
+examples/expire.go:29:6: main redeclared in this block
+	previous declaration at examples/blob.go:38:6
+examples/generation.go:28:6: main redeclared in this block
+	previous declaration at examples/expire.go:29:6
+examples/generation.go:34:25: runExample redeclared in this block
+	previous declaration at examples/append.go:31:25
+examples/info.go:24:6: main redeclared in this block
+	previous declaration at examples/generation.go:28:6
+examples/list_map.go:28:6: main redeclared in this block
+	previous declaration at examples/info.go:24:6
+examples/operate.go:26:6: main redeclared in this block
+	previous declaration at examples/list_map.go:28:6
+examples/operate.go:26:6: too many errors
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

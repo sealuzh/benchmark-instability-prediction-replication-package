@@ -1,0 +1,12 @@
+Error while executing goptc (cb7680940d605b817db79790c241eed2a00fa6e6): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/4b/82/361236/repo/src/github.com/signalfx/golib': exit status 2
+
+Out: # github.com/signalfx/golib/disco
+disco/thrift.go:131:53: multiple-value d.WrappedFactory.GetTransport() in single-value context
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

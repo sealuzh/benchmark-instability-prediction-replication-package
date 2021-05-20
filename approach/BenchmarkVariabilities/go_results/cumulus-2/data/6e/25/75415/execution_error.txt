@@ -1,0 +1,15 @@
+Error while executing goptc (cf93a64751450aaaddd7cbb0cca2100a986205c7): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/6e/25/75415/repo/src/github.com/raintank/metrictank': exit status 2
+
+Out: # cd /home/ext-laaber/go-experiments/data/6e/25/75415/repo/.cache/govendor/github.com/Dieterbe/artisanalhistogram; git reset --hard 91cfed5bb965b5797e2e452023c431f017599dba
+fatal: Could not parse object '91cfed5bb965b5797e2e452023c431f017599dba'.
+Error: Remotes failed for:
+	Failed for "github.com/Dieterbe/artisanalhistogram/hist15s" (failed to clone repo): exit status 128
+
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

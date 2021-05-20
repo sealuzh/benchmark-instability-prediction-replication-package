@@ -1,0 +1,12 @@
+Error while executing goptc (580fc743cab3c4939a7570055230b88e1f6f830c): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/b1/8c/216766/repo/src/github.com/bronze1man/kmg': exit status 1
+
+Out: go: missing Bazaar command. See https://golang.org/s/gogetcmd
+package labix.org/v2/mgo/bson: exec: "bzr": executable file not found in $PATH
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

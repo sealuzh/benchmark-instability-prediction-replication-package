@@ -1,0 +1,55 @@
+Error while executing goptc (b286ef4198388fdb0e4ae62be12820df5da9b4c2): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto': exit status 1
+
+Out: can't load package: package github.com/golang/crypto/bcrypt: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/bcrypt expects import "golang.org/x/crypto/bcrypt"
+can't load package: package github.com/golang/crypto/blake2b: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/blake2b expects import "golang.org/x/crypto/blake2b"
+can't load package: package github.com/golang/crypto/blake2s: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/blake2s expects import "golang.org/x/crypto/blake2s"
+can't load package: package github.com/golang/crypto/blowfish: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/blowfish expects import "golang.org/x/crypto/blowfish"
+can't load package: package github.com/golang/crypto/bn256: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/bn256 expects import "golang.org/x/crypto/bn256"
+can't load package: package github.com/golang/crypto/cast5: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/cast5 expects import "golang.org/x/crypto/cast5"
+can't load package: package github.com/golang/crypto/chacha20poly1305: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/chacha20poly1305 expects import "golang.org/x/crypto/chacha20poly1305"
+can't load package: package github.com/golang/crypto/cryptobyte: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/cryptobyte expects import "golang.org/x/crypto/cryptobyte"
+can't load package: package github.com/golang/crypto/curve25519: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/curve25519 expects import "golang.org/x/crypto/curve25519"
+can't load package: package github.com/golang/crypto/hkdf: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/hkdf expects import "golang.org/x/crypto/hkdf"
+can't load package: package github.com/golang/crypto/md4: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/md4 expects import "golang.org/x/crypto/md4"
+can't load package: package github.com/golang/crypto/nacl/box: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/nacl/box expects import "golang.org/x/crypto/nacl/box"
+can't load package: package github.com/golang/crypto/nacl/secretbox: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/nacl/secretbox expects import "golang.org/x/crypto/nacl/secretbox"
+can't load package: package github.com/golang/crypto/ocsp: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/ocsp expects import "golang.org/x/crypto/ocsp"
+can't load package: package github.com/golang/crypto/openpgp: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/openpgp expects import "golang.org/x/crypto/openpgp"
+can't load package: package github.com/golang/crypto/openpgp/armor: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/openpgp/armor expects import "golang.org/x/crypto/openpgp/armor"
+can't load package: package github.com/golang/crypto/openpgp/clearsign: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/openpgp/clearsign expects import "golang.org/x/crypto/openpgp/clearsign"
+can't load package: package github.com/golang/crypto/openpgp/elgamal: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/openpgp/elgamal expects import "golang.org/x/crypto/openpgp/elgamal"
+can't load package: package github.com/golang/crypto/openpgp/errors: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/openpgp/errors expects import "golang.org/x/crypto/openpgp/errors"
+can't load package: package github.com/golang/crypto/openpgp/packet: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/openpgp/packet expects import "golang.org/x/crypto/openpgp/packet"
+can't load package: package github.com/golang/crypto/openpgp/s2k: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/openpgp/s2k expects import "golang.org/x/crypto/openpgp/s2k"
+can't load package: package github.com/golang/crypto/otr: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/otr expects import "golang.org/x/crypto/otr"
+can't load package: package github.com/golang/crypto/pbkdf2: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/pbkdf2 expects import "golang.org/x/crypto/pbkdf2"
+can't load package: package github.com/golang/crypto/poly1305: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/poly1305 expects import "golang.org/x/crypto/poly1305"
+can't load package: package github.com/golang/crypto/ripemd160: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/ripemd160 expects import "golang.org/x/crypto/ripemd160"
+can't load package: package github.com/golang/crypto/salsa20: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/salsa20 expects import "golang.org/x/crypto/salsa20"
+can't load package: package github.com/golang/crypto/salsa20/salsa: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/salsa20/salsa expects import "golang.org/x/crypto/salsa20/salsa"
+can't load package: package github.com/golang/crypto/scrypt: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/scrypt expects import "golang.org/x/crypto/scrypt"
+can't load package: package github.com/golang/crypto/sha3: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/sha3 expects import "golang.org/x/crypto/sha3"
+can't load package: package github.com/golang/crypto/ssh: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/ssh expects import "golang.org/x/crypto/ssh"
+can't load package: package github.com/golang/crypto/ssh/agent: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/ssh/agent expects import "golang.org/x/crypto/ssh/agent"
+can't load package: package github.com/golang/crypto/ssh/terminal: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/ssh/terminal expects import "golang.org/x/crypto/ssh/terminal"
+can't load package: package github.com/golang/crypto/ssh/test: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/ssh/test expects import "golang.org/x/crypto/ssh/test"
+can't load package: package github.com/golang/crypto/twofish: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/twofish expects import "golang.org/x/crypto/twofish"
+can't load package: package github.com/golang/crypto/xtea: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/xtea expects import "golang.org/x/crypto/xtea"
+can't load package: package github.com/golang/crypto/xts: code in directory /home/ext-laaber/go-experiments/data/6d/fe/29140/repo/src/github.com/golang/crypto/xts expects import "golang.org/x/crypto/xts"
+github.com/golang/crypto/acme
+github.com/golang/crypto/acme/autocert
+github.com/golang/crypto/chacha20poly1305/internal/chacha20
+github.com/golang/crypto/ed25519
+github.com/golang/crypto/ed25519/internal/edwards25519
+github.com/golang/crypto/pkcs12
+github.com/golang/crypto/pkcs12/internal/rc2
+github.com/golang/crypto/ssh/knownhosts
+github.com/golang/crypto/tea
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

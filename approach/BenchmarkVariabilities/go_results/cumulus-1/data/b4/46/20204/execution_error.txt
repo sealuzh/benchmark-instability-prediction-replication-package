@@ -1,0 +1,11 @@
+Error while executing goptc (e5dd884d3ea07b341321073882ae28aa16dd11be): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/b4/46/20204/repo/src/github.com/philhofer/rkive': exit status 1
+
+Out: package code.google.com/p/gogoprotobuf/proto: unrecognized import path "code.google.com/p/gogoprotobuf/proto" (parse https://code.google.com/p/gogoprotobuf/proto?go-get=1: no go-import meta tags (meta tag github.com/gogo/protobuf did not match import path code.google.com/p/gogoprotobuf/proto))
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,11 @@
+Error while executing goptc (a9324314ee711f205b2bcb77520b0dcf1641b9ca): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/d3/6e/203651/repo/src/github.com/cznic/mathutil': exit status 1
+
+Out: package big: unrecognized import path "big" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,19 @@
+Error while executing goptc (8e55cde513cbec9f3e3aaf0ed7beb637510fc9b2): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c5/99/444704/repo/src/github.com/micro/go-micro': exit status 1
+
+Out: package github.com/youtube/vitess/go/rpcplus: cannot find package "github.com/youtube/vitess/go/rpcplus" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/youtube/vitess/go/rpcplus (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/c5/99/444704/repo/src/github.com/youtube/vitess/go/rpcplus (from $GOPATH)
+package github.com/youtube/vitess/go/rpcplus/jsonrpc: cannot find package "github.com/youtube/vitess/go/rpcplus/jsonrpc" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/youtube/vitess/go/rpcplus/jsonrpc (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/c5/99/444704/repo/src/github.com/youtube/vitess/go/rpcplus/jsonrpc (from $GOPATH)
+package github.com/youtube/vitess/go/rpcplus/pbrpc: cannot find package "github.com/youtube/vitess/go/rpcplus/pbrpc" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/youtube/vitess/go/rpcplus/pbrpc (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/c5/99/444704/repo/src/github.com/youtube/vitess/go/rpcplus/pbrpc (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

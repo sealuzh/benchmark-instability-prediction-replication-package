@@ -1,0 +1,11 @@
+Error while executing goptc (105b532c8fadb5e8fb2784d3ae304c7f15587782): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/b0/fe/223066/repo/src/github.com/nsqio/nsq': exit status 1
+
+Out: package warning: "./..." matched no packages: unrecognized import path "warning: \"./...\" matched no packages" (https fetch: parse https://warning: "./..." matched no packages: invalid character " " in host name)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

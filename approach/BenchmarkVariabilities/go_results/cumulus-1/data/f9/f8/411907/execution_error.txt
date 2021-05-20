@@ -1,0 +1,243 @@
+Error while executing goptc (85aa2124678906098ea4aed7d5e4412ed3810954): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/influxdata/telegraf': exit status 1
+
+Out: >> Getting package collectd.org
+>> Getting package github.com/Sirupsen/logrus
+>> Getting package github.com/aerospike/aerospike-client-go
+>> Getting package github.com/amir/raidman
+>> Getting package github.com/aws/aws-sdk-go
+>> Getting package github.com/beorn7/perks
+>> Getting package github.com/bsm/sarama-cluster
+>> Getting package github.com/cenkalti/backoff
+>> Getting package github.com/couchbase/go-couchbase
+>> Getting package github.com/couchbase/goutils
+>> Getting package github.com/davecgh/go-spew
+>> Getting package github.com/eapache/go-xerial-snappy
+>> Getting package github.com/eclipse/paho.mqtt.golang
+>> Getting package github.com/couchbase/gomemcached
+>> Getting package github.com/Shopify/sarama
+>> Getting package github.com/gobwas/glob
+>> Getting package github.com/eapache/go-resiliency
+>> Getting package github.com/influxdata/toml
+>> Getting package github.com/naoina/go-stringutil
+>> Getting package github.com/pierrec/lz4
+>> Getting package github.com/prometheus/client_golang
+>> Getting package github.com/miekg/dns
+>> Getting package github.com/docker/docker
+>> Getting package github.com/hailocab/go-hostpool
+>> Getting package github.com/hashicorp/consul
+>> Getting package github.com/rcrowley/go-metrics
+>> Getting package github.com/samuel/go-zookeeper
+>> Getting package github.com/jackc/pgx
+>> Getting package github.com/kardianos/osext
+>> Getting package github.com/soniah/gosnmp
+>> Getting package github.com/golang/snappy
+>> Getting package github.com/kardianos/service
+>> Getting package github.com/vjeantet/grok
+>> Getting package github.com/pierrec/xxHash
+>> Getting package github.com/kballard/go-shellquote
+>> Getting package github.com/pkg/errors
+>> Getting package github.com/wvanbergen/kazoo-go
+>> Getting package github.com/matttproud/golang_protobuf_extensions
+>> Getting package github.com/nats-io/nats
+>> Getting package github.com/zensqlmonitor/go-mssqldb
+>> Getting package github.com/nats-io/go-nats
+>> Getting package github.com/influxdata/tail
+>> Getting package github.com/nats-io/nuid
+>> Getting package github.com/go-sql-driver/mysql
+>> Getting package github.com/influxdata/wlog
+>> Getting package github.com/nsqio/go-nsq
+>> Getting package gopkg.in/gorethink/gorethink.v3
+>> Getting package github.com/prometheus/client_model
+>> Getting package gopkg.in/mgo.v2
+>> Getting package github.com/prometheus/procfs
+>> Getting package golang.org/x/net
+>> Getting package github.com/prometheus/common
+>> Getting package gopkg.in/olivere/elastic.v5
+>> Getting package github.com/gorilla/mux
+>> Getting package gopkg.in/yaml.v2
+>> Getting package github.com/wvanbergen/kafka
+>> Getting package github.com/yuin/gopher-lua
+>> Getting package github.com/shirou/gopsutil
+>> Getting package github.com/stretchr/testify
+>> Getting package github.com/streadway/amqp
+>> Getting package golang.org/x/crypto
+>> Getting package gopkg.in/asn1-ber.v1
+>> Getting package golang.org/x/text
+>> Getting package github.com/eapache/queue
+>> Getting package github.com/satori/go.uuid
+>> Getting package gopkg.in/fatih/pool.v2
+>> Getting package gopkg.in/ldap.v2
+>> Getting package github.com/golang/protobuf
+package github.com/couchbase/goutils: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/couchbase/goutils
+package github.com/pierrec/xxHash: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/pierrec/xxHash
+package github.com/eapache/go-resiliency: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/eapache/go-resiliency
+package github.com/matttproud/golang_protobuf_extensions: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/matttproud/golang_protobuf_extensions
+package golang.org/x/crypto: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/golang.org/x/crypto
+package github.com/beorn7/perks: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/beorn7/perks
+package github.com/samuel/go-zookeeper: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/samuel/go-zookeeper
+package github.com/davecgh/go-spew: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/davecgh/go-spew
+package github.com/prometheus/client_model: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/prometheus/client_model
+package golang.org/x/net: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/golang.org/x/net
+package collectd.org: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/collectd.org
+package github.com/prometheus/client_golang: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/prometheus/client_golang
+package github.com/wvanbergen/kafka: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/wvanbergen/kafka
+package github.com/golang/protobuf: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/golang/protobuf
+# cd /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/Shopify/sarama; git pull --ff-only
+From https://github.com/Shopify/sarama
+ * [new branch]      gh-pages   -> origin/gh-pages
+ * [new branch]      http_sse_example -> origin/http_sse_example
+ * [new branch]      master     -> origin/master
+ * [new branch]      producer-partition-buffer -> origin/producer-partition-buffer
+ * [new branch]      return-partial-replicas -> origin/return-partial-replicas
+ * [new branch]      server     -> origin/server
+ * [new branch]      test-jira-kafka-2082 -> origin/test-jira-kafka-2082
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+package github.com/Shopify/sarama: exit status 1
+# cd /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/golang/snappy; git pull --ff-only
+From https://github.com/golang/snappy
+ * [new branch]      master     -> origin/master
+ * [new branch]      sync_pool_cur -> origin/sync_pool_cur
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+package github.com/golang/snappy: exit status 1
+package github.com/prometheus/common: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/prometheus/common
+# cd /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/golang/protobuf; git pull --ff-only
+From https://github.com/golang/protobuf
+ * [new branch]      master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+package github.com/golang/protobuf/proto: exit status 1
+# cd .; git clone https://github.com/golang/snappy /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/golang/snappy
+Cloning into '/home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/golang/snappy'...
+fatal: BUG: initial ref transaction called with existing refs
+package github.com/golang/snappy: exit status 128
+package github.com/golang/snappy: directory "/home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/golang/snappy" is not using a known version control system
+# cd /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/nats-io/go-nats; git pull --ff-only
+From https://github.com/nats-io/go-nats
+ * [new branch]      fix-bench-imports -> origin/fix-bench-imports
+ * [new branch]      handle_auth_errors -> origin/handle_auth_errors
+ * [new branch]      master     -> origin/master
+ * [new branch]      reconnect-on-auth-timeout -> origin/reconnect-on-auth-timeout
+ * [new branch]      update-bench-usage -> origin/update-bench-usage
+ * [new branch]      wallyqs-nats-opts-docs -> origin/wallyqs-nats-opts-docs
+ * [new tag]         v1.2.2     -> v1.2.2
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+package github.com/nats-io/go-nats/encoders/builtin: exit status 1
+# cd /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/golang/snappy; git pull --ff-only
+fatal: unable to open .git/objects/pack/tmp_pack_fJDkpQ: No such file or directory
+fatal: index-pack failed
+package github.com/golang/snappy: exit status 1
+package github.com/docker/docker: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/docker/docker
+>> Setting github.com/aws/aws-sdk-go to version c861d27d0304a79f727e9a8a4e2ac1e74602fdc0
+>> Setting github.com/couchbase/go-couchbase to version bfe555a140d53dc1adf390f1a1d4b0fd4ceadb28
+>> Setting github.com/couchbase/goutils to version 5823a0cbaaa9008406021dc5daf80125ea30bba6
+>> Setting github.com/eapache/go-xerial-snappy to version bb955e01b9346ac19dc29eb16586c90ded99a98c
+>> Setting github.com/bsm/sarama-cluster to version ccdc0803695fbce22f1706d04ded46cd518fd832
+>> Setting github.com/docker/docker to version f5ec1e2936dcbe7b5001c2b817188b095c700c27
+>> Setting github.com/amir/raidman to version c74861fe6a7bb8ede0a010ce4485bdbb4fc4c985
+>> Setting github.com/davecgh/go-spew to version 346938d642f2ec3594ed81d874461961cd0faa76
+>> Setting github.com/Shopify/sarama to version c01858abb625b73a3af51d0798e4ad42c8147093
+>> Setting github.com/jackc/pgx to version b84338d7d62598f75859b2b146d830b22f1b9ec8
+>> Setting github.com/hashicorp/consul to version 63d2fc68239b996096a1c55a0d4b400ea4c2583f
+>> Setting github.com/Sirupsen/logrus to version 61e43dc76f7ee59a82bdf3d71033dc12bea4c77d
+>> Setting github.com/couchbase/gomemcached to version 4a25d2f4e1dea9ea7dd76dfd943407abf9b07d29
+>> Setting github.com/nats-io/nuid to version 289cccf02c178dc782430d534e3c1f5b72af807f
+>> Setting github.com/beorn7/perks to version 4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9
+>> Setting github.com/gobwas/glob to version bea32b9cd2d6f55753d94a28e959b13f0244797a
+>> Setting gopkg.in/gorethink/gorethink.v3 to version 7ab832f7b65573104a555d84a27992ae9ea1f659
+>> Setting gopkg.in/olivere/elastic.v5 to version 3113f9b9ad37509fe5f8a0e5e91c96fdc4435e26
+>> Setting golang.org/x/net to version f2499483f923065a842d38eb4c7f1927e6fc6e6d
+>> Setting github.com/nsqio/go-nsq to version a53d495e81424aaf7a7665a9d32a97715c40e953
+>> Setting github.com/naoina/go-stringutil to version 6b638e95a32d0c1131db0e7fe83775cbea4a0d0b
+>> Setting github.com/pierrec/lz4 to version 5c9560bfa9ace2bf86080bf40d46b34ae44604df
+>> Setting github.com/prometheus/procfs to version 1878d9fbb537119d24b21ca07effd591627cd160
+>> Setting github.com/eclipse/paho.mqtt.golang to version d4f545eb108a2d19f9b1a735689dbfb719bc21fb
+>> Setting gopkg.in/ldap.v2 to version 8168ee085ee43257585e50c6441aadf54ecb2c9f
+>> Setting github.com/prometheus/common to version dd2f054febf4a6c00f2343686efb775948a8bff4
+>> Setting github.com/vjeantet/grok to version d73e972b60935c7fec0b4ffbc904ed39ecaf7efe
+>> Setting golang.org/x/crypto to version dc137beb6cce2043eb6b5f223ab8bf51c32459f4
+>> Setting github.com/golang/protobuf to version 8ee79997227bf9b34611aee7946ae64735e6fd93
+>> Setting golang.org/x/text to version 506f9d5c962f284575e88337e7d9296d27e729d3
+>> Setting github.com/go-sql-driver/mysql to version 2e00b5cd70399450106cec6431c2e2ce3cae5034
+>> Setting github.com/yuin/gopher-lua to version 66c871e454fcf10251c61bf8eff02d0978cae75a
+>> Setting github.com/influxdata/tail to version a395bf99fe07c233f41fba0735fa2b13b58588ea
+>> Setting github.com/eapache/go-resiliency to version b86b1ec0dd4209a588dc1285cdd471e73525c0b3
+>> Setting github.com/aerospike/aerospike-client-go to version 95e1ad7791bdbca44707fedbb29be42024900d9c
+>> Setting gopkg.in/mgo.v2 to version 3f83fa5005286a7fe593b055f0d7771a7dce4655
+>> Setting gopkg.in/yaml.v2 to version 4c78c975fe7c825c6d1466c42be594d1d6f3aba6
+>> Setting gopkg.in/fatih/pool.v2 to version 6e328e67893eb46323ad06f0e92cb9536babbabc
+>> Setting github.com/streadway/amqp to version 63795daa9a446c920826655f26ba31c81c860fd6
+>> Setting github.com/wvanbergen/kafka to version bc265fedb9ff5b5c5d3c0fdcef4a819b3523d3ee
+>> Setting github.com/nats-io/go-nats to version ea9585611a4ab58a205b9b125ebd74c389a6b898
+>> Setting github.com/samuel/go-zookeeper to version 1d7be4effb13d2d908342d349d71a284a7542693
+>> Setting collectd.org to version 2ce144541b8903101fb8f1483cc0497a68798122
+>> Setting github.com/miekg/dns to version 99f84ae56e75126dd77e5de4fae2ea034a468ca1
+>> Setting github.com/soniah/gosnmp to version 5ad50dc75ab389f8a1c9f8a67d3a1cd85f67ed15
+>> Setting github.com/shirou/gopsutil to version 9a4a9167ad3b4355dbf1c2c7a0f5f0d3fb1e9ab9
+>> Setting gopkg.in/asn1-ber.v1 to version 4e86f4367175e39f69d9358a5f17b4dda270378d
+>> Setting github.com/rcrowley/go-metrics to version 1f30fe9094a513ce4c700b9a54458bbb0c96996c
+>> Setting github.com/influxdata/wlog to version 7c63b0a71ef8300adc255344d275e10e5c3a71ec
+>> Setting github.com/nats-io/nats to version ea9585611a4ab58a205b9b125ebd74c389a6b898
+>> Setting github.com/wvanbergen/kazoo-go to version 968957352185472eacb69215fa3dbfcfdbac1096
+>> Setting github.com/zensqlmonitor/go-mssqldb to version ffe5510c6fa5e15e6d983210ab501c815b56b363
+>> Setting github.com/satori/go.uuid to version 5bf94b69c6b68ee1b541973bb8e1144db23a194b
+>> Setting github.com/kballard/go-shellquote to version d8ec1a69a250a17bb0e419c386eac1f3711dc142
+>> Setting github.com/influxdata/toml to version 5d1d907f22ead1cd47adde17ceec5bda9cacaf8f
+>> Setting github.com/pkg/errors to version 645ef00459ed84a119197bfb8d8205042c6df63d
+>> Setting github.com/kardianos/service to version 6d3a0ee7d3425d9d835debc51a0ca1ffa28f4893
+>> Setting github.com/stretchr/testify to version 4d4bfba8f1d1027c4fdbe371823030df51419987
+>> Setting github.com/hailocab/go-hostpool to version e80d13ce29ede4452c43dea11e79b9bc8a15b478
+>> Setting github.com/golang/snappy to version 7db9049039a047d955fe8c19b83c8ff5abd765c7
+/home/ext-laaber/go-path/bin/gpm: line 73: cd: /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/github.com/golang/snappy: No such file or directory
+>> Setting github.com/prometheus/client_model to version fa8ad6fec33561be4280a8f0514318c79d7f6cb6
+>> Setting github.com/cenkalti/backoff to version b02f2bbce11d7ea6b97f282ef1771b0fe2f65ef3
+>> Setting github.com/kardianos/osext to version c2c54e542fb797ad986b31721e1baedf214ca413
+>> Setting github.com/pierrec/xxHash to version 5a004441f897722c627870a981d02b29924215fa
+>> Setting github.com/eapache/queue to version 44cc805cf13205b55f69e14bcb69867d1ae92f98
+>> Setting github.com/prometheus/client_golang to version c317fb74746eac4fc65fe3909195f4cf67c5562a
+>> Setting github.com/matttproud/golang_protobuf_extensions to version c12348ce28de40eed0136aa2b644d0ee0650e56c
+>> Setting github.com/gorilla/mux to version 392c28fe23e1c45ddba891b0320b3b5df220beea
+>> Building package collectd.org
+can't load package: package collectd.org: no Go files in /home/ext-laaber/go-experiments/data/f9/f8/411907/repo/src/collectd.org
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,17 @@
+Error while executing goptc (10654dc7ee929239d22c5dbb1216210d0b82541a): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/a2/46/466867/repo/src/github.com/bitly/statsdaemon': exit status 2
+
+Out: # github.com/bitly/statsdaemon
+./main.go:44:10: undefined: os.Error
+./main.go:48:37: cannot use *flushInterval * SECOND (type int64) as type time.Duration in argument to time.NewTicker
+./main.go:76:10: undefined: time.Seconds
+./main.go:121:17: err.String undefined (type error has no field or method String)
+./main.go:140:22: undefined: strconv.Atof32
+./main.go:157:39: err.String undefined (type error has no field or method String)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

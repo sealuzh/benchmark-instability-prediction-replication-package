@@ -1,0 +1,12 @@
+Error while executing goptc (91618bc48ac377880fbd8b19fbc4a34f262d4014): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/3f/70/339350/repo/src/github.com/pachyderm/pachyderm': exit status 2
+
+Out: # github.com/pachyderm/pachyderm/doc/examples/fruit_stand/generate
+doc/examples/fruit_stand/generate/generate.go:54:6: cannot use cmdutil.RunFixedArgs(0, func literal) (type func(*"github.com/pachyderm/pachyderm/src/server/vendor/github.com/spf13/cobra".Command, []string)) as type func(*"github.com/spf13/cobra".Command, []string) in field value
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

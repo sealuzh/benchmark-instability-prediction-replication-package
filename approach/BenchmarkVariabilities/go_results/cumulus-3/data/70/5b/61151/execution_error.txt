@@ -1,0 +1,11 @@
+Error while executing goptc (21fc770659487bc39b57e513be6e1e22145e8467): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/70/5b/61151/repo/src/github.com/yarpc/yarpc-go': exit status 1
+
+Out: package warning: "./..." matched no packages: unrecognized import path "warning: \"./...\" matched no packages" (https fetch: parse https://warning: "./..." matched no packages: invalid character " " in host name)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

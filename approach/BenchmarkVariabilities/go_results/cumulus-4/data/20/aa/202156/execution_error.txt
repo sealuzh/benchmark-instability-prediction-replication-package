@@ -1,0 +1,11 @@
+Error while executing goptc (748cd82a7eed2a25c3aae46a11650540240668fa): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/20/aa/202156/repo/src/github.com/eliothedeman/bangarang': exit status 1
+
+Out: package github.com/gonum/plot/plotter: code in directory /home/ext-laaber/go-experiments/data/20/aa/202156/repo/src/github.com/gonum/plot/plotter expects import "gonum.org/v1/plot/plotter"
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

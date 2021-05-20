@@ -1,0 +1,11 @@
+Error while executing goptc (061dfe74f4a6240af5a08595d3af20e964249e66): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/0d/6f/194543/repo/src/github.com/tsuru/bs': exit status 1
+
+Out: package warning: "./..." matched no packages: unrecognized import path "warning: \"./...\" matched no packages" (https fetch: parse https://warning: "./..." matched no packages: invalid character " " in host name)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,11 @@
+Error while executing goptc (6a95211d98d59d11febc21af29c0eb838980a445): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/75/4a/406056/repo/src/github.com/go-macaroon/macaroon': exit status 1
+
+Out: package code.google.com/p/go.crypto/nacl/secretbox: unrecognized import path "code.google.com/p/go.crypto/nacl/secretbox" (parse https://code.google.com/p/go.crypto/nacl/secretbox?go-get=1: no go-import meta tags (meta tag github.com/golang/go did not match import path code.google.com/p/go.crypto/nacl/secretbox))
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

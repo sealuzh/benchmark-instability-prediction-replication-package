@@ -1,0 +1,91 @@
+Error while executing goptc (99ac57ec2fc62216dcf049d91170d1a504abec3c): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/97/99/230555/repo/src/github.com/codedellemc/libstorage': exit status 1
+
+Out: [0;32m[INFO]	[mDownloading dependencies. Please wait...
+[0;32m[INFO]	[m--> Found desired version locally github.com/davecgh/go-spew 04cdfd42973bb9c8589fd6a731800cf222fde1a9!
+[0;32m[INFO]	[m--> Found desired version locally github.com/fsnotify/fsnotify fd9ec7deca8bf46ecd2a795baaacf2b3a9be1197!
+[0;32m[INFO]	[m--> Found desired version locally github.com/golang/protobuf 8ee79997227bf9b34611aee7946ae64735e6fd93!
+[0;32m[INFO]	[m--> Found desired version locally github.com/hashicorp/hcl f74cf8281543a0797d7b4ab7d88e76e7ba125308!
+[0;32m[INFO]	[m--> Found desired version locally github.com/magiconair/properties 0723e352fa358f9322c938cc2dadda874e9151a9!
+[0;32m[INFO]	[m--> Found desired version locally github.com/mitchellh/mapstructure f3009df150dadf309fdee4a54ed65c124afad715!
+[0;32m[INFO]	[m--> Found desired version locally github.com/pelletier/go-buffruneio df1e16fde7fc330a0ca68167c23bf7ed6ac31d6d!
+[0;32m[INFO]	[m--> Found desired version locally github.com/pelletier/go-toml 45932ad32dfdd20826f5671da37a5f3ce9f26a8d!
+[0;32m[INFO]	[m--> Found desired version locally github.com/pkg/errors 248dadf4e9068a0b3e79f02ed0a610d935de5302!
+[0;32m[INFO]	[m--> Found desired version locally github.com/pmezard/go-difflib d8ed2627bdf02c080bf22230dbb337003b7aba2d!
+[0;32m[INFO]	[m--> Found desired version locally github.com/spf13/afero 52e4a6cfac46163658bd4f123c49b6ee7dc75f78!
+[0;32m[INFO]	[m--> Found desired version locally github.com/spf13/cast 2580bc98dc0e62908119e4737030cc2fdfc45e4c!
+[0;32m[INFO]	[m--> Found desired version locally github.com/spf13/jwalterweatherman 33c24e77fb80341fe7130ee7c594256ff08ccc46!
+[0;32m[INFO]	[m--> Found desired version locally github.com/spf13/pflag d16db1e50e33dff1b6cdf37596cef36742128670!
+[0;32m[INFO]	[m--> Found desired version locally github.com/spf13/viper 651d9d916abc3c3d6a91a12549495caba5edffd2!
+[0;32m[INFO]	[m--> Found desired version locally github.com/stretchr/testify 4d4bfba8f1d1027c4fdbe371823030df51419987!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/net b336a971b799939dd16ae9b1df8334cb8b977c4d!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/sys 002cbb5f952456d0c50e0d2aff17ea5eca716979!
+[0;32m[INFO]	[m--> Found desired version locally google.golang.org/grpc cbcceb2942a489498cf22b2f918536e819d33f0a!
+[0;32m[INFO]	[m--> Fetching cloud.google.com/go
+[0;32m[INFO]	[m--> Fetching github.com/akutz/gofig
+[0;32m[INFO]	[m--> Fetching github.com/Azure/go-autorest
+[0;32m[INFO]	[m--> Fetching github.com/akutz/golf
+[0;32m[INFO]	[m--> Fetching github.com/cesanta/ucl
+[0;32m[INFO]	[m--> Fetching github.com/akutz/goof
+[0;32m[INFO]	[m--> Fetching github.com/codedellemc/goisilon
+[0;32m[INFO]	[m--> Fetching github.com/google/go-querystring
+[0;32m[INFO]	[m--> Fetching github.com/Azure/azure-sdk-for-go
+[0;32m[INFO]	[m--> Fetching github.com/akutz/gotil
+[0;32m[INFO]	[m--> Fetching github.com/appropriate/go-virtualboxclient
+[0;32m[INFO]	[m--> Fetching github.com/go-ini/ini
+[0;32m[INFO]	[m--> Fetching github.com/cesanta/validate-json
+[0;32m[INFO]	[m--> Fetching github.com/googleapis/gax-go
+[0;32m[INFO]	[m--> Fetching github.com/codedellemc/goscaleio
+[0;32m[INFO]	[m--> Fetching github.com/asaskevich/govalidator
+[0;32m[INFO]	[m--> Fetching github.com/aws/aws-sdk-go
+[0;32m[INFO]	[m--> Fetching github.com/dgrijalva/jwt-go
+[0;32m[INFO]	[m--> Fetching github.com/digitalocean/godo
+[0;32m[INFO]	[m--> Fetching github.com/codedellemc/gournal
+[0;32m[INFO]	[m--> Fetching github.com/gophercloud/gophercloud
+[0;32m[INFO]	[m--> Fetching github.com/gorilla/context
+[0;32m[INFO]	[m--> Fetching github.com/gorilla/mux
+[0;32m[INFO]	[m--> Fetching github.com/jmespath/go-jmespath
+[0;32m[INFO]	[m--> Fetching github.com/jteeuwen/go-bindata
+[0;32m[INFO]	[m--> Fetching github.com/kardianos/osext
+[0;32m[INFO]	[m--> Fetching github.com/kr/fs
+[0;32m[INFO]	[m--> Fetching github.com/onsi/ginkgo
+[0;32m[INFO]	[m--> Fetching github.com/onsi/gomega
+[0;32m[INFO]	[m--> Fetching github.com/pkg/sftp
+[0;32m[INFO]	[m--> Fetching github.com/rubiojr/go-vhd
+[0;33m[WARN]	[mUnable to checkout github.com/cesanta/validate-json
+[0;31m[ERROR]	[mUpdate failed for github.com/cesanta/validate-json: Unable to get repository: Cloning into '/home/ext-laaber/.glide/cache/src/https-github.com-cesanta-validate-json'...
+Submodule 'schema/schema-tests' (git@github.com:json-schema/JSON-Schema-Test-Suite.git) registered for path 'schema/schema-tests'
+Cloning into '/home/ext-laaber/.glide/cache/src/https-github.com-cesanta-validate-json/schema/schema-tests'...
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@github.com:json-schema/JSON-Schema-Test-Suite.git' into submodule path '/home/ext-laaber/.glide/cache/src/https-github.com-cesanta-validate-json/schema/schema-tests' failed
+: exit status 1
+[0;32m[INFO]	[m--> Fetching github.com/SermoDigital/jose
+[0;32m[INFO]	[m--> Fetching github.com/Sirupsen/logrus
+[0;32m[INFO]	[m--> Fetching github.com/tent/http-link-go
+[0;32m[INFO]	[m--> Fetching golang.org/x/crypto
+[0;32m[INFO]	[m--> Fetching golang.org/x/oauth2
+[0;32m[INFO]	[m--> Fetching golang.org/x/text
+[0;32m[INFO]	[m--> Fetching google.golang.org/api
+[0;32m[INFO]	[m--> Fetching google.golang.org/appengine
+[0;32m[INFO]	[m--> Fetching gopkg.in/yaml.v2
+[0;31m[ERROR]	[mFailed to install: Unable to get repository: Cloning into '/home/ext-laaber/.glide/cache/src/https-github.com-cesanta-validate-json'...
+Submodule 'schema/schema-tests' (git@github.com:json-schema/JSON-Schema-Test-Suite.git) registered for path 'schema/schema-tests'
+Cloning into '/home/ext-laaber/.glide/cache/src/https-github.com-cesanta-validate-json/schema/schema-tests'...
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@github.com:json-schema/JSON-Schema-Test-Suite.git' into submodule path '/home/ext-laaber/.glide/cache/src/https-github.com-cesanta-validate-json/schema/schema-tests' failed
+: exit status 1
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,13 @@
+Error while executing goptc (9917269ff0e9fc93df46474b411ea1716195a61b): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/46/0c/330151/repo/src/github.com/go-kit/kit': exit status 2
+
+Out: # github.com/go-kit/kit/transport/grpc
+transport/grpc/client.go:94:9: undefined: metadata.NewContext
+transport/grpc/server.go:76:12: undefined: metadata.FromContext
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

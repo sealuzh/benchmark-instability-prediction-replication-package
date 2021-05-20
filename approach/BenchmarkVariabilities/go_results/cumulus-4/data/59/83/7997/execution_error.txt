@@ -1,0 +1,12 @@
+Error while executing goptc (a92d19d77d0b9dd18a77b37f6b2b2f0f08f7901b): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/59/83/7997/repo/src/github.com/opentracing/basictracer-go': exit status 2
+
+Out: # github.com/opentracing/basictracer-go
+./raw.go:11:2: undefined: opentracing.TraceContext
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

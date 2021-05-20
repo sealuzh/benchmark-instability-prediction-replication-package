@@ -1,0 +1,21 @@
+Error while executing goptc (0167c4b5d53556d299b6a5ba828991794a257ff6): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/e0/e2/179367/repo/src/github.com/sourcegraph/go-vcs': exit status 1
+
+Out: can't load package: package github.com/sourcegraph/go-vcs/vcs: code in directory /home/ext-laaber/go-experiments/data/e0/e2/179367/repo/src/github.com/sourcegraph/go-vcs/vcs expects import "sourcegraph.com/sourcegraph/go-vcs/vcs"
+github.com/sourcegraph/go-vcs/cmd/go-vcs
+github.com/sourcegraph/go-vcs/vcs/git
+github.com/sourcegraph/go-vcs/vcs/gitcmd
+github.com/sourcegraph/go-vcs/vcs/hg
+github.com/sourcegraph/go-vcs/vcs/hgcmd
+github.com/sourcegraph/go-vcs/vcs/internal
+github.com/sourcegraph/go-vcs/vcs/ssh
+github.com/sourcegraph/go-vcs/vcs/testing
+github.com/sourcegraph/go-vcs/vcs/util
+github.com/sourcegraph/go-vcs/vcs/util/tracer
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

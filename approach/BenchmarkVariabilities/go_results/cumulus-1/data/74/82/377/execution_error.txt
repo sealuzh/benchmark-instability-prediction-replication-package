@@ -1,0 +1,15 @@
+Error while executing goptc (5ffa719c3882fd2ec1e8b9f4978066701c31a343): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/74/82/377/repo/src/github.com/btcsuite/btcutil': exit status 2
+
+Out: # github.com/btcsuite/btcd/txscript
+../btcd/txscript/standard.go:447:8: undefined: btcutil.AddressWitnessPubKeyHash
+../btcd/txscript/standard.go:453:8: undefined: btcutil.AddressWitnessScriptHash
+../btcd/txscript/standard.go:555:16: undefined: btcutil.NewAddressWitnessPubKeyHash
+../btcd/txscript/standard.go:590:16: undefined: btcutil.NewAddressWitnessScriptHash
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

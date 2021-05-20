@@ -1,0 +1,37 @@
+Error while executing goptc (034d17a462f7b2dcd1a4a73553ec5357ff6e6c6e): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4': exit status 1
+
+Out: can't load package: package github.com/camlistore/go4/bytereplacer: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/bytereplacer expects import "go4.org/bytereplacer"
+can't load package: package github.com/camlistore/go4/cloud/cloudlaunch: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/cloud/cloudlaunch expects import "go4.org/cloud/cloudlaunch"
+can't load package: package github.com/camlistore/go4/cloud/google/gceutil: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/cloud/google/gceutil expects import "go4.org/cloud/google/gceutil"
+can't load package: package github.com/camlistore/go4/cloud/google/gcsutil: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/cloud/google/gcsutil expects import "go4.org/cloud/google/gcsutil"
+can't load package: package github.com/camlistore/go4/ctxutil: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/ctxutil expects import "go4.org/ctxutil"
+can't load package: package github.com/camlistore/go4/errorutil: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/errorutil expects import "go4.org/errorutil"
+can't load package: package github.com/camlistore/go4/fault: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/fault expects import "go4.org/fault"
+can't load package: package github.com/camlistore/go4/jsonconfig: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/jsonconfig expects import "go4.org/jsonconfig"
+can't load package: package github.com/camlistore/go4/legal: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/legal expects import "go4.org/legal"
+can't load package: package github.com/camlistore/go4/lock: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/lock expects import "go4.org/lock"
+can't load package: package github.com/camlistore/go4/net/throttle: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/net/throttle expects import "go4.org/net/throttle"
+can't load package: package github.com/camlistore/go4/oauthutil: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/oauthutil expects import "go4.org/oauthutil"
+can't load package: package github.com/camlistore/go4/osutil: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/osutil expects import "go4.org/osutil"
+can't load package: package github.com/camlistore/go4/readerutil: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/readerutil expects import "go4.org/readerutil"
+can't load package: package github.com/camlistore/go4/readerutil/singlereader: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/readerutil/singlereader expects import "go4.org/readerutil/singlereader"
+can't load package: package github.com/camlistore/go4/strutil: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/strutil expects import "go4.org/strutil"
+can't load package: package github.com/camlistore/go4/syncutil: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/syncutil expects import "go4.org/syncutil"
+can't load package: package github.com/camlistore/go4/syncutil/singleflight: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/syncutil/singleflight expects import "go4.org/syncutil/singleflight"
+can't load package: package github.com/camlistore/go4/syncutil/syncdebug: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/syncutil/syncdebug expects import "go4.org/syncutil/syncdebug"
+can't load package: package github.com/camlistore/go4/types: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/types expects import "go4.org/types"
+can't load package: package github.com/camlistore/go4/wkfs: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/wkfs expects import "go4.org/wkfs"
+can't load package: package github.com/camlistore/go4/wkfs/gcs: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/wkfs/gcs expects import "go4.org/wkfs/gcs"
+can't load package: package github.com/camlistore/go4/writerutil: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/writerutil expects import "go4.org/writerutil"
+can't load package: package github.com/camlistore/go4/xdgdir: code in directory /home/ext-laaber/go-experiments/data/cd/d3/339397/repo/src/github.com/camlistore/go4/xdgdir expects import "go4.org/xdgdir"
+github.com/camlistore/go4/reflectutil
+github.com/camlistore/go4/sort
+github.com/camlistore/go4/testing/functest
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

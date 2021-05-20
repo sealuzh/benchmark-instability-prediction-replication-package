@@ -1,0 +1,15 @@
+Error while executing goptc (9b39d0bdd90ebb971ea6c0320c0469556138b7f4): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/6c/a9/319751/repo/src/github.com/mna/gred': exit status 2
+
+Out: # github.com/mna/gred/resp
+resp/parser.go:8:1: missing return at end of function
+resp/parser.go:11:1: missing return at end of function
+resp/parser.go:27:14: invalid operation: n * 10 + (ch - '0') (mismatched types int and byte)
+resp/parser.go:32:1: missing return at end of function
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

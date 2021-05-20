@@ -1,0 +1,11 @@
+Error while executing goptc (8d8f557700bed5f0a14926db39bc045d7c5963ba): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/26/e1/418931/repo/src/github.com/jmoiron/sqlx': exit status 1
+
+Out: package warning: "./..." matched no packages: unrecognized import path "warning: \"./...\" matched no packages" (https fetch: parse https://warning: "./..." matched no packages: invalid character " " in host name)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

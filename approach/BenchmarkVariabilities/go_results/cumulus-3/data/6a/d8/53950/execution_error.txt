@@ -1,0 +1,11 @@
+Error while executing goptc (430d9583a8a862e88a9ca265299842a5644ac0b9): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/6a/d8/53950/repo/src/github.com/bemasher/rtlamr': exit status 1
+
+Out: package math/util: unrecognized import path "math/util" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

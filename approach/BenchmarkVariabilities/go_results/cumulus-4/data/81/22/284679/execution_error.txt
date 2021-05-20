@@ -1,0 +1,12 @@
+Error while executing goptc (25b40f8580168c1f905a6dba35d471cdc51ca629): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/81/22/284679/repo/src/github.com/gocraft/health': exit status 2
+
+Out: # github.com/gocraft/health/sinks/prometheus
+sinks/prometheus/sink.go:123:4: undefined: prometheus.Push
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

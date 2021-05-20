@@ -1,0 +1,22 @@
+Error while executing goptc (d9c46a3f29524d414ac2783f71ca7ede0557be51): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/ed/08/54203/repo/src/github.com/tidwall/tile38': exit status 2
+
+Out: # github.com/tidwall/tile38/tests
+tests/fence_tests.go:18:37: undefined: mockServer
+tests/fence_tests.go:19:2: undefined: runStep
+tests/fence_tests.go:20:2: undefined: runStep
+tests/fence_tests.go:72:27: undefined: mockServer
+tests/fence_tests.go:156:35: undefined: mockServer
+tests/json_tests.go:5:36: undefined: mockServer
+tests/json_tests.go:9:31: undefined: mockServer
+tests/json_tests.go:25:33: undefined: mockServer
+tests/keys_search.go:5:38: undefined: mockServer
+tests/keys_search.go:9:24: undefined: mockServer
+tests/fence_tests.go:20:2: too many errors
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

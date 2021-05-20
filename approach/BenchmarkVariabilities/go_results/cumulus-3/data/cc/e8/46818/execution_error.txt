@@ -1,0 +1,22 @@
+Error while executing goptc (96fabb0ced5b66a740110d251520eac58a36847c): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/cc/e8/46818/repo/src/github.com/mwitkow/go-flagz': exit status 2
+
+Out: # github.com/coreos/go-etcd/etcd
+../../coreos/go-etcd/etcd/response.generated.go:99:6: r.EncodeArrayStart undefined (type codec.encDriver has no field or method EncodeArrayStart)
+../../coreos/go-etcd/etcd/response.generated.go:107:6: r.EncodeMapStart undefined (type codec.encDriver has no field or method EncodeMapStart)
+../../coreos/go-etcd/etcd/response.generated.go:111:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+../../coreos/go-etcd/etcd/response.generated.go:119:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+../../coreos/go-etcd/etcd/response.generated.go:121:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+../../coreos/go-etcd/etcd/response.generated.go:130:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+../../coreos/go-etcd/etcd/response.generated.go:142:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+../../coreos/go-etcd/etcd/response.generated.go:144:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+../../coreos/go-etcd/etcd/response.generated.go:157:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+../../coreos/go-etcd/etcd/response.generated.go:170:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+../../coreos/go-etcd/etcd/response.generated.go:170:6: too many errors
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

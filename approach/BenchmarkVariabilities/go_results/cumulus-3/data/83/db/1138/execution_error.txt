@@ -1,0 +1,12 @@
+Error while executing goptc (615f57306c7bfbea934cf264a9230c25775a8115): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/83/db/1138/repo/src/github.com/polydawn/repeatr': exit status 1
+
+Out: package go.polydawn.net/meep: unrecognized import path "go.polydawn.net/meep" (https fetch: Get https://go.polydawn.net/meep?go-get=1: dial tcp 107.170.61.58:443: getsockopt: connection refused)
+package go.polydawn.net/repeatr/api/def: unrecognized import path "go.polydawn.net/repeatr/api/def" (https fetch: Get https://go.polydawn.net/repeatr/api/def?go-get=1: dial tcp 107.170.61.58:443: getsockopt: connection refused)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

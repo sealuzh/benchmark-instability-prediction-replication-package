@@ -1,0 +1,27 @@
+Error while executing goptc (444afa54c19902b53bcd62b6260ae9a2236a179b): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/e8/4e/30960/repo/src/github.com/mohae/joefriday': exit status 1
+
+Out: # cd /home/ext-laaber/go-experiments/data/e8/4e/30960/repo/src/github.com/mohae/joefriday; git pull --ff-only
+You are not currently on a branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+package github.com/mohae/joefriday/cpu/cpuinfo: exit status 1
+package github.com/mohae/joefriday/mem/membasic: cannot find package "github.com/mohae/joefriday/mem/membasic" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/mohae/joefriday/mem/membasic (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/e8/4e/30960/repo/src/github.com/mohae/joefriday/mem/membasic (from $GOPATH)
+package github.com/mohae/joefriday/system/os: cannot find package "github.com/mohae/joefriday/system/os" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/mohae/joefriday/system/os (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/e8/4e/30960/repo/src/github.com/mohae/joefriday/system/os (from $GOPATH)
+package github.com/mohae/joefriday/system/version: cannot find package "github.com/mohae/joefriday/system/version" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/mohae/joefriday/system/version (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/e8/4e/30960/repo/src/github.com/mohae/joefriday/system/version (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

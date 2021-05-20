@@ -1,0 +1,12 @@
+Error while executing goptc (3f2ff1a0e3e1f0a3d9f8679797548511c0efa9e7): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/13/4b/439268/repo/src/github.com/pilosa/pilosa': exit status 1
+
+Out: package pilosa/core: unrecognized import path "pilosa/core" (import path does not begin with hostname)
+package pilosa/cruncher: unrecognized import path "pilosa/cruncher" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,23 @@
+Error while executing goptc (50b5ca8d4446966eb27e1157dc1e740f3405abdf): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/da/a3/423683/repo/src/github.com/kshvakov/clickhouse': exit status 2
+
+Out: # github.com/kshvakov/clickhouse/examples
+examples/direct.go:11:6: main redeclared in this block
+	previous declaration at examples/columnar.go:11:6
+examples/multiple.go:12:6: main redeclared in this block
+	previous declaration at examples/direct.go:11:6
+examples/simple.go:12:6: main redeclared in this block
+	previous declaration at examples/multiple.go:12:6
+examples/simple.go:72:19: checkErr redeclared in this block
+	previous declaration at examples/multiple.go:68:19
+examples/sqlx.go:12:6: main redeclared in this block
+	previous declaration at examples/simple.go:12:6
+examples/sqlx.go:74:19: checkErr redeclared in this block
+	previous declaration at examples/simple.go:72:19
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

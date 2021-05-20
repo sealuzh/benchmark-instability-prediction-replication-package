@@ -1,0 +1,12 @@
+Error while executing goptc (7d4804e3932c6c34fc50994a41a4d8d6d7231c92): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c0/fb/24081/repo/src/github.com/mesos/mesos-go': exit status 1
+
+Out: package code.google.com/p/goprotobuf/proto: unrecognized import path "code.google.com/p/goprotobuf/proto" (parse https://code.google.com/p/goprotobuf/proto?go-get=1: no go-import meta tags (meta tag github.com/golang/protobuf did not match import path code.google.com/p/goprotobuf/proto))
+package mesos.apache.org/mesos: unrecognized import path "mesos.apache.org/mesos" (parse https://mesos.apache.org/mesos?go-get=1: no go-import meta tags ())
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

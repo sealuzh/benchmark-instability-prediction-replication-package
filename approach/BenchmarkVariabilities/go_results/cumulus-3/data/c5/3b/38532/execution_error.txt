@@ -1,0 +1,11 @@
+Error while executing goptc (096639196a2c0ab7a638041ad5d1ec0df58e1bcb): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c5/3b/38532/repo/src/github.com/nulpunt/nulpunt': exit status 1
+
+Out: package code.google.com/p/go.crypto/blowfish: unrecognized import path "code.google.com/p/go.crypto/blowfish" (parse https://code.google.com/p/go.crypto/blowfish?go-get=1: no go-import meta tags (meta tag github.com/golang/go did not match import path code.google.com/p/go.crypto/blowfish))
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

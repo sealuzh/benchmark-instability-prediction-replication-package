@@ -1,0 +1,12 @@
+Error while executing goptc (9273468694f8d72a21e66789761d235b3cf33f97): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/e1/75/205869/repo/src/github.com/PuerkitoBio/goquery': exit status 1
+
+Out: package code.google.com/p/cascadia: unrecognized import path "code.google.com/p/cascadia" (parse https://code.google.com/p/cascadia?go-get=1: no go-import meta tags (meta tag github.com/andybalholm/cascadia did not match import path code.google.com/p/cascadia))
+package exp/html: unrecognized import path "exp/html" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

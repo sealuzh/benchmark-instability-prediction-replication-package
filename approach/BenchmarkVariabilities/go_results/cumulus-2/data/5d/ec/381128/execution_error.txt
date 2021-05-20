@@ -1,0 +1,20 @@
+Error while executing goptc (5d1c7d390fc49536355f4ff1200b848140fde5fa): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/5d/ec/381128/repo/src/github.com/couchbaselabs/indexing': exit status 2
+
+Out: # github.com/couchbaselabs/indexing/api
+api/kv.go:30:35: not enough arguments in call to collatejson.NewCodec
+	have ()
+	want (int)
+api/kv.go:34:24: too many arguments in call to buf.Write
+	have ([]byte, error)
+	want ([]byte)
+api/kv.go:34:41: not enough arguments in call to jsoncodec.Encode
+	have ([]byte)
+	want ([]byte, []byte)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,22 @@
+Error while executing goptc (bb14bb6c38f6cf1706ef55278891d184b6a51b0e): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/3d/e2/109203/repo/src/github.com/buger/jsonparser': exit status 2
+
+Out: # github.com/buger/jsonparser/benchmark
+benchmark/benchmark_codecgen.go:70:6: r.EncodeArrayStart undefined (type codec.encDriver has no field or method EncodeArrayStart)
+benchmark/benchmark_codecgen.go:78:6: r.EncodeMapStart undefined (type codec.encDriver has no field or method EncodeMapStart)
+benchmark/benchmark_codecgen.go:82:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+benchmark/benchmark_codecgen.go:90:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+benchmark/benchmark_codecgen.go:92:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+benchmark/benchmark_codecgen.go:101:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+benchmark/benchmark_codecgen.go:109:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+benchmark/benchmark_codecgen.go:111:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+benchmark/benchmark_codecgen.go:120:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+benchmark/benchmark_codecgen.go:128:6: z.EncSendContainerState undefined (type codec.genHelperEncoder has no field or method EncSendContainerState)
+benchmark/benchmark_codecgen.go:128:6: too many errors
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

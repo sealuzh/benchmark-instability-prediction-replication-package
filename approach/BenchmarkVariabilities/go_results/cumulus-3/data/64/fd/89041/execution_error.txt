@@ -1,0 +1,26 @@
+Error while executing goptc (eafc181356de1da75468a7bdf54b430393f9c0e3): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/64/fd/89041/repo/src/github.com/moovweb/gokogiri': exit status 2
+
+Out: # pkg-config --cflags libxml-2.0
+Package libxml-2.0 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libxml-2.0.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libxml-2.0' found
+pkg-config: exit status 1
+# pkg-config --cflags libxml-2.0 libxml-2.0
+Package libxml-2.0 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libxml-2.0.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libxml-2.0' found
+Package libxml-2.0 was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libxml-2.0.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libxml-2.0' found
+pkg-config: exit status 1
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

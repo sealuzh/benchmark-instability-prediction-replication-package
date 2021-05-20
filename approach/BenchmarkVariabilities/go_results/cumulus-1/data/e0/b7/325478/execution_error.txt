@@ -1,0 +1,53 @@
+Error while executing goptc (11d0a25b491971beb5a4625ea7856a3c4afaafa5): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/e0/b7/325478/repo/src/github.com/go4org/grpc': exit status 1
+
+Out: can't load package: package github.com/go4org/grpc: code in directory /home/ext-laaber/go-experiments/data/e0/b7/325478/repo/src/github.com/go4org/grpc expects import "grpc.go4.org"
+can't load package: package github.com/go4org/grpc/codes: code in directory /home/ext-laaber/go-experiments/data/e0/b7/325478/repo/src/github.com/go4org/grpc/codes expects import "grpc.go4.org/codes"
+can't load package: package github.com/go4org/grpc/credentials: code in directory /home/ext-laaber/go-experiments/data/e0/b7/325478/repo/src/github.com/go4org/grpc/credentials expects import "grpc.go4.org/credentials"
+can't load package: package github.com/go4org/grpc/grpclog: code in directory /home/ext-laaber/go-experiments/data/e0/b7/325478/repo/src/github.com/go4org/grpc/grpclog expects import "grpc.go4.org/grpclog"
+can't load package: package github.com/go4org/grpc/metadata: code in directory /home/ext-laaber/go-experiments/data/e0/b7/325478/repo/src/github.com/go4org/grpc/metadata expects import "grpc.go4.org/metadata"
+can't load package: package github.com/go4org/grpc/reflection: code in directory /home/ext-laaber/go-experiments/data/e0/b7/325478/repo/src/github.com/go4org/grpc/reflection expects import "grpc.go4.org/reflection"
+can't load package: package github.com/go4org/grpc/stats: code in directory /home/ext-laaber/go-experiments/data/e0/b7/325478/repo/src/github.com/go4org/grpc/stats expects import "grpc.go4.org/stats"
+can't load package: package github.com/go4org/grpc/transport: code in directory /home/ext-laaber/go-experiments/data/e0/b7/325478/repo/src/github.com/go4org/grpc/transport expects import "grpc.go4.org/transport"
+github.com/go4org/grpc/benchmark
+github.com/go4org/grpc/benchmark/client
+github.com/go4org/grpc/benchmark/grpc_testing
+github.com/go4org/grpc/benchmark/server
+github.com/go4org/grpc/benchmark/stats
+github.com/go4org/grpc/benchmark/worker
+github.com/go4org/grpc/credentials/oauth
+github.com/go4org/grpc/examples/helloworld/greeter_client
+github.com/go4org/grpc/examples/helloworld/greeter_server
+github.com/go4org/grpc/examples/helloworld/helloworld
+github.com/go4org/grpc/examples/route_guide/client
+github.com/go4org/grpc/examples/route_guide/routeguide
+github.com/go4org/grpc/examples/route_guide/server
+github.com/go4org/grpc/grpclb
+github.com/go4org/grpc/grpclb/grpc_lb_v1
+github.com/go4org/grpc/grpclog/glogger
+github.com/go4org/grpc/health
+github.com/go4org/grpc/health/grpc_health_v1
+github.com/go4org/grpc/internal
+github.com/go4org/grpc/interop
+github.com/go4org/grpc/interop/client
+github.com/go4org/grpc/interop/grpc_testing
+github.com/go4org/grpc/interop/server
+github.com/go4org/grpc/naming
+github.com/go4org/grpc/peer
+github.com/go4org/grpc/reflection/grpc_reflection_v1alpha
+github.com/go4org/grpc/reflection/grpc_testing
+github.com/go4org/grpc/stats/grpc_testing
+github.com/go4org/grpc/stress/client
+github.com/go4org/grpc/stress/grpc_testing
+github.com/go4org/grpc/stress/metrics_client
+github.com/go4org/grpc/tap
+github.com/go4org/grpc/test
+github.com/go4org/grpc/test/codec_perf
+github.com/go4org/grpc/test/grpc_testing
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,11 @@
+Error while executing goptc (69b50fb6730cbea5fb4d367f1817415a215e7a9a): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/ad/2a/444879/repo/src/github.com/dchest/captcha': exit status 1
+
+Out: package rand: unrecognized import path "rand" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

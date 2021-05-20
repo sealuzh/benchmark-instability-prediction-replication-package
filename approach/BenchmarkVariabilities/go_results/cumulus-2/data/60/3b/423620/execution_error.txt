@@ -1,0 +1,12 @@
+Error while executing goptc (6478e7439153890e603587dd7164566aaf0a0092): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/60/3b/423620/repo/src/github.com/A2B-Bikeshare/go-flux': exit status 2
+
+Out: # github.com/A2B-Bikeshare/go-flux
+./init.go:31:25: multiple-value nsq.NewProducer() in single-value context
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

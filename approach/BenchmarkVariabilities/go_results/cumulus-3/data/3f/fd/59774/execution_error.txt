@@ -1,0 +1,19 @@
+Error while executing goptc (10ca42036203301cedb872c89fd8f03f3ea58cfe): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/3f/fd/59774/repo/src/github.com/simia-tech/netx': exit status 2
+
+Out: # github.com/simia-tech/netx/network/quic
+network/quic/conn.go:24:31: not enough arguments in call to quic.DialAddr
+	have (string, *quic.Config)
+	want (string, *tls.Config, *quic.Config)
+network/quic/conn.go:25:12: unknown field 'TLSConfig' in struct literal of type quic.Config
+network/quic/listener.go:19:27: not enough arguments in call to quic.ListenAddr
+	have (string, *quic.Config)
+	want (string, *tls.Config, *quic.Config)
+network/quic/listener.go:20:12: unknown field 'TLSConfig' in struct literal of type quic.Config
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

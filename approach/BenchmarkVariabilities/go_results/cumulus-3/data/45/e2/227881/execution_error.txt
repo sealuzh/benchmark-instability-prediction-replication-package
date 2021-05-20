@@ -1,0 +1,17 @@
+Error while executing goptc (4dc634154cde9394a1d75c8219c0e090356a100a): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/45/e2/227881/repo/src/github.com/DataDog/datadog-trace-agent': exit status 2
+
+Out: # github.com/DataDog/datadog-trace-agent
+./writer.go:57:44: not enough arguments in call to client.CreateIndex("raclette").Do
+	have ()
+	want (context.Context)
+./writer.go:68:62: not enough arguments in call to w.es.Index().Index("raclette").Type("span").BodyJson(s).Do
+	have ()
+	want (context.Context)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

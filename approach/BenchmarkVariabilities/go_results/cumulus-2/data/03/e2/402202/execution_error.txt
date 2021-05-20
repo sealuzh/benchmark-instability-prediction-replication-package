@@ -1,0 +1,21 @@
+Error while executing goptc (d821932de5134090fa5d6d76bb8ab85ccf3e1206): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/03/e2/402202/repo/src/github.com/liangdas/mqant': exit status 1
+
+Out: # cd /home/ext-laaber/go-experiments/data/03/e2/402202/repo/src/github.com/liangdas/mqant; git pull --ff-only
+You are not currently on a branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+package github.com/liangdas/mqant/utils/x/net/context: exit status 1
+package github.com/liangdas/mqant/utils/x/net/context/ctxhttp: cannot find package "github.com/liangdas/mqant/utils/x/net/context/ctxhttp" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/liangdas/mqant/utils/x/net/context/ctxhttp (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/03/e2/402202/repo/src/github.com/liangdas/mqant/utils/x/net/context/ctxhttp (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

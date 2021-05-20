@@ -1,0 +1,15 @@
+Error while executing goptc (8c89f13821d0367ff8a316f9f66850c58d211a5f): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/b4/77/278182/repo/src/github.com/akrennmair/epos': exit status 2
+
+Out: # github.com/jmhodges/levigo_leveldb_1.4
+../../jmhodges/levigo_leveldb_1.4/batch.go:4:24: fatal error: leveldb/c.h: No such file or directory
+ // #include "leveldb/c.h"
+                        ^
+compilation terminated.
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

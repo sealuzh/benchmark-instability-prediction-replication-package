@@ -1,0 +1,19 @@
+Error while executing goptc (2b30333a76e8b7ba9bcc84d821bffc0733ffa2cd): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/63/54/162304/repo/src/github.com/Terry-Mao/goim': exit status 1
+
+Out: package goim/libs/bufio: unrecognized import path "goim/libs/bufio" (import path does not begin with hostname)
+package goim/libs/bytes: unrecognized import path "goim/libs/bytes" (import path does not begin with hostname)
+package goim/libs/define: unrecognized import path "goim/libs/define" (import path does not begin with hostname)
+package goim/libs/hash/cityhash: unrecognized import path "goim/libs/hash/cityhash" (import path does not begin with hostname)
+package goim/libs/net: unrecognized import path "goim/libs/net" (import path does not begin with hostname)
+package goim/libs/net/xrpc: unrecognized import path "goim/libs/net/xrpc" (import path does not begin with hostname)
+package goim/libs/perf: unrecognized import path "goim/libs/perf" (import path does not begin with hostname)
+package goim/libs/proto: unrecognized import path "goim/libs/proto" (import path does not begin with hostname)
+package goim/libs/time: unrecognized import path "goim/libs/time" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

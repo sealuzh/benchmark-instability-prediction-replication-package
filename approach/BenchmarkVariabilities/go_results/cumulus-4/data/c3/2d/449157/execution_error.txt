@@ -1,0 +1,12 @@
+Error while executing goptc (60262621e2ac6872185455e17f99589895c943ac): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c3/2d/449157/repo/src/github.com/sammy007/monero-stratum': exit status 1
+
+Out: main.go:13:2: local import "./go-pool/pool" in non-local package
+main.go:14:2: local import "./go-pool/stratum" in non-local package
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

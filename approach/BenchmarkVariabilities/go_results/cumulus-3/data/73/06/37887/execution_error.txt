@@ -1,0 +1,20 @@
+Error while executing goptc (30b9d3d440a6528af95f6625d5d2d8e47603043b): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/73/06/37887/repo/src/github.com/spacemonkeygo/openssl': exit status 2
+
+Out: # pkg-config --cflags libssl libcrypto
+Package libssl was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libssl.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libssl' found
+Package libcrypto was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libcrypto.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'libcrypto' found
+pkg-config: exit status 1
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

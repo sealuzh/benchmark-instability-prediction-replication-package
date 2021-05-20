@@ -1,0 +1,14 @@
+Error while executing goptc (aac806a946547df7e7f90cd582fb3956a4720e8b): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/bb/ee/344588/repo/src/github.com/Everlag/poeitemstore': exit status 1
+
+Out: # cd .; git clone https://github.com/Everlag/gothing /home/ext-laaber/go-experiments/data/bb/ee/344588/repo/src/github.com/Everlag/gothing
+Cloning into '/home/ext-laaber/go-experiments/data/bb/ee/344588/repo/src/github.com/Everlag/gothing'...
+fatal: could not read Username for 'https://github.com': terminal prompts disabled
+package github.com/Everlag/gothing/cmd: exit status 128
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

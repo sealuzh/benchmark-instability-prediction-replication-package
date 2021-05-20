@@ -1,0 +1,15 @@
+Error while executing goptc (1ee1979ea5d6897c64191d3971ab70a5abb3941f): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/e2/87/322193/repo/src/github.com/shijuvar/gokit': exit status 2
+
+Out: # github.com/shijuvar/gokit/examples/basics/control
+examples/basics/control/if.go:7:6: main redeclared in this block
+	previous declaration at examples/basics/control/for.go:5:6
+examples/basics/control/switch.go:17:6: main redeclared in this block
+	previous declaration at examples/basics/control/if.go:7:6
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

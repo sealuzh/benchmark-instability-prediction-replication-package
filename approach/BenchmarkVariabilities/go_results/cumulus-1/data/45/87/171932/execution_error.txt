@@ -1,0 +1,13 @@
+Error while executing goptc (676828f2740ce62775d64e4cc7e6060c291f2375): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/45/87/171932/repo/src/github.com/prataprc/monster': exit status 1
+
+Out: can't load package: package github.com/prataprc/monster: 
+bnf.go:1:1: expected 'package', found 'EOF'
+github.com/prataprc/monster/mains
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

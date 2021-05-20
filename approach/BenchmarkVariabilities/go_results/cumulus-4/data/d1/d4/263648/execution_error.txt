@@ -1,0 +1,13 @@
+Error while executing goptc (736f5ebe59cfd72b778704fe9ba5e0ba25c775fe): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/d1/d4/263648/repo/src/github.com/arnauddri/algorithms': exit status 1
+
+Out: package code.google.com/p/plotinum/plot: unrecognized import path "code.google.com/p/plotinum/plot" (parse https://code.google.com/p/plotinum/plot?go-get=1: no go-import meta tags ())
+package code.google.com/p/plotinum/plotter: unrecognized import path "code.google.com/p/plotinum/plotter" (parse https://code.google.com/p/plotinum/plotter?go-get=1: no go-import meta tags ())
+package code.google.com/p/plotinum/plotutil: unrecognized import path "code.google.com/p/plotinum/plotutil" (parse https://code.google.com/p/plotinum/plotutil?go-get=1: no go-import meta tags ())
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

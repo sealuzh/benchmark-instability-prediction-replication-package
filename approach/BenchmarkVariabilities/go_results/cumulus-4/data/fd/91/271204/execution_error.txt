@@ -1,0 +1,12 @@
+Error while executing goptc (b9a049ef386353e96c8c3f9037a6dc5662e17ded): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/fd/91/271204/repo/src/github.com/sjwhitworth/golearn': exit status 1
+
+Out: can't load package: package github.com/sjwhitworth/golearn: 
+linregress.go:1:1: expected 'package', found 'EOF'
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

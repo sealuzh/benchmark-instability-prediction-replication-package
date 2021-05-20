@@ -1,0 +1,18 @@
+Error while executing goptc (5b11bbce2016b7f65e395f9acf47a8d1d7c48656): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/db/d5/427234/repo/src/github.com/mynameisfiber/gohll': exit status 2
+
+Out: # github.com/mynameisfiber/gohll
+./gohll.go:4:5: imported and not used: "encoding/binary"
+./gohll.go:59:15: cannot use tmpSet (type map[uint]bool) as type map[uint64]bool in field value
+./gohll.go:66:13: undefined: Uvarint
+./gohll.go:66:33: cannot use value (type string) as type []byte in argument to mmh3.Hash128
+./gohll.go:69:13: continue is not in a loop
+./gohll.go:78:22: invalid operation: len(h.tmpSet) > h.maxSparseSetSize (mismatched types int and uint)
+./gohll.go:79:9: undefined: Merge
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

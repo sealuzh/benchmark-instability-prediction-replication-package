@@ -1,0 +1,11 @@
+Error while executing goptc (d5531183f2c8d6b5627c77afd82fdfa9c9f8f636): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/de/21/449509/repo/src/github.com/muesli/beehive': exit status 1
+
+Out: package github.com/sirupsen/logrus: case-insensitive import collision: "github.com/sirupsen/logrus" and "github.com/Sirupsen/logrus"
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

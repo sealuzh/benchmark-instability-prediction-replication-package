@@ -1,0 +1,105 @@
+Error while executing goptc (3ec0d9fe6b133a64712ae69fd712c14ad1a71f4d): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns': exit status 1
+
+Out: # cd /home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns; git pull --ff-only
+You are not currently on a branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+package github.com/coredns/coredns/core/dnsserver: exit status 1
+package github.com/coredns/coredns/plugin/auto: cannot find package "github.com/coredns/coredns/plugin/auto" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/auto (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/auto (from $GOPATH)
+package github.com/coredns/coredns/plugin/autopath: cannot find package "github.com/coredns/coredns/plugin/autopath" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/autopath (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/autopath (from $GOPATH)
+package github.com/coredns/coredns/plugin/bind: cannot find package "github.com/coredns/coredns/plugin/bind" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/bind (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/bind (from $GOPATH)
+package github.com/coredns/coredns/plugin/cache: cannot find package "github.com/coredns/coredns/plugin/cache" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/cache (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/cache (from $GOPATH)
+package github.com/coredns/coredns/plugin/chaos: cannot find package "github.com/coredns/coredns/plugin/chaos" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/chaos (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/chaos (from $GOPATH)
+package github.com/coredns/coredns/plugin/debug: cannot find package "github.com/coredns/coredns/plugin/debug" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/debug (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/debug (from $GOPATH)
+package github.com/coredns/coredns/plugin/dnssec: cannot find package "github.com/coredns/coredns/plugin/dnssec" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/dnssec (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/dnssec (from $GOPATH)
+package github.com/coredns/coredns/plugin/dnstap: cannot find package "github.com/coredns/coredns/plugin/dnstap" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/dnstap (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/dnstap (from $GOPATH)
+package github.com/coredns/coredns/plugin/erratic: cannot find package "github.com/coredns/coredns/plugin/erratic" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/erratic (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/erratic (from $GOPATH)
+package github.com/coredns/coredns/plugin/errors: cannot find package "github.com/coredns/coredns/plugin/errors" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/errors (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/errors (from $GOPATH)
+package github.com/coredns/coredns/plugin/etcd: cannot find package "github.com/coredns/coredns/plugin/etcd" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/etcd (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/etcd (from $GOPATH)
+package github.com/coredns/coredns/plugin/federation: cannot find package "github.com/coredns/coredns/plugin/federation" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/federation (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/federation (from $GOPATH)
+package github.com/coredns/coredns/plugin/file: cannot find package "github.com/coredns/coredns/plugin/file" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/file (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/file (from $GOPATH)
+package github.com/coredns/coredns/plugin/health: cannot find package "github.com/coredns/coredns/plugin/health" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/health (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/health (from $GOPATH)
+package github.com/coredns/coredns/plugin/hosts: cannot find package "github.com/coredns/coredns/plugin/hosts" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/hosts (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/hosts (from $GOPATH)
+package github.com/coredns/coredns/plugin/kubernetes: cannot find package "github.com/coredns/coredns/plugin/kubernetes" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/kubernetes (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/kubernetes (from $GOPATH)
+package github.com/coredns/coredns/plugin/loadbalance: cannot find package "github.com/coredns/coredns/plugin/loadbalance" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/loadbalance (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/loadbalance (from $GOPATH)
+package github.com/coredns/coredns/plugin/log: cannot find package "github.com/coredns/coredns/plugin/log" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/log (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/log (from $GOPATH)
+package github.com/coredns/coredns/plugin/metrics: cannot find package "github.com/coredns/coredns/plugin/metrics" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/metrics (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/metrics (from $GOPATH)
+package github.com/coredns/coredns/plugin/pprof: cannot find package "github.com/coredns/coredns/plugin/pprof" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/pprof (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/pprof (from $GOPATH)
+package github.com/coredns/coredns/plugin/proxy: cannot find package "github.com/coredns/coredns/plugin/proxy" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/proxy (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/proxy (from $GOPATH)
+package github.com/coredns/coredns/plugin/reverse: cannot find package "github.com/coredns/coredns/plugin/reverse" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/reverse (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/reverse (from $GOPATH)
+package github.com/coredns/coredns/plugin/rewrite: cannot find package "github.com/coredns/coredns/plugin/rewrite" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/rewrite (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/rewrite (from $GOPATH)
+package github.com/coredns/coredns/plugin/root: cannot find package "github.com/coredns/coredns/plugin/root" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/root (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/root (from $GOPATH)
+package github.com/coredns/coredns/plugin/secondary: cannot find package "github.com/coredns/coredns/plugin/secondary" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/secondary (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/secondary (from $GOPATH)
+package github.com/coredns/coredns/plugin/tls: cannot find package "github.com/coredns/coredns/plugin/tls" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/tls (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/tls (from $GOPATH)
+package github.com/coredns/coredns/plugin/trace: cannot find package "github.com/coredns/coredns/plugin/trace" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/trace (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/trace (from $GOPATH)
+package github.com/coredns/coredns/plugin/whoami: cannot find package "github.com/coredns/coredns/plugin/whoami" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/coredns/coredns/plugin/whoami (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/coredns/coredns/plugin/whoami (from $GOPATH)
+package github.com/miekg/coredns/core/https: cannot find package "github.com/miekg/coredns/core/https" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/miekg/coredns/core/https (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/f6/de/471431/repo/src/github.com/miekg/coredns/core/https (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

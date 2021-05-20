@@ -1,0 +1,12 @@
+Error while executing goptc (504ea6d41408fba5a40c7f7e5b2e1bbaad529694): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/ea/35/301104/repo/src/github.com/mgutz/logxi': exit status 2
+
+Out: # gopkg.in/godo.v1
+../../../gopkg.in/godo.v1/exec.go:243:32: multiple-value gopass.GetPasswd() in single-value context
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

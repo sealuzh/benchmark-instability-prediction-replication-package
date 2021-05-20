@@ -1,0 +1,25 @@
+Error while executing goptc (27a717152fda18d635414dae32894395750911e2): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/3f/88/465751/repo/src/github.com/araddon/qlbridge': exit status 2
+
+Out: usage: sync [import path]
+
+sync checks the GOPATH for consistency with the given package's GLOCKFILE
+
+For example:
+
+	glock sync github.com/robfig/glock
+
+It verifies that each entry in the GLOCKFILE is at the expected revision.
+If a dependency is not at the expected revision, it is re-downloaded and synced.
+Commands are built if necessary.
+
+Options:
+
+	-n	read GLOCKFILE from stdin
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

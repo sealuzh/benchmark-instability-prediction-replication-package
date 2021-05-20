@@ -1,0 +1,17 @@
+Error while executing goptc (b319fd2457c2bb575ebbd5874920addfb4b26904): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/e9/02/91676/repo/src/github.com/agtorre/go-cookbook': exit status 2
+
+Out: # github.com/agtorre/go-cookbook/chapter10/consensus
+chapter10/consensus/config.go:21:17: cannot use addr (type raft.ServerAddress) as type string in append
+chapter10/consensus/config.go:24:16: undefined: raft.StaticPeers
+chapter10/consensus/config.go:30:32: cannot use addrs[j] (type string) as type raft.ServerAddress in argument to transports[i].Connect
+chapter10/consensus/config.go:34:25: too many arguments in call to raft.NewRaft
+chapter10/consensus/config.go:38:4: r.SetPeers undefined (type *raft.Raft has no field or method SetPeers)
+chapter10/consensus/handler.go:13:8: invalid operation: k == rf.Leader() (mismatched types string and raft.ServerAddress)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

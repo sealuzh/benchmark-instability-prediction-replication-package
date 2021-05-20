@@ -1,0 +1,12 @@
+Error while executing goptc (0d64fd6615256413e743dc53fda91f4b5b961c50): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/8e/c4/243418/repo/src/github.com/nimajalali/go-force': exit status 2
+
+Out: # github.com/nimajalali/go-force/force/oauth
+force/oauth/oauth.go:40:1: syntax error: unexpected }, expecting expression
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

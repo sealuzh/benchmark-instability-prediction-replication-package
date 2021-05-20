@@ -1,0 +1,22 @@
+Error while executing goptc (56cfba1d1965debba4c77c4345d303a8fe2d700b): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/15/dc/382902/repo/src/github.com/tendermint/go-merkle': exit status 1
+
+Out: package github.com/tendermint/tendermint/Godeps/_workspace/src/code.google.com/p/go.crypto/ripemd160: cannot find package "github.com/tendermint/tendermint/Godeps/_workspace/src/code.google.com/p/go.crypto/ripemd160" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/tendermint/tendermint/Godeps/_workspace/src/code.google.com/p/go.crypto/ripemd160 (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/15/dc/382902/repo/src/github.com/tendermint/tendermint/Godeps/_workspace/src/code.google.com/p/go.crypto/ripemd160 (from $GOPATH)
+package github.com/tendermint/tendermint/common: cannot find package "github.com/tendermint/tendermint/common" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/tendermint/tendermint/common (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/15/dc/382902/repo/src/github.com/tendermint/tendermint/common (from $GOPATH)
+package github.com/tendermint/tendermint/db: cannot find package "github.com/tendermint/tendermint/db" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/tendermint/tendermint/db (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/15/dc/382902/repo/src/github.com/tendermint/tendermint/db (from $GOPATH)
+package github.com/tendermint/tendermint/wire: cannot find package "github.com/tendermint/tendermint/wire" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/tendermint/tendermint/wire (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/15/dc/382902/repo/src/github.com/tendermint/tendermint/wire (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

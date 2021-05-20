@@ -1,0 +1,12 @@
+Error while executing goptc (b49a56ac11c4d2f844c75ab974cb503e55d29c50): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/8a/8d/463813/repo/src/github.com/henrylee2cn/pholcus': exit status 1
+
+Out: gui/model/guispider.go:10:2: build constraints exclude all Go files in /home/ext-laaber/go-experiments/data/8a/8d/463813/repo/src/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/walk
+gui/logview.go:12:2: build constraints exclude all Go files in /home/ext-laaber/go-experiments/data/8a/8d/463813/repo/src/github.com/henrylee2cn/pholcus/vendor/github.com/lxn/win
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

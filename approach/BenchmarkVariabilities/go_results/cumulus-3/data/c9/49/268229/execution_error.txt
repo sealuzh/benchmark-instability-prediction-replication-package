@@ -1,0 +1,36 @@
+Error while executing goptc (248436eb6c7b54b304576d8cc366ce5fa7dd2cc0): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c9/49/268229/repo/src/github.com/antha-lang/antha': exit status 2
+
+Out: # cd /home/ext-laaber/go-experiments/data/c9/49/268229/repo/.cache/govendor/github.com/hybridgroup/go-opencv; git reset --hard 8913486bf127fba101e485f30d2e70a7c9233e78
+fatal: Could not parse object '8913486bf127fba101e485f30d2e70a7c9233e78'.
+# cd /home/ext-laaber/go-experiments/data/c9/49/268229/repo/.cache/govendor/golang.org/x/image; git reset --hard I2506067ba6ac12c275b65c3a52cb38579d4b9dca
+fatal: ambiguous argument 'I2506067ba6ac12c275b65c3a52cb38579d4b9dca': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+# cd /home/ext-laaber/go-experiments/data/c9/49/268229/repo/.cache/govendor/golang.org/x/image; git reset --hard I2506067ba6ac12c275b65c3a52cb38579d4b9dca
+fatal: ambiguous argument 'I2506067ba6ac12c275b65c3a52cb38579d4b9dca': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+Error: Remotes failed for:
+	Failed for "code.google.com/p/draw2d/draw2d" (failed to ping remote repo): unrecognized import path "code.google.com/p/draw2d/draw2d"
+	Failed for "code.google.com/p/freetype-go/freetype" (failed to ping remote repo): unrecognized import path "code.google.com/p/freetype-go/freetype"
+	Failed for "code.google.com/p/freetype-go/freetype/raster" (failed to ping remote repo): unrecognized import path "code.google.com/p/freetype-go/freetype/raster"
+	Failed for "code.google.com/p/freetype-go/freetype/truetype" (failed to ping remote repo): unrecognized import path "code.google.com/p/freetype-go/freetype/truetype"
+	Failed for "code.google.com/p/plotinum/plot" (failed to ping remote repo): unrecognized import path "code.google.com/p/plotinum/plot"
+	Failed for "code.google.com/p/plotinum/plotter" (failed to ping remote repo): unrecognized import path "code.google.com/p/plotinum/plotter"
+	Failed for "code.google.com/p/plotinum/plotutil" (failed to ping remote repo): unrecognized import path "code.google.com/p/plotinum/plotutil"
+	Failed for "code.google.com/p/plotinum/vg" (failed to ping remote repo): unrecognized import path "code.google.com/p/plotinum/vg"
+	Failed for "code.google.com/p/plotinum/vg/vgeps" (failed to ping remote repo): unrecognized import path "code.google.com/p/plotinum/vg/vgeps"
+	Failed for "code.google.com/p/plotinum/vg/vgimg" (failed to ping remote repo): unrecognized import path "code.google.com/p/plotinum/vg/vgimg"
+	Failed for "code.google.com/p/plotinum/vg/vgpdf" (failed to ping remote repo): unrecognized import path "code.google.com/p/plotinum/vg/vgpdf"
+	Failed for "code.google.com/p/plotinum/vg/vgsvg" (failed to ping remote repo): unrecognized import path "code.google.com/p/plotinum/vg/vgsvg"
+	Failed for "github.com/hybridgroup/go-opencv/opencv" (failed to clone repo): exit status 128
+	Failed for "golang.org/x/image/math" (failed to sync repo to I2506067ba6ac12c275b65c3a52cb38579d4b9dca): exit status 128
+
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

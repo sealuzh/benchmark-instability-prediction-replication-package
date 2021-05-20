@@ -1,0 +1,19 @@
+Error while executing goptc (2d19136cad1deb380cb37cb596fedec5d86c4a71): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/39/fa/407210/repo/src/github.com/src-d/go-kallax': exit status 1
+
+Out: can't load package: package github.com/src-d/go-kallax: code in directory /home/ext-laaber/go-experiments/data/39/fa/407210/repo/src/github.com/src-d/go-kallax expects import "gopkg.in/src-d/go-kallax.v1"
+can't load package: package github.com/src-d/go-kallax/generator: code in directory /home/ext-laaber/go-experiments/data/39/fa/407210/repo/src/github.com/src-d/go-kallax/generator expects import "gopkg.in/src-d/go-kallax.v1/generator"
+can't load package: package github.com/src-d/go-kallax/types: code in directory /home/ext-laaber/go-experiments/data/39/fa/407210/repo/src/github.com/src-d/go-kallax/types expects import "gopkg.in/src-d/go-kallax.v1/types"
+github.com/src-d/go-kallax/benchmarks
+github.com/src-d/go-kallax/benchmarks/models
+github.com/src-d/go-kallax/generator/cli/kallax
+github.com/src-d/go-kallax/generator/cli/kallax/cmd
+github.com/src-d/go-kallax/tests
+github.com/src-d/go-kallax/tests/fixtures
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

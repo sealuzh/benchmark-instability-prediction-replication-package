@@ -1,0 +1,5 @@
+Error while 'git clone': exit status 128
+
+Out: Cloning into 'packet'...
+fatal: could not read Username for 'https://github.com': No such device or address
+

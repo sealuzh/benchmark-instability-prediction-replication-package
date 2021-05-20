@@ -1,0 +1,11 @@
+Error while executing goptc (166dbe2477ffb44f53f584c5c24d8499e0c12303): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/a4/ef/227585/repo/src/github.com/GoRethink/gorethink': exit status 1
+
+Out: internal/reql_tests/common.go:13:2: use of internal package not allowed
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

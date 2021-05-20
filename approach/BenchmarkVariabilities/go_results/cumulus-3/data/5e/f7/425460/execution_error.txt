@@ -1,0 +1,102 @@
+Error while executing goptc (235afc97baf37750c8dbb510a3a245f11e8fb464): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/5e/f7/425460/repo/src/github.com/uber/cherami-server': exit status 1
+
+Out: [0;32m[INFO]	[mDownloading dependencies. Please wait...
+[0;32m[INFO]	[m--> Found desired version locally github.com/aws/aws-sdk-go 8a972b4459c2f2582b06f3e2d74448987cc6e19f!
+[0;32m[INFO]	[m--> Found desired version locally github.com/cactus/go-statsd-client 1139cdac1a56e404b5382e3a3503a2c587d2c0c3!
+[0;32m[INFO]	[m--> Found desired version locally github.com/davecgh/go-spew 346938d642f2ec3594ed81d874461961cd0faa76!
+[0;32m[INFO]	[m--> Found desired version locally github.com/go-ini/ini d3de07a94d22b4a0972deb4b96d790c2c0ce8333!
+[0;32m[INFO]	[m--> Found desired version locally github.com/golang/snappy 553a641470496b2327abcac10b36396bd98e45c9!
+[0;32m[INFO]	[m--> Found desired version locally github.com/gorilla/websocket a91eba7f97777409bc2c443f5534d41dd20c5720!
+[0;32m[INFO]	[m--> Found desired version locally github.com/jmespath/go-jmespath bd40a432e4c76585ef6b72d3fd96fb9b6dc7b68d!
+[0;32m[INFO]	[m--> Found desired version locally github.com/opentracing/opentracing-go eaaf4e1eeb7a5373b38e70901270c83577dc6fb9!
+[0;32m[INFO]	[m--> Found desired version locally github.com/pborman/uuid e790cca94e6cc75c7064b1332e63811d4aae1a53!
+[0;32m[INFO]	[m--> Found desired version locally github.com/pmezard/go-difflib 792786c7400a136282c1664665ae0a8db921c6c2!
+[0;32m[INFO]	[m--> Found desired version locally github.com/sirupsen/logrus 85b1699d505667d13f8ac4478c1debbf85d6c5de!
+[0;32m[INFO]	[m--> Found desired version locally github.com/stretchr/objx 1a9d0bb9f541897e62256577b352fdbc1fb4fd94!
+[0;32m[INFO]	[m--> Found desired version locally github.com/stretchr/testify f6abca593680b2315d2075e0f5e2a9751e3f431a!
+[0;32m[INFO]	[m--> Found desired version locally github.com/uber-go/atomic 0506d69f5564c56e25797bf7183c28921d4c6360!
+[0;32m[INFO]	[m--> Found desired version locally github.com/uber/cherami-client-go ebcbfe6c988c8ec8ffef86f9ecea08e6d76afb4a!
+[0;32m[INFO]	[m--> Found desired version locally github.com/uber/cherami-thrift ff1036378813f6390b305bfe68eb18530315498d!
+[0;32m[INFO]	[m--> Found desired version locally github.com/uber/tchannel-go 4a23f3aae76694b21107f118ece763a61b98ea07!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/net ddf80d0970594e2e4cccf5a98861cad3d9eaa4cd!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/sys 0b25a408a50076fbbcae6b7ac0ea5fbb0b085e79!
+[0;32m[INFO]	[m--> Found desired version locally gopkg.in/yaml.v2 cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b!
+[0;32m[INFO]	[m--> Fetching github.com/bsm/sarama-cluster
+[0;32m[INFO]	[m--> Fetching github.com/cockroachdb/c-lz4
+[0;32m[INFO]	[m--> Fetching github.com/cockroachdb/c-rocksdb
+[0;32m[INFO]	[m--> Fetching github.com/eapache/go-resiliency
+[0;32m[INFO]	[m--> Fetching github.com/cockroachdb/c-snappy
+[0;32m[INFO]	[m--> Fetching github.com/eapache/queue
+[0;32m[INFO]	[m--> Fetching github.com/dgryski/go-farm
+[0;32m[INFO]	[m--> Fetching github.com/google/uuid
+[0;32m[INFO]	[m--> Fetching github.com/benbjohnson/clock
+[0;32m[INFO]	[m--> Fetching github.com/cockroachdb/c-jemalloc
+[0;32m[INFO]	[m--> Fetching github.com/codegangsta/cli
+[0;32m[INFO]	[m--> Fetching github.com/rcrowley/go-metrics
+[0;32m[INFO]	[m--> Fetching github.com/tecbot/gorocksdb
+[0;32m[INFO]	[m--> Fetching github.com/eapache/go-xerial-snappy
+[0;32m[INFO]	[m--> Fetching github.com/hailocab/go-hostpool
+[0;32m[INFO]	[m--> Fetching github.com/gocql/gocql
+[0;32m[INFO]	[m--> Fetching github.com/apache/thrift
+[0;32m[INFO]	[m--> Fetching github.com/pierrec/lz4
+[0;32m[INFO]	[m--> Fetching github.com/Shopify/sarama
+[0;32m[INFO]	[m--> Fetching github.com/pierrec/xxHash
+[0;32m[INFO]	[m--> Fetching updates for github.com/uber-common/bark
+[0;32m[INFO]	[m--> Fetching github.com/uber/ringpop-go
+[0;32m[INFO]	[m--> Fetching gopkg.in/inf.v0
+[0;32m[INFO]	[m--> Fetching gopkg.in/validator.v2
+[0;32m[INFO]	[mSetting references.
+[0;32m[INFO]	[m--> Setting version for github.com/google/uuid to 064e2069ce9c359c118179501254f67d7d37ba24.
+[0;32m[INFO]	[m--> Setting version for github.com/aws/aws-sdk-go to 8a972b4459c2f2582b06f3e2d74448987cc6e19f.
+[0;32m[INFO]	[m--> Setting version for github.com/cockroachdb/c-snappy to c0cd3c9ce92f195001595e1fbbe66f045daad34f.
+[0;32m[INFO]	[m--> Setting version for github.com/davecgh/go-spew to 346938d642f2ec3594ed81d874461961cd0faa76.
+[0;32m[INFO]	[m--> Setting version for github.com/gocql/gocql to 3e8b36f5e9e52cdeb265f385808c504a53db55fc.
+[0;32m[INFO]	[m--> Setting version for github.com/eapache/queue to 44cc805cf13205b55f69e14bcb69867d1ae92f98.
+[0;32m[INFO]	[m--> Setting version for github.com/cockroachdb/c-jemalloc to 2582439cfbace368ad093c71209ad72efef8aa4d.
+[0;32m[INFO]	[m--> Setting version for github.com/apache/thrift to b8ee72de5bf9318d50846852082325d0f932682b.
+[0;32m[INFO]	[m--> Setting version for github.com/cockroachdb/c-lz4 to 834d3303c9e84b1045bc57c3eb3723ee8cb4d33b.
+[0;32m[INFO]	[m--> Setting version for github.com/go-ini/ini to d3de07a94d22b4a0972deb4b96d790c2c0ce8333.
+[0;32m[INFO]	[m--> Setting version for github.com/eapache/go-xerial-snappy to bb955e01b9346ac19dc29eb16586c90ded99a98c.
+[0;32m[INFO]	[m--> Setting version for github.com/cockroachdb/c-rocksdb to 09d6d520b61160d194c06768ed85415cd8abee57.
+[0;32m[INFO]	[m--> Setting version for github.com/golang/snappy to 553a641470496b2327abcac10b36396bd98e45c9.
+[0;32m[INFO]	[m--> Setting version for github.com/gorilla/websocket to a91eba7f97777409bc2c443f5534d41dd20c5720.
+[0;32m[INFO]	[m--> Setting version for github.com/bsm/sarama-cluster to 5efe630369ab4ed5cc4cedeadd61b4d1b2523169.
+[0;32m[INFO]	[m--> Setting version for github.com/cactus/go-statsd-client to 1139cdac1a56e404b5382e3a3503a2c587d2c0c3.
+[0;32m[INFO]	[m--> Setting version for github.com/codegangsta/cli to cf33a9befefdd6c6ea1a236ab6d546e797a62cbf.
+[0;32m[INFO]	[m--> Setting version for github.com/dgryski/go-farm to e2d0fe22b456fa0a35cd883ba355ecfcf1881490.
+[0;32m[INFO]	[m--> Setting version for github.com/benbjohnson/clock to 7dc76406b6d3c05b5f71a86293cbcf3c4ea03b19.
+[0;32m[INFO]	[m--> Setting version for github.com/eapache/go-resiliency to b1fe83b5b03f624450823b751b662259ffc6af70.
+[0;32m[INFO]	[m--> Setting version for github.com/jmespath/go-jmespath to bd40a432e4c76585ef6b72d3fd96fb9b6dc7b68d.
+[0;32m[INFO]	[m--> Setting version for github.com/hailocab/go-hostpool to e80d13ce29ede4452c43dea11e79b9bc8a15b478.
+[0;32m[INFO]	[m--> Setting version for github.com/pborman/uuid to e790cca94e6cc75c7064b1332e63811d4aae1a53.
+[0;32m[INFO]	[m--> Setting version for github.com/pierrec/lz4 to 5a3d2245f97fc249850e7802e3c01fad02a1c316.
+[0;32m[INFO]	[m--> Setting version for github.com/opentracing/opentracing-go to eaaf4e1eeb7a5373b38e70901270c83577dc6fb9.
+[0;32m[INFO]	[m--> Setting version for github.com/pierrec/xxHash to 5a004441f897722c627870a981d02b29924215fa.
+[0;32m[INFO]	[m--> Setting version for github.com/pmezard/go-difflib to 792786c7400a136282c1664665ae0a8db921c6c2.
+[0;32m[INFO]	[m--> Setting version for github.com/Shopify/sarama to c01858abb625b73a3af51d0798e4ad42c8147093.
+[0;32m[INFO]	[m--> Setting version for github.com/sirupsen/logrus to 85b1699d505667d13f8ac4478c1debbf85d6c5de.
+[0;32m[INFO]	[m--> Setting version for github.com/rcrowley/go-metrics to 1f30fe9094a513ce4c700b9a54458bbb0c96996c.
+[0;32m[INFO]	[m--> Setting version for github.com/stretchr/objx to 1a9d0bb9f541897e62256577b352fdbc1fb4fd94.
+[0;32m[INFO]	[m--> Setting version for github.com/stretchr/testify to f6abca593680b2315d2075e0f5e2a9751e3f431a.
+[0;32m[INFO]	[m--> Setting version for github.com/tecbot/gorocksdb to 17991d3138a879b166adebf86f7c84da3c1517a7.
+[0;32m[INFO]	[m--> Setting version for github.com/uber-common/bark to a2ce12437502dbd1511a6ab87745ed01ba138dbb.
+[0;32m[INFO]	[m--> Setting version for github.com/uber-go/atomic to 0506d69f5564c56e25797bf7183c28921d4c6360.
+[0;32m[INFO]	[m--> Setting version for github.com/uber/cherami-client-go to ebcbfe6c988c8ec8ffef86f9ecea08e6d76afb4a.
+[0;31m[ERROR]	[mFailed to set version on github.com/uber-common/bark to a2ce12437502dbd1511a6ab87745ed01ba138dbb: Unable to update checked out version: exit status 128
+[0;32m[INFO]	[m--> Setting version for github.com/uber/cherami-thrift to ff1036378813f6390b305bfe68eb18530315498d.
+[0;32m[INFO]	[m--> Setting version for github.com/uber/ringpop-go to 8b703dfdab59e2a17e5479e62f8d456286ba50c7.
+[0;32m[INFO]	[m--> Setting version for github.com/uber/tchannel-go to 4a23f3aae76694b21107f118ece763a61b98ea07.
+[0;32m[INFO]	[m--> Setting version for golang.org/x/net to ddf80d0970594e2e4cccf5a98861cad3d9eaa4cd.
+[0;32m[INFO]	[m--> Setting version for golang.org/x/sys to 0b25a408a50076fbbcae6b7ac0ea5fbb0b085e79.
+[0;32m[INFO]	[m--> Setting version for gopkg.in/inf.v0 to 3887ee99ecf07df5b447e9b00d9c0b2adaa9f3e4.
+[0;32m[INFO]	[m--> Setting version for gopkg.in/validator.v2 to 07ffaad256c8e957050ad83d6472eb97d785013d.
+[0;32m[INFO]	[m--> Setting version for gopkg.in/yaml.v2 to cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b.
+[0;31m[ERROR]	[mFailed to set references: Unable to update checked out version: exit status 128 (Skip to cleanup)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

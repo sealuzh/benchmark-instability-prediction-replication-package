@@ -1,0 +1,11 @@
+Error while executing goptc (33f06091079a607e0b02eb4da57a3c26cc4a60ff): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/09/3b/251927/repo/src/github.com/connectordb/connectordb': exit status 1
+
+Out: package commands: unrecognized import path "commands" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,11 @@
+Error while executing goptc (f13387bcadde4109a1c323c87908c187a021ff9b): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/99/46/101415/repo/src/github.com/sensorbee/sensorbee': exit status 1
+
+Out: package github.com/sirupsen/logrus: case-insensitive import collision: "github.com/sirupsen/logrus" and "github.com/Sirupsen/logrus"
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

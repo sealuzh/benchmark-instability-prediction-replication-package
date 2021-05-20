@@ -1,0 +1,21 @@
+Error while executing goptc (87d254fa0bcf62744f72b359f34266359e0dca8e): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/8a/dd/385949/repo/src/github.com/gtfierro/giles': exit status 2
+
+Out: # github.com/gtfierro/giles/bench
+bench/benchserver.go:37:6: main redeclared in this block
+	previous declaration at bench/bench.go:36:6
+bench/jsonprint.go:23:6: main redeclared in this block
+	previous declaration at bench/benchserver.go:37:6
+bench/msgpackbench.go:20:5: wg redeclared in this block
+	previous declaration at bench/bench.go:17:5
+bench/msgpackbench.go:68:6: main redeclared in this block
+	previous declaration at bench/jsonprint.go:23:6
+bench/msgpackbench.go:73:6: main.func1 redeclared in this block
+	previous declaration at bench/benchserver.go:48:5
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

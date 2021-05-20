@@ -1,0 +1,13 @@
+Error while executing goptc (ab3d6064c33afede14ca3bab5a35b0669a5e4e61): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/97/ee/101861/repo/src/github.com/docker/libchan': exit status 2
+
+Out: # github.com/docker/libchan
+./libchan.go:3:14: syntax error: unexpected { in type declaration
+./libchan.go:5:2: syntax error: non-declaration statement outside function body
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

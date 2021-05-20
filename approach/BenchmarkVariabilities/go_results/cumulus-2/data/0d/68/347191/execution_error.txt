@@ -1,0 +1,16 @@
+Error while executing goptc (5a7261733ccd386e9b9df657358d5662d606d125): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/0d/68/347191/repo/src/github.com/jnjackins/graphics': exit status 1
+
+Out: can't load package: package github.com/jnjackins/graphics/editor: code in directory /home/ext-laaber/go-experiments/data/0d/68/347191/repo/src/github.com/jnjackins/graphics/editor expects import "sigint.ca/graphics/editor"
+github.com/jnjackins/graphics/cmd/edit
+github.com/jnjackins/graphics/editor/address
+github.com/jnjackins/graphics/editor/internal/hist
+github.com/jnjackins/graphics/editor/text
+github.com/jnjackins/graphics/primitive
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

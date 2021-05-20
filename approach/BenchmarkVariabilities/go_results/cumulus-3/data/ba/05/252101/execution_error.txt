@@ -1,0 +1,13 @@
+Error while executing goptc (41c34e4914ec3c05d485e564d9028d8861d5d9ad): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/ba/05/252101/repo/src/github.com/montanaflynn/stats': exit status 2
+
+Out: # github.com/montanaflynn/stats/examples
+examples/methods.go:9:6: main redeclared in this block
+	previous declaration at examples/main.go:9:6
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

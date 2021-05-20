@@ -1,0 +1,14 @@
+Error while executing goptc (62877378ccf6ba27b4053997f286e4b03ebf8106): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/39/4a/318699/repo/src/github.com/devfeel/dotweb': exit status 1
+
+Out: package devfeel/dotweb/framework/convert: unrecognized import path "devfeel/dotweb/framework/convert" (import path does not begin with hostname)
+package devfeel/dotweb/framework/exception: unrecognized import path "devfeel/dotweb/framework/exception" (import path does not begin with hostname)
+package devfeel/dotweb/framework/json: unrecognized import path "devfeel/dotweb/framework/json" (import path does not begin with hostname)
+package devfeel/dotweb/framework/log: unrecognized import path "devfeel/dotweb/framework/log" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

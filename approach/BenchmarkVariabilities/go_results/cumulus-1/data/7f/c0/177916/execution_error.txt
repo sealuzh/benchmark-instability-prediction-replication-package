@@ -1,0 +1,11 @@
+Error while executing goptc (a9935cc34c8d5d3196b063cc8871f297138b6eb4): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/7f/c0/177916/repo/src/github.com/qntfy/kazaam': exit status 2
+
+Out: [0;31m[ERROR]	[mFailed to find glide.yaml file in directory tree: Cannot resolve parent of /
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

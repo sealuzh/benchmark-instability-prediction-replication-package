@@ -1,0 +1,12 @@
+Error while executing goptc (d6d3928bfd17f04982e987d79ae6ccfb8cedbd6f): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/d1/41/132996/repo/src/github.com/omniscale/imposm3': exit status 1
+
+Out: package code.google.com/p/goprotobuf/proto: unrecognized import path "code.google.com/p/goprotobuf/proto" (parse https://code.google.com/p/goprotobuf/proto?go-get=1: no go-import meta tags (meta tag github.com/golang/protobuf did not match import path code.google.com/p/goprotobuf/proto))
+package osmpbf: unrecognized import path "osmpbf" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

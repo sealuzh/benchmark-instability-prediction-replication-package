@@ -1,0 +1,13 @@
+Error while executing goptc (3c0d64591411171dc9be364b0f0f8e851cec537e): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c8/f7/157067/repo/src/github.com/CodisLabs/codis': exit status 1
+
+Out: package codis/pkg/models: unrecognized import path "codis/pkg/models" (import path does not begin with hostname)
+package codis/pkg/utils: unrecognized import path "codis/pkg/utils" (import path does not begin with hostname)
+package codis/pkg/zkhelper: unrecognized import path "codis/pkg/zkhelper" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

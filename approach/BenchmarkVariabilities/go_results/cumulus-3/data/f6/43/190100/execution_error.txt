@@ -1,0 +1,15 @@
+Error while executing goptc (e6abc962e036a065bfe32c94622b1a7e4e5ba46c): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/f6/43/190100/repo/src/github.com/SoftwareDefinedBuildings/btrdb': exit status 2
+
+Out: # github.com/ceph/go-ceph/rados
+../../ceph/go-ceph/rados/conn.go:5:29: fatal error: rados/librados.h: No such file or directory
+ // #include <rados/librados.h>
+                             ^
+compilation terminated.
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,14 @@
+Error while executing goptc (63d57a2b2afc68ad502e1608c48ad53e1b76c513): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/ea/85/357973/repo/src/github.com/toggl/pipes-api': exit status 1
+
+Out: package code.google.com/p/goauth2/oauth: unrecognized import path "code.google.com/p/goauth2/oauth" (parse https://code.google.com/p/goauth2/oauth?go-get=1: no go-import meta tags ())
+# cd /home/ext-laaber/go-experiments/data/ea/85/357973/repo/src/github.com/toggl/go-freshbooks; git submodule update --init --recursive
+fatal: No url found for submodule path 'src/github.com/tambet/oauthplain' in .gitmodules
+package github.com/toggl/go-freshbooks: exit status 128
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

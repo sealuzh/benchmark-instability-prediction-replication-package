@@ -1,0 +1,15 @@
+Error while executing goptc (b8dd7fcb02ec0f13bdfa2c288ba9bce92aca6ea1): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/f2/a2/101104/repo/src/github.com/ryanchapman/go-any-proxy': exit status 2
+
+Out: # github.com/ryanchapman/go-any-proxy
+./any_proxy.go:189:51: undefined: BUILDTIMESTAMP
+./any_proxy.go:190:28: undefined: BUILDTIMESTAMP
+./any_proxy.go:191:91: undefined: BUILDUSER
+./any_proxy.go:191:102: undefined: BUILDHOST
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

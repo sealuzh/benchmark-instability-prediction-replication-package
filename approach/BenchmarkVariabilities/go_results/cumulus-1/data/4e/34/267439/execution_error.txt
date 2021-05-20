@@ -1,0 +1,72 @@
+Error while executing goptc (e8a755127b80b24f2a53ed57f9e67e830fca0a37): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum': exit status 1
+
+Out: can't load package: package github.com/gonum/gonum/blas: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/blas expects import "gonum.org/v1/gonum/blas"
+can't load package: package github.com/gonum/gonum/blas/blas32: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/blas/blas32 expects import "gonum.org/v1/gonum/blas/blas32"
+can't load package: package github.com/gonum/gonum/blas/blas64: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/blas/blas64 expects import "gonum.org/v1/gonum/blas/blas64"
+can't load package: package github.com/gonum/gonum/blas/cblas128: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/blas/cblas128 expects import "gonum.org/v1/gonum/blas/cblas128"
+can't load package: package github.com/gonum/gonum/blas/cblas64: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/blas/cblas64 expects import "gonum.org/v1/gonum/blas/cblas64"
+can't load package: package github.com/gonum/gonum/blas/gonum: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/blas/gonum expects import "gonum.org/v1/gonum/blas/gonum"
+can't load package: package github.com/gonum/gonum/blas/gonum/internal/math32: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/blas/gonum/internal/math32 expects import "gonum.org/v1/gonum/blas/gonum/internal/math32"
+can't load package: package github.com/gonum/gonum/blas/testblas: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/blas/testblas expects import "gonum.org/v1/gonum/blas/testblas"
+can't load package: package github.com/gonum/gonum/diff/fd: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/diff/fd expects import "gonum.org/v1/gonum/diff/fd"
+can't load package: package github.com/gonum/gonum/floats: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/floats expects import "gonum.org/v1/gonum/floats"
+can't load package: package github.com/gonum/gonum/graph: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph expects import "gonum.org/v1/gonum/graph"
+can't load package: package github.com/gonum/gonum/graph/community: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/community expects import "gonum.org/v1/gonum/graph/community"
+can't load package: package github.com/gonum/gonum/graph/encoding/dot: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/encoding/dot expects import "gonum.org/v1/gonum/graph/encoding/dot"
+can't load package: package github.com/gonum/gonum/graph/formats/dot: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/formats/dot expects import "gonum.org/v1/gonum/graph/formats/dot"
+can't load package: package github.com/gonum/gonum/graph/formats/dot/ast: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/formats/dot/ast expects import "gonum.org/v1/gonum/graph/formats/dot/ast"
+can't load package: package github.com/gonum/gonum/graph/formats/dot/internal/astx: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/formats/dot/internal/astx expects import "gonum.org/v1/gonum/graph/formats/dot/internal/astx"
+can't load package: package github.com/gonum/gonum/graph/graphs/gen: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/graphs/gen expects import "gonum.org/v1/gonum/graph/graphs/gen"
+can't load package: package github.com/gonum/gonum/graph/internal/linear: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/internal/linear expects import "gonum.org/v1/gonum/graph/internal/linear"
+can't load package: package github.com/gonum/gonum/graph/internal/ordered: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/internal/ordered expects import "gonum.org/v1/gonum/graph/internal/ordered"
+can't load package: package github.com/gonum/gonum/graph/internal/set: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/internal/set expects import "gonum.org/v1/gonum/graph/internal/set"
+can't load package: package github.com/gonum/gonum/graph/network: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/network expects import "gonum.org/v1/gonum/graph/network"
+can't load package: package github.com/gonum/gonum/graph/path: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/path expects import "gonum.org/v1/gonum/graph/path"
+can't load package: package github.com/gonum/gonum/graph/path/dynamic: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/path/dynamic expects import "gonum.org/v1/gonum/graph/path/dynamic"
+can't load package: package github.com/gonum/gonum/graph/simple: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/simple expects import "gonum.org/v1/gonum/graph/simple"
+can't load package: package github.com/gonum/gonum/graph/topo: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/topo expects import "gonum.org/v1/gonum/graph/topo"
+can't load package: package github.com/gonum/gonum/graph/traverse: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/graph/traverse expects import "gonum.org/v1/gonum/graph/traverse"
+can't load package: package github.com/gonum/gonum/integrate: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/integrate expects import "gonum.org/v1/gonum/integrate"
+can't load package: package github.com/gonum/gonum/integrate/quad: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/integrate/quad expects import "gonum.org/v1/gonum/integrate/quad"
+can't load package: package github.com/gonum/gonum/internal/asm/c128: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/internal/asm/c128 expects import "gonum.org/v1/gonum/internal/asm/c128"
+can't load package: package github.com/gonum/gonum/internal/asm/c64: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/internal/asm/c64 expects import "gonum.org/v1/gonum/internal/asm/c64"
+can't load package: package github.com/gonum/gonum/internal/asm/f32: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/internal/asm/f32 expects import "gonum.org/v1/gonum/internal/asm/f32"
+can't load package: package github.com/gonum/gonum/internal/asm/f64: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/internal/asm/f64 expects import "gonum.org/v1/gonum/internal/asm/f64"
+can't load package: package github.com/gonum/gonum/lapack: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/lapack expects import "gonum.org/v1/gonum/lapack"
+can't load package: package github.com/gonum/gonum/lapack/gonum: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/lapack/gonum expects import "gonum.org/v1/gonum/lapack/gonum"
+can't load package: package github.com/gonum/gonum/lapack/lapack64: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/lapack/lapack64 expects import "gonum.org/v1/gonum/lapack/lapack64"
+can't load package: package github.com/gonum/gonum/lapack/testlapack: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/lapack/testlapack expects import "gonum.org/v1/gonum/lapack/testlapack"
+can't load package: package github.com/gonum/gonum/mat: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/mat expects import "gonum.org/v1/gonum/mat"
+can't load package: package github.com/gonum/gonum/mathext: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/mathext expects import "gonum.org/v1/gonum/mathext"
+can't load package: package github.com/gonum/gonum/mathext/internal/cephes: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/mathext/internal/cephes expects import "gonum.org/v1/gonum/mathext/internal/cephes"
+can't load package: package github.com/gonum/gonum/optimize: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/optimize expects import "gonum.org/v1/gonum/optimize"
+can't load package: package github.com/gonum/gonum/optimize/convex/lp: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/optimize/convex/lp expects import "gonum.org/v1/gonum/optimize/convex/lp"
+can't load package: package github.com/gonum/gonum/optimize/functions: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/optimize/functions expects import "gonum.org/v1/gonum/optimize/functions"
+can't load package: package github.com/gonum/gonum/stat: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/stat expects import "gonum.org/v1/gonum/stat"
+can't load package: package github.com/gonum/gonum/stat/combin: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/stat/combin expects import "gonum.org/v1/gonum/stat/combin"
+can't load package: package github.com/gonum/gonum/stat/distmat: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/stat/distmat expects import "gonum.org/v1/gonum/stat/distmat"
+can't load package: package github.com/gonum/gonum/stat/distmv: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/stat/distmv expects import "gonum.org/v1/gonum/stat/distmv"
+can't load package: package github.com/gonum/gonum/stat/distuv: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/stat/distuv expects import "gonum.org/v1/gonum/stat/distuv"
+can't load package: package github.com/gonum/gonum/stat/samplemv: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/stat/samplemv expects import "gonum.org/v1/gonum/stat/samplemv"
+can't load package: package github.com/gonum/gonum/stat/sampleuv: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/stat/sampleuv expects import "gonum.org/v1/gonum/stat/sampleuv"
+can't load package: package github.com/gonum/gonum/stat/spatial: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/stat/spatial expects import "gonum.org/v1/gonum/stat/spatial"
+can't load package: package github.com/gonum/gonum/unit: code in directory /home/ext-laaber/go-experiments/data/4e/34/267439/repo/src/github.com/gonum/gonum/unit expects import "gonum.org/v1/gonum/unit"
+github.com/gonum/gonum/blas/testblas/benchautogen
+github.com/gonum/gonum/graph/ex/fdpclust
+github.com/gonum/gonum/graph/formats/dot/internal/errors
+github.com/gonum/gonum/graph/formats/dot/internal/lexer
+github.com/gonum/gonum/graph/formats/dot/internal/parser
+github.com/gonum/gonum/graph/formats/dot/internal/token
+github.com/gonum/gonum/graph/formats/dot/internal/util
+github.com/gonum/gonum/graph/path/internal
+github.com/gonum/gonum/graph/path/internal/testgraphs
+github.com/gonum/gonum/mathext/internal/amos
+github.com/gonum/gonum/mathext/internal/gonum
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

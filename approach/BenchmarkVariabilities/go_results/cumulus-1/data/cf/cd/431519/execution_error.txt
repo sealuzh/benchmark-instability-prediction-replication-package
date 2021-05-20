@@ -1,0 +1,174 @@
+Error while executing goptc (b00f763f37720cb627c086be431a7114698eb679): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore': exit status 1
+
+Out: can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/bcrypt: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/bcrypt expects import "golang.org/x/crypto/bcrypt"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/blowfish: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/blowfish expects import "golang.org/x/crypto/blowfish"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/bn256: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/bn256 expects import "golang.org/x/crypto/bn256"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/cast5: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/cast5 expects import "golang.org/x/crypto/cast5"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/curve25519: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/curve25519 expects import "golang.org/x/crypto/curve25519"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/hkdf: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/hkdf expects import "golang.org/x/crypto/hkdf"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/md4: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/md4 expects import "golang.org/x/crypto/md4"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/nacl/box: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/nacl/box expects import "golang.org/x/crypto/nacl/box"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/nacl/secretbox: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/nacl/secretbox expects import "golang.org/x/crypto/nacl/secretbox"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ocsp: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ocsp expects import "golang.org/x/crypto/ocsp"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp expects import "golang.org/x/crypto/openpgp"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp/armor: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp/armor expects import "golang.org/x/crypto/openpgp/armor"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp/clearsign: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp/clearsign expects import "golang.org/x/crypto/openpgp/clearsign"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp/elgamal: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp/elgamal expects import "golang.org/x/crypto/openpgp/elgamal"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp/errors: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp/errors expects import "golang.org/x/crypto/openpgp/errors"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp/packet: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp/packet expects import "golang.org/x/crypto/openpgp/packet"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp/s2k: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/openpgp/s2k expects import "golang.org/x/crypto/openpgp/s2k"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/otr: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/otr expects import "golang.org/x/crypto/otr"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/pbkdf2: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/pbkdf2 expects import "golang.org/x/crypto/pbkdf2"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/poly1305: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/poly1305 expects import "golang.org/x/crypto/poly1305"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ripemd160: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ripemd160 expects import "golang.org/x/crypto/ripemd160"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/salsa20: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/salsa20 expects import "golang.org/x/crypto/salsa20"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/salsa20/salsa: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/salsa20/salsa expects import "golang.org/x/crypto/salsa20/salsa"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/scrypt: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/scrypt expects import "golang.org/x/crypto/scrypt"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/sha3: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/sha3 expects import "golang.org/x/crypto/sha3"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ssh: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ssh expects import "golang.org/x/crypto/ssh"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ssh/agent: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ssh/agent expects import "golang.org/x/crypto/ssh/agent"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ssh/terminal: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ssh/terminal expects import "golang.org/x/crypto/ssh/terminal"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ssh/test: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ssh/test expects import "golang.org/x/crypto/ssh/test"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/twofish: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/twofish expects import "golang.org/x/crypto/twofish"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/xtea: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/xtea expects import "golang.org/x/crypto/xtea"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/xts: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/xts expects import "golang.org/x/crypto/xts"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/context: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/context expects import "golang.org/x/net/context"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/context/ctxhttp: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/context/ctxhttp expects import "golang.org/x/net/context/ctxhttp"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/dict: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/dict expects import "golang.org/x/net/dict"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/html: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/html expects import "golang.org/x/net/html"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/html/atom: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/html/atom expects import "golang.org/x/net/html/atom"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/html/charset: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/html/charset expects import "golang.org/x/net/html/charset"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/icmp: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/icmp expects import "golang.org/x/net/icmp"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/idna: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/idna expects import "golang.org/x/net/idna"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/internal/iana: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/internal/iana expects import "golang.org/x/net/internal/iana"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/internal/nettest: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/internal/nettest expects import "golang.org/x/net/internal/nettest"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/internal/timeseries: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/internal/timeseries expects import "golang.org/x/net/internal/timeseries"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/ipv4: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/ipv4 expects import "golang.org/x/net/ipv4"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/ipv6: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/ipv6 expects import "golang.org/x/net/ipv6"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/netutil: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/netutil expects import "golang.org/x/net/netutil"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/proxy: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/proxy expects import "golang.org/x/net/proxy"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/publicsuffix: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/publicsuffix expects import "golang.org/x/net/publicsuffix"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/trace: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/trace expects import "golang.org/x/net/trace"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/webdav: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/webdav expects import "golang.org/x/net/webdav"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/websocket: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/websocket expects import "golang.org/x/net/websocket"
+can't load package: package github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/xsrftoken: code in directory /home/ext-laaber/go-experiments/data/cf/cd/431519/repo/src/github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/xsrftoken expects import "golang.org/x/net/xsrftoken"
+github.com/DanielRenne/GoCore/buildCore
+github.com/DanielRenne/GoCore/core
+github.com/DanielRenne/GoCore/core/app
+github.com/DanielRenne/GoCore/core/appGen
+github.com/DanielRenne/GoCore/core/crypto
+github.com/DanielRenne/GoCore/core/dbServices
+github.com/DanielRenne/GoCore/core/dbServices/mongo
+github.com/DanielRenne/GoCore/core/dbServices/mongo/acct
+github.com/DanielRenne/GoCore/core/dbServices/mongo/stubs
+github.com/DanielRenne/GoCore/core/extensions
+github.com/DanielRenne/GoCore/core/fileCache
+github.com/DanielRenne/GoCore/core/ginServer
+github.com/DanielRenne/GoCore/core/httpExtensions
+github.com/DanielRenne/GoCore/core/logger
+github.com/DanielRenne/GoCore/core/serverSettings
+github.com/DanielRenne/GoCore/core/syncAtomic
+github.com/DanielRenne/GoCore/core/utils
+github.com/DanielRenne/GoCore/core/utils/slice_int
+github.com/DanielRenne/GoCore/core/utils/slice_string
+github.com/DanielRenne/GoCore/core/utils/slice_struct
+github.com/DanielRenne/GoCore/core/zip
+github.com/DanielRenne/GoCore/getCore
+github.com/DanielRenne/GoCore/installCore
+github.com/DanielRenne/GoCore/vendorPackages/code.google.com/p/go-charset/charset
+github.com/DanielRenne/GoCore/vendorPackages/code.google.com/p/go-charset/charset/iconv
+github.com/DanielRenne/GoCore/vendorPackages/code.google.com/p/go-charset/cmd/tcs
+github.com/DanielRenne/GoCore/vendorPackages/code.google.com/p/go-charset/data
+github.com/DanielRenne/GoCore/vendorPackages/github.com/Jeffail/gabs
+github.com/DanielRenne/GoCore/vendorPackages/github.com/altipla-consulting/i18n-dateformatter
+github.com/DanielRenne/GoCore/vendorPackages/github.com/altipla-consulting/i18n-dateformatter/generator
+github.com/DanielRenne/GoCore/vendorPackages/github.com/altipla-consulting/i18n-dateformatter/symbols
+github.com/DanielRenne/GoCore/vendorPackages/github.com/asdine/storm
+github.com/DanielRenne/GoCore/vendorPackages/github.com/asdine/storm/codec
+github.com/DanielRenne/GoCore/vendorPackages/github.com/asdine/storm/codec/gob
+github.com/DanielRenne/GoCore/vendorPackages/github.com/asdine/storm/codec/internal
+github.com/DanielRenne/GoCore/vendorPackages/github.com/asdine/storm/codec/json
+github.com/DanielRenne/GoCore/vendorPackages/github.com/asdine/storm/codec/sereal
+github.com/DanielRenne/GoCore/vendorPackages/github.com/boltdb/bolt
+github.com/DanielRenne/GoCore/vendorPackages/github.com/boltdb/bolt/cmd/bolt
+github.com/DanielRenne/GoCore/vendorPackages/github.com/dchest/uniuri
+github.com/DanielRenne/GoCore/vendorPackages/github.com/denisenkom/go-mssqldb
+github.com/DanielRenne/GoCore/vendorPackages/github.com/denisenkom/go-mssqldb/examples
+github.com/DanielRenne/GoCore/vendorPackages/github.com/dgrijalva/jwt-go
+github.com/DanielRenne/GoCore/vendorPackages/github.com/dgrijalva/jwt-go/cmd/jwt
+github.com/DanielRenne/GoCore/vendorPackages/github.com/fatih/color
+github.com/DanielRenne/GoCore/vendorPackages/github.com/fatih/structs
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gin-gonic/gin
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gin-gonic/gin/binding
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gin-gonic/gin/binding/example
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gin-gonic/gin/examples/app-engine
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gin-gonic/gin/examples/basic
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gin-gonic/gin/examples/realtime-advanced
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gin-gonic/gin/examples/realtime-chat
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gin-gonic/gin/ginS
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gin-gonic/gin/render
+github.com/DanielRenne/GoCore/vendorPackages/github.com/go-errors/errors
+github.com/DanielRenne/GoCore/vendorPackages/github.com/go-sql-driver/mysql
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/groupcache
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/groupcache/consistenthash
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/groupcache/groupcachepb
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/groupcache/lru
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/groupcache/singleflight
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/groupcache/testpb
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/jsonpb
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/jsonpb/jsonpb_test_proto
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/proto
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/proto/proto3_proto
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/protoc-gen-go
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/protoc-gen-go/descriptor
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/protoc-gen-go/generator
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/protoc-gen-go/grpc
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/protoc-gen-go/plugin
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/ptypes
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/ptypes/any
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/ptypes/duration
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/ptypes/empty
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/ptypes/struct
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/ptypes/timestamp
+github.com/DanielRenne/GoCore/vendorPackages/github.com/golang/protobuf/ptypes/wrappers
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gorilla/context
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gorilla/sessions
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gorilla/websocket
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gorilla/websocket/examples/autobahn
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gorilla/websocket/examples/chat
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gorilla/websocket/examples/command
+github.com/DanielRenne/GoCore/vendorPackages/github.com/gorilla/websocket/examples/filewatch
+github.com/DanielRenne/GoCore/vendorPackages/github.com/manucorporat/sse
+github.com/DanielRenne/GoCore/vendorPackages/github.com/mattn/go-sqlite3
+github.com/DanielRenne/GoCore/vendorPackages/github.com/mattn/go-sqlite3/sqlite3_test
+github.com/DanielRenne/GoCore/vendorPackages/github.com/oleiade/reflections
+github.com/DanielRenne/GoCore/vendorPackages/github.com/stretchr/testify
+github.com/DanielRenne/GoCore/vendorPackages/github.com/stretchr/testify/assert
+github.com/DanielRenne/GoCore/vendorPackages/github.com/stretchr/testify/http
+github.com/DanielRenne/GoCore/vendorPackages/github.com/stretchr/testify/mock
+github.com/DanielRenne/GoCore/vendorPackages/github.com/stretchr/testify/require
+github.com/DanielRenne/GoCore/vendorPackages/github.com/stretchr/testify/suite
+github.com/DanielRenne/GoCore/vendorPackages/github.com/utrack/gin-csrf
+github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/acme/internal/acme
+github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ed25519
+github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/ed25519/internal/edwards25519
+github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/pkcs12
+github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/pkcs12/internal/rc2
+github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/crypto/tea
+github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/http2
+github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/http2/h2i
+github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/http2/hpack
+github.com/DanielRenne/GoCore/vendorPackages/golang.org/x/net/webdav/internal/xml
+github.com/DanielRenne/GoCore/vendorPackages/gopkg.in/go-playground/validator.v8
+github.com/DanielRenne/GoCore/vendorPackages/gopkg.in/go-playground/validator.v8/examples/custom
+github.com/DanielRenne/GoCore/vendorPackages/gopkg.in/go-playground/validator.v8/examples/simple
+github.com/DanielRenne/GoCore/vendorPackages/gopkg.in/go-playground/validator.v8/examples/struct-level
+github.com/DanielRenne/GoCore/vendorPackages/gopkg.in/yaml.v2
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

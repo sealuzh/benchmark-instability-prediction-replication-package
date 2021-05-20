@@ -1,0 +1,13 @@
+Error while executing goptc (db73a9a6b44a161c02f560579ce268ec42ccacd0): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/d2/2a/41469/repo/src/github.com/cloudfoundry/garden-runc-release': exit status 1
+
+Out: package github.com/docker/docker/pkg/version: cannot find package "github.com/docker/docker/pkg/version" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/docker/docker/pkg/version (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/d2/2a/41469/repo/src/github.com/docker/docker/pkg/version (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

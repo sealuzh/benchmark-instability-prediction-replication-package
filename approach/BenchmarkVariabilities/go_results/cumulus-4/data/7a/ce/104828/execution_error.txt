@@ -1,0 +1,16 @@
+Error while executing goptc (bd03ed3510508ca916c69792a9001c689fcb5eb2): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/7a/ce/104828/repo/src/github.com/betfair/opentsp': exit status 1
+
+Out: package opentsp.org/cmd/collect-statse/aggregator: unrecognized import path "opentsp.org/cmd/collect-statse/aggregator" (https fetch: Get https://opentsp.org/cmd/collect-statse/aggregator?go-get=1: x509: certificate is valid for *.github.com, github.com, *.github.io, github.io, not opentsp.org)
+package opentsp.org/cmd/collect-statse/config: unrecognized import path "opentsp.org/cmd/collect-statse/config" (https fetch: Get https://opentsp.org/cmd/collect-statse/config?go-get=1: x509: certificate is valid for *.github.com, github.com, *.github.io, github.io, not opentsp.org)
+package opentsp.org/cmd/collect-statse/forwarder: unrecognized import path "opentsp.org/cmd/collect-statse/forwarder" (https fetch: Get https://opentsp.org/cmd/collect-statse/forwarder?go-get=1: x509: certificate is valid for *.github.com, github.com, *.github.io, github.io, not opentsp.org)
+package opentsp.org/internal/pprof: unrecognized import path "opentsp.org/internal/pprof" (https fetch: Get https://opentsp.org/internal/pprof?go-get=1: x509: certificate is valid for *.github.com, github.com, *.github.io, github.io, not opentsp.org)
+package opentsp.org/internal/tsdb: unrecognized import path "opentsp.org/internal/tsdb" (https fetch: Get https://opentsp.org/internal/tsdb?go-get=1: x509: certificate is valid for *.github.com, github.com, *.github.io, github.io, not opentsp.org)
+package opentsp.org/internal/tsdb/tsdbutil: unrecognized import path "opentsp.org/internal/tsdb/tsdbutil" (https fetch: Get https://opentsp.org/internal/tsdb/tsdbutil?go-get=1: x509: certificate is valid for *.github.com, github.com, *.github.io, github.io, not opentsp.org)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

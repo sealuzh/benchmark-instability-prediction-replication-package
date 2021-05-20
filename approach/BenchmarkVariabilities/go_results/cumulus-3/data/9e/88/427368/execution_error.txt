@@ -1,0 +1,15 @@
+Error while executing goptc (851b52b8a71e1ab411ec56401c1efbce5e9652ea): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/9e/88/427368/repo/src/github.com/apcera/util': exit status 2
+
+Out: # github.com/apcera/util/tarhelper/vendor/github.com/remyoudompheng/go-liblzma
+tarhelper/vendor/github.com/remyoudompheng/go-liblzma/reader.go:9:18: fatal error: lzma.h: No such file or directory
+ #include <lzma.h>
+                  ^
+compilation terminated.
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

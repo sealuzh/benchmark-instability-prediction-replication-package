@@ -1,0 +1,69 @@
+Error while executing goptc (d6a8a5ef192cb77de6d5f6556e55e7233a64164f): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata': exit status 1
+
+Out: can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/bcrypt: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/bcrypt expects import "golang.org/x/crypto/bcrypt"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/blowfish: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/blowfish expects import "golang.org/x/crypto/blowfish"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/bn256: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/bn256 expects import "golang.org/x/crypto/bn256"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/cast5: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/cast5 expects import "golang.org/x/crypto/cast5"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/curve25519: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/curve25519 expects import "golang.org/x/crypto/curve25519"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/hkdf: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/hkdf expects import "golang.org/x/crypto/hkdf"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/md4: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/md4 expects import "golang.org/x/crypto/md4"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/nacl/box: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/nacl/box expects import "golang.org/x/crypto/nacl/box"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/nacl/secretbox: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/nacl/secretbox expects import "golang.org/x/crypto/nacl/secretbox"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/ocsp: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/ocsp expects import "golang.org/x/crypto/ocsp"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp expects import "golang.org/x/crypto/openpgp"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp/armor: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp/armor expects import "golang.org/x/crypto/openpgp/armor"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp/clearsign: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp/clearsign expects import "golang.org/x/crypto/openpgp/clearsign"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp/elgamal: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp/elgamal expects import "golang.org/x/crypto/openpgp/elgamal"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp/errors: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp/errors expects import "golang.org/x/crypto/openpgp/errors"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp/packet: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp/packet expects import "golang.org/x/crypto/openpgp/packet"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp/s2k: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/openpgp/s2k expects import "golang.org/x/crypto/openpgp/s2k"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/otr: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/otr expects import "golang.org/x/crypto/otr"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/pbkdf2: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/pbkdf2 expects import "golang.org/x/crypto/pbkdf2"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/poly1305: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/poly1305 expects import "golang.org/x/crypto/poly1305"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/ripemd160: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/ripemd160 expects import "golang.org/x/crypto/ripemd160"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/salsa20: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/salsa20 expects import "golang.org/x/crypto/salsa20"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/salsa20/salsa: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/salsa20/salsa expects import "golang.org/x/crypto/salsa20/salsa"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/scrypt: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/scrypt expects import "golang.org/x/crypto/scrypt"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/sha3: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/sha3 expects import "golang.org/x/crypto/sha3"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/ssh: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/ssh expects import "golang.org/x/crypto/ssh"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/ssh/agent: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/ssh/agent expects import "golang.org/x/crypto/ssh/agent"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/ssh/terminal: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/ssh/terminal expects import "golang.org/x/crypto/ssh/terminal"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/ssh/test: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/ssh/test expects import "golang.org/x/crypto/ssh/test"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/twofish: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/twofish expects import "golang.org/x/crypto/twofish"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/xtea: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/xtea expects import "golang.org/x/crypto/xtea"
+can't load package: package github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/xts: code in directory /home/ext-laaber/go-experiments/data/a5/bb/261572/repo/src/github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/xts expects import "golang.org/x/crypto/xts"
+github.com/diegohce/camerata/camerata-inventory/src
+github.com/diegohce/camerata/camerata-inventory/src/backends
+github.com/diegohce/camerata/camerata-inventory/src/backends/about
+github.com/diegohce/camerata/camerata-inventory/src/backends/amazon
+github.com/diegohce/camerata/camerata-inventory/src/backends/vmware
+github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/pkcs12
+github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/pkcs12/internal/rc2
+github.com/diegohce/camerata/camerata-inventory/src/golang.org/x/crypto/tea
+github.com/diegohce/camerata/camerata-writer/src
+github.com/diegohce/camerata/camerata-writer/src/writer
+github.com/diegohce/camerata/camerata-writer/src/writer/filewriter
+github.com/diegohce/camerata/camerata-writer-maker.sample/src
+github.com/diegohce/camerata/camerata-writer-maker.sample/src/writer
+github.com/diegohce/camerata/camerata-writer-maker.sample/src/writer/filewriter
+github.com/diegohce/camerata/src
+github.com/diegohce/camerata/src/camssh
+github.com/diegohce/camerata/src/cliargs
+github.com/diegohce/camerata/src/modules
+github.com/diegohce/camerata/src/modules/aboutmodule
+github.com/diegohce/camerata/src/modules/aptmodule
+github.com/diegohce/camerata/src/modules/commandmodule
+github.com/diegohce/camerata/src/modules/copymodule
+github.com/diegohce/camerata/src/modules/gitmodule
+github.com/diegohce/camerata/src/modules/pipmodule
+github.com/diegohce/camerata/src/modules/rcopymodule
+github.com/diegohce/camerata/src/modules/testmodule
+github.com/diegohce/camerata/src/output
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

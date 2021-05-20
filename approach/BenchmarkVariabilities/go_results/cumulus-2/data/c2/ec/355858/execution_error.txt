@@ -1,0 +1,15 @@
+Error while executing goptc (f0dded6b61e23462ae61fdd2f91e7200cef27224): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c2/ec/355858/repo/src/github.com/uber/tchannel-go': exit status 1
+
+Out: godep: WARNING: Godep workspaces (./Godeps/_workspace) are deprecated and support for them will be removed when go1.8 is released.
+godep: WARNING: Go version (go1.9) & $GO15VENDOREXPERIMENT= wants to enable the vendor experiment, but disabling because a Godep workspace (Godeps/_workspace) exists
+godep: error downloading dep (code.google.com/p/getopt): unrecognized import path "code.google.com/p/getopt"
+godep: error downloading dep (code.google.com/p/go.net/context): unrecognized import path "code.google.com/p/go.net/context"
+godep: Error downloading some deps. Aborting restore and check.
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

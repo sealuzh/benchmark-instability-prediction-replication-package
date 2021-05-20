@@ -1,0 +1,14 @@
+Error while executing goptc (49f74d5cb3ab99638a7d7f4b4c9b713ebba1e5b8): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/7b/63/462992/repo/src/github.com/longears/pixelslinger': exit status 1
+
+Out: # cd .; git clone https://github.com/davecheney/profile /home/ext-laaber/go-experiments/data/7b/63/462992/repo/src/github.com/davecheney/profile
+Cloning into '/home/ext-laaber/go-experiments/data/7b/63/462992/repo/src/github.com/davecheney/profile'...
+fatal: could not read Username for 'https://github.com': terminal prompts disabled
+package github.com/davecheney/profile: exit status 128
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

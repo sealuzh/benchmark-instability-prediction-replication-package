@@ -1,0 +1,29 @@
+Error while executing goptc (f13267c48fd7833271efc2296df03a07d6ccb482): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/f8/27/280297/repo/src/github.com/couchbaselabs/cbfs': exit status 2
+
+Out: # github.com/couchbaselabs/cbfs
+./blobs.go:55:36: not enough arguments in call to couchbase.GetBulk
+	have ([]string)
+	want ([]string, time.Time)
+./blobs.go:123:36: not enough arguments in call to couchbase.GetBulk
+	have ([]string)
+	want ([]string, time.Time)
+./fsck.go:90:36: not enough arguments in call to couchbase.GetBulk
+	have ([]string)
+	want ([]string, time.Time)
+./list.go:64:41: not enough arguments in call to couchbase.GetBulk
+	have ([]string)
+	want ([]string, time.Time)
+./nodes.go:244:35: not enough arguments in call to couchbase.GetBulk
+	have ([]string)
+	want ([]string, time.Time)
+./tasks.go:192:40: not enough arguments in call to couchbase.GetBulk
+	have ([]string)
+	want ([]string, time.Time)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

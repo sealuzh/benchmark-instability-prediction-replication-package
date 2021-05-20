@@ -1,0 +1,11 @@
+Error while executing goptc (b0c43638a8a715004e133939964a671c7c871066): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/e7/4b/300803/repo/src/github.com/nats-io/nats-streaming-server': exit status 1
+
+Out: 2017/11/05 13:08:16 command "fetch" failed: fetch: import path missing
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

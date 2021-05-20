@@ -1,0 +1,12 @@
+Error while executing goptc (e96400696a72520a4bf04a4d7d19e104ace0a0d1): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/16/cc/269023/repo/src/github.com/jabong/florest-core': exit status 1
+
+Out: package gopkg.in/throttled/throttled.v2: code in directory /home/ext-laaber/go-experiments/data/16/cc/269023/repo/src/gopkg.in/throttled/throttled.v2 expects import "github.com/throttled/throttled"
+package gopkg.in/throttled/throttled.v2/store/memstore: code in directory /home/ext-laaber/go-experiments/data/16/cc/269023/repo/src/gopkg.in/throttled/throttled.v2/store/memstore expects import "github.com/throttled/throttled/store/memstore"
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

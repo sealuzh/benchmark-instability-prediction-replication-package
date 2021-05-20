@@ -1,0 +1,13 @@
+Error while executing goptc (cbb46634d99f11d39ebee775e1dd61b6e042a44d): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/dd/ea/68606/repo/src/github.com/go-playground/locales': exit status 2
+
+Out: # github.com/go-playground/locales/ar
+ar/ar.go:55:13: invalid operation: n % 100 (operator % not defined on float64)
+ar/ar.go:57:13: invalid operation: n % 100 (operator % not defined on float64)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,11 @@
+Error while executing goptc (3d1af5652e84b8cb1f062b0c6b0da33fcbc86b24): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c8/42/173760/repo/src/github.com/jayjanssen/myq-tools': exit status 1
+
+Out: metrics/metrics.go:4:3: local import "../metricdefs" in non-local package
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

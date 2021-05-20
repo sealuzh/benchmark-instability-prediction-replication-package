@@ -1,0 +1,41 @@
+Error while executing goptc (8e756cba47f1f3379590b6689d634b55e92ce02b): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/90/01/85257/repo/src/github.com/EngoEngine/engo': exit status 1
+
+Out: can't load package: package github.com/EngoEngine/engo: code in directory /home/ext-laaber/go-experiments/data/90/01/85257/repo/src/github.com/EngoEngine/engo expects import "engo.io/engo"
+can't load package: package github.com/EngoEngine/engo/common: code in directory /home/ext-laaber/go-experiments/data/90/01/85257/repo/src/github.com/EngoEngine/engo/common expects import "engo.io/engo/common"
+github.com/EngoEngine/engo/demos/adventure
+github.com/EngoEngine/engo/demos/animation
+github.com/EngoEngine/engo/demos/audio
+github.com/EngoEngine/engo/demos/demoutils
+github.com/EngoEngine/engo/demos/edgescroller
+github.com/EngoEngine/engo/demos/entityscroller
+github.com/EngoEngine/engo/demos/exit
+github.com/EngoEngine/engo/demos/falling
+github.com/EngoEngine/engo/demos/headless
+github.com/EngoEngine/engo/demos/hello-world
+github.com/EngoEngine/engo/demos/hide
+github.com/EngoEngine/engo/demos/hud
+github.com/EngoEngine/engo/demos/incrementalcamera
+github.com/EngoEngine/engo/demos/input
+github.com/EngoEngine/engo/demos/keyboardscroller
+github.com/EngoEngine/engo/demos/mouse
+github.com/EngoEngine/engo/demos/mouse-follow
+github.com/EngoEngine/engo/demos/mouserotation
+github.com/EngoEngine/engo/demos/pong
+github.com/EngoEngine/engo/demos/rotation
+github.com/EngoEngine/engo/demos/scale
+github.com/EngoEngine/engo/demos/scenes
+github.com/EngoEngine/engo/demos/shapes
+github.com/EngoEngine/engo/demos/text
+github.com/EngoEngine/engo/demos/tilemap
+github.com/EngoEngine/engo/demos/zoom
+github.com/EngoEngine/engo/math
+github.com/EngoEngine/engo/math/imath
+github.com/EngoEngine/engo/math/span
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,15 @@
+Error while executing goptc (9f6f103107a8eeea93a485f4fc7880d7e663e3b9): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/ac/2f/107363/repo/src/github.com/packetb-old/gopacket': exit status 2
+
+Out: # github.com/packetbeat/gopacket/pcap
+../../packetbeat/gopacket/pcap/pcap.go:18:18: fatal error: pcap.h: No such file or directory
+ #include <pcap.h>
+                  ^
+compilation terminated.
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,11 @@
+Error while executing goptc (c50e9dd3027fe8897e275536a2c08dee8d42977f): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/b3/04/174208/repo/src/github.com/roblillack/mars': exit status 2
+
+Out: [0;31m[ERROR]	[mFailed to find glide.yaml file in directory tree: Cannot resolve parent of /
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

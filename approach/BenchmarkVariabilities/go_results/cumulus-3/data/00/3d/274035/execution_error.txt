@@ -1,0 +1,12 @@
+Error while executing goptc (24a471066e8bd38c107711d0944da2025a1c21ba): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/00/3d/274035/repo/src/github.com/go-mirrors/goprotobuf': exit status 1
+
+Out: package code.google.com/p/goprotobuf/proto: unrecognized import path "code.google.com/p/goprotobuf/proto" (parse https://code.google.com/p/goprotobuf/proto?go-get=1: no go-import meta tags (meta tag github.com/golang/protobuf did not match import path code.google.com/p/goprotobuf/proto))
+package code.google.com/p/goprotobuf/protoc-gen-go/generator: unrecognized import path "code.google.com/p/goprotobuf/protoc-gen-go/generator" (parse https://code.google.com/p/goprotobuf/protoc-gen-go/generator?go-get=1: no go-import meta tags (meta tag github.com/golang/protobuf did not match import path code.google.com/p/goprotobuf/protoc-gen-go/generator))
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

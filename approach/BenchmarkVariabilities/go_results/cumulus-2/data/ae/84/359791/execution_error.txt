@@ -1,0 +1,12 @@
+Error while executing goptc (c264325fca7b3901d89e77359e1f84f9eb1e6ec2): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/ae/84/359791/repo/src/github.com/cloudflare/golibs': exit status 2
+
+Out: # github.com/cloudflare/golibs/lrucache/benchmark
+lrucache/benchmark/vcache.go:15:32: cannot use capacity (type uint64) as type int64 in argument to cache.NewLRUCache
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

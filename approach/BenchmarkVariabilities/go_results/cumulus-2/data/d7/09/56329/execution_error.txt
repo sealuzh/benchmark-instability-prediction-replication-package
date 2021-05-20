@@ -1,0 +1,11 @@
+Error while executing goptc (494156a450069cafd4bee1bbd43f327a148cb698): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/d7/09/56329/repo/src/github.com/luci/luci-go': exit status 1
+
+Out: ../gae/service/datastore/key.go:26:2: use of internal package not allowed
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

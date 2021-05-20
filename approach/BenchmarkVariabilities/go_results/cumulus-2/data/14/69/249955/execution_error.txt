@@ -1,0 +1,13 @@
+Error while executing goptc (355915c1fa9d7bd5d61608266e7cbc17931e6599): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/14/69/249955/repo/src/github.com/guregu/dynamo': exit status 1
+
+Out: package github.com/awslabs/aws-sdk-go/gen/dynamodb: cannot find package "github.com/awslabs/aws-sdk-go/gen/dynamodb" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/awslabs/aws-sdk-go/gen/dynamodb (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/14/69/249955/repo/src/github.com/awslabs/aws-sdk-go/gen/dynamodb (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

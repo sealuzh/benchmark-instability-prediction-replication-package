@@ -1,0 +1,11 @@
+Error while executing goptc (a3df0900cda9611ddfcae1b69567f472ce54a566): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/19/40/109719/repo/src/github.com/DNAProject/DNA': exit status 1
+
+Out: package GoOnchain/httpjsonrpc: unrecognized import path "GoOnchain/httpjsonrpc" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

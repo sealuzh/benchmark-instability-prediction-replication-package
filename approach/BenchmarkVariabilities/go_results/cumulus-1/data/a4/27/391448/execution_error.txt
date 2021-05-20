@@ -1,0 +1,11 @@
+Error while executing goptc (67da0ac4246dc55f05d3e65deec6e18a955201ea): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/a4/27/391448/repo/src/github.com/albrow/zoom': exit status 1
+
+Out: package code.google.com/p/tcgl/redis: unrecognized import path "code.google.com/p/tcgl/redis" (parse https://code.google.com/p/tcgl/redis?go-get=1: no go-import meta tags ())
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

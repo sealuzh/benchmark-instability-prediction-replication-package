@@ -1,0 +1,28 @@
+Error while executing goptc (878125c41065e08550ad286218f725b91568c772): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/de/d4/204642/repo/src/github.com/h2non/bimg': exit status 2
+
+Out: # pkg-config --cflags vips vips vips vips
+Package vips was not found in the pkg-config search path.
+Perhaps you should add the directory containing `vips.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'vips' found
+Package vips was not found in the pkg-config search path.
+Perhaps you should add the directory containing `vips.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'vips' found
+Package vips was not found in the pkg-config search path.
+Perhaps you should add the directory containing `vips.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'vips' found
+Package vips was not found in the pkg-config search path.
+Perhaps you should add the directory containing `vips.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'vips' found
+pkg-config: exit status 1
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

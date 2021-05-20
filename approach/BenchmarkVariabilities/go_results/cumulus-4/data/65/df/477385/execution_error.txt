@@ -1,0 +1,12 @@
+Error while executing goptc (8adec5411b39dbcc94c02b3669ee06379ec83ead): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/65/df/477385/repo/src/github.com/ha/doozerd': exit status 1
+
+Out: package code.google.com/p/goprotobuf/proto: unrecognized import path "code.google.com/p/goprotobuf/proto" (parse https://code.google.com/p/goprotobuf/proto?go-get=1: no go-import meta tags (meta tag github.com/golang/protobuf did not match import path code.google.com/p/goprotobuf/proto))
+package code.google.com/p/go.net/websocket: unrecognized import path "code.google.com/p/go.net/websocket" (parse https://code.google.com/p/go.net/websocket?go-get=1: no go-import meta tags (meta tag github.com/golang/go did not match import path code.google.com/p/go.net/websocket))
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

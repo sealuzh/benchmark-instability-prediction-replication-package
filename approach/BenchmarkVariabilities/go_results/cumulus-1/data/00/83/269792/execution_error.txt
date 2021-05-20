@@ -1,0 +1,44 @@
+Error while executing goptc (113986d43f26d067d0b7bb7399e24dd58a767022): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/00/83/269792/repo/src/github.com/decred/dcrstakepool': exit status 1
+
+Out: [0;32m[INFO]	[mDownloading dependencies. Please wait...
+[0;32m[INFO]	[m--> Found desired version locally github.com/davecgh/go-spew 346938d642f2ec3594ed81d874461961cd0faa76!
+[0;32m[INFO]	[m--> Found desired version locally github.com/golang/protobuf 2bba0603135d7d7f5cb73b2125beeda19c09f4ef!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/crypto 84f24dfdf3c414ed893ca1b318d0045ef5a1f607!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/net 8663ed5da4fd087c3cfb99a996e628b72e2f0948!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/text 6353ef0f924300eea566d3438817aa4d3374817e!
+[0;32m[INFO]	[m--> Found desired version locally google.golang.org/genproto 411e09b969b1170a9f0c467558eb4c4c110d9c77!
+[0;32m[INFO]	[m--> Found desired version locally google.golang.org/grpc 8050b9cbc271307e5a716a9d782803d09b0d6f2d!
+[0;32m[INFO]	[m--> Fetching github.com/btcsuite/go-flags
+[0;32m[INFO]	[m--> Fetching github.com/zenazn/goji
+[0;32m[INFO]	[m--> Fetching github.com/decred/dcrd
+[0;32m[INFO]	[m--> Fetching github.com/dgrijalva/jwt-go
+[0;32m[INFO]	[m--> Fetching github.com/jrick/logrotate
+[0;32m[INFO]	[m--> Fetching github.com/btcsuite/btclog
+[0;32m[INFO]	[m--> Fetching github.com/go-gorp/gorp
+[0;32m[INFO]	[m--> Fetching github.com/haisum/recaptcha
+[0;32m[INFO]	[m--> Fetching github.com/agl/ed25519
+[0;32m[INFO]	[m--> Fetching github.com/go-sql-driver/mysql
+[0;32m[INFO]	[m--> Fetching github.com/gorilla/context
+[0;32m[INFO]	[m--> Fetching github.com/gorilla/securecookie
+[0;32m[INFO]	[m--> Fetching github.com/gorilla/sessions
+[0;32m[INFO]	[m--> Fetching github.com/btcsuite/websocket
+[0;32m[INFO]	[m--> Fetching github.com/decred/dcrrpcclient
+[0;32m[INFO]	[m--> Fetching github.com/btcsuite/go-socks
+[0;32m[INFO]	[m--> Fetching github.com/decred/dcrutil
+[0;32m[INFO]	[m--> Fetching github.com/decred/blake256
+[0;32m[INFO]	[m--> Fetching github.com/decred/dcrwallet
+[0;33m[WARN]	[mUnable to checkout github.com/decred/blake256
+[0;31m[ERROR]	[mUpdate failed for github.com/decred/blake256: Unable to get repository: Cloning into '/home/ext-laaber/.glide/cache/src/https-github.com-decred-blake256'...
+fatal: could not read Username for 'https://github.com': No such device or address
+: exit status 128
+[0;31m[ERROR]	[mFailed to install: Unable to get repository: Cloning into '/home/ext-laaber/.glide/cache/src/https-github.com-decred-blake256'...
+fatal: could not read Username for 'https://github.com': No such device or address
+: exit status 128
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

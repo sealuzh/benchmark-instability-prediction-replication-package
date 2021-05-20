@@ -1,0 +1,14 @@
+Error while executing goptc (1fe734694c14bd6f3867de4b08d76a9a225a2212): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/7a/4e/94868/repo/src/github.com/foursquare/quiver': exit status 1
+
+Out: # cd .; git clone https://github.com/dt/thile /home/ext-laaber/go-experiments/data/7a/4e/94868/repo/src/github.com/dt/thile
+Cloning into '/home/ext-laaber/go-experiments/data/7a/4e/94868/repo/src/github.com/dt/thile'...
+fatal: could not read Username for 'https://github.com': terminal prompts disabled
+package github.com/dt/thile/gen: exit status 128
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

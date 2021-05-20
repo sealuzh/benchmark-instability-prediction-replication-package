@@ -1,0 +1,22 @@
+Error while executing goptc (0f72fe8510852b8f818c3d18cee560a28914e42f): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/66/bf/243078/repo/src/github.com/BenJoyenConseil/bluckdb': exit status 2
+
+Out: # github.com/BenJoyenConseil/bluckdb/api
+api/handler.go:25:56: undefined: iris.Framework
+api/handler.go:28:15: cannot use func literal (type func(*"github.com/kataras/iris/context".Context)) as type "github.com/kataras/iris/context".Handler in argument to api.APIBuilder.Get
+api/handler.go:30:6: ctx.JSON undefined (type *"github.com/kataras/iris/context".Context is pointer to interface, not interface)
+api/handler.go:41:33: cannot use func literal (type func(*"github.com/kataras/iris/context".Context)) as type "github.com/kataras/iris/context".Handler in argument to apiV1.Get
+api/handler.go:43:48: ctx.Path undefined (type *"github.com/kataras/iris/context".Context is pointer to interface, not interface)
+api/handler.go:46:13: ctx.URLParam undefined (type *"github.com/kataras/iris/context".Context is pointer to interface, not interface)
+api/handler.go:54:6: ctx.JSON undefined (type *"github.com/kataras/iris/context".Context is pointer to interface, not interface)
+api/handler.go:59:48: ctx.Path undefined (type *"github.com/kataras/iris/context".Context is pointer to interface, not interface)
+api/handler.go:61:13: ctx.URLParam undefined (type *"github.com/kataras/iris/context".Context is pointer to interface, not interface)
+api/handler.go:64:32: ctx.Request undefined (type *"github.com/kataras/iris/context".Context is pointer to interface, not interface)
+api/handler.go:64:32: too many errors
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

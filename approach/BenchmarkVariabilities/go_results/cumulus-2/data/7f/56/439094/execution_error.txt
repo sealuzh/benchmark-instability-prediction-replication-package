@@ -1,0 +1,13 @@
+Error while executing goptc (05bc69b49efe723d787195d0bced0d36f4292db5): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/7f/56/439094/repo/src/github.com/markbates/pop': exit status 1
+
+Out: package github.com/mattes/migrate/migrate: cannot find package "github.com/mattes/migrate/migrate" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/mattes/migrate/migrate (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/7f/56/439094/repo/src/github.com/mattes/migrate/migrate (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

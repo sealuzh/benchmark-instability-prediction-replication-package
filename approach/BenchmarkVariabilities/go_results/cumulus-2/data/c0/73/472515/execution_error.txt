@@ -1,0 +1,15 @@
+Error while executing goptc (1efdce713eceed3eeee350b55a541d7943fb1d0b): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c0/73/472515/repo/src/github.com/Netflix/rend': exit status 2
+
+Out: # github.com/Netflix/rend
+./memproxy.go:168:8: undefined: server.ListenArgs
+./memproxy.go:171:7: undefined: server.ListenArgs
+./memproxy.go:176:7: undefined: server.ListenArgs
+./memproxy.go:224:7: undefined: server.ListenArgs
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

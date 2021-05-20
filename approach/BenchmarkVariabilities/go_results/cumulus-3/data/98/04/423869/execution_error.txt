@@ -1,0 +1,14 @@
+Error while executing goptc (558c73ef9f3a1f608b1efed45c955cceb0db74a2): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/98/04/423869/repo/src/github.com/lleo/go-hamt-functional': exit status 2
+
+Out: # github.com/lleo/go-hamt-functional
+./hamt.go:63:14: undefined: depth
+./hamt.go:175:5: newVal is shadowed during return
+./hamt.go:380:11: undefined: hashKeyVal
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

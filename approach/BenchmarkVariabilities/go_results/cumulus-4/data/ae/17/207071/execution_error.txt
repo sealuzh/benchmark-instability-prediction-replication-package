@@ -1,0 +1,14 @@
+Error while executing goptc (caac997cb9b6ab13ca7d0db10b3eb7dd0f268c55): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/ae/17/207071/repo/src/github.com/ninibe/netlog': exit status 2
+
+Out: go: missing Bazaar command. See http://golang.org/s/gogetcmd
+Error: Remotes failed for:
+	Failed for "launchpad.net/gommap" (failed to clone repo): exec: "bzr": executable file not found in $PATH
+
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

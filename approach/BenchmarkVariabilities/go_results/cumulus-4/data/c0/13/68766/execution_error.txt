@@ -1,0 +1,11 @@
+Error while executing goptc (6c87f9ba32233805d73c6d8073ef4e6f42d49f8c): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c0/13/68766/repo/src/github.com/vladimirvivien/automi': exit status 1
+
+Out: package xor/automi/api: unrecognized import path "xor/automi/api" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,14 @@
+Error while executing goptc (2d0278b45dfa979f3a13874d6a20e0890802d485): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/5a/58/36393/repo/src/github.com/noxiouz/stout': exit status 1
+
+Out: # cd /home/ext-laaber/go-experiments/data/5a/58/36393/repo/src/github.com/yandex/porto; git checkout 4051f5ca95fa0750dd31aa589a306a33cb1f734e
+fatal: reference is not a tree: 4051f5ca95fa0750dd31aa589a306a33cb1f734e
+godep: error downloading dep (github.com/yandex/porto/src/api/go): exit status 128
+godep: Error downloading some deps. Aborting restore and check.
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

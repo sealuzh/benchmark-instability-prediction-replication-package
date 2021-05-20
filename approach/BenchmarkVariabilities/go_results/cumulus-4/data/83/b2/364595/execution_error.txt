@@ -1,0 +1,22 @@
+Error while executing goptc (41f52bba2191d3bfa764c6867968eb06acbd8f3c): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/83/b2/364595/repo/src/github.com/limetext/log4go': exit status 2
+
+Out: # github.com/limetext/log4go/examples
+examples/FileLogWriter_Manual.go:17:6: main redeclared in this block
+	previous declaration at examples/ConsoleLogWriter_Manual.go:9:6
+examples/SimpleNetLogServer.go:21:6: main redeclared in this block
+	previous declaration at examples/FileLogWriter_Manual.go:17:6
+examples/SimpleNetLogServer.go:25:33: not enough arguments in call to net.ResolveUDPAddr
+	have (string)
+	want (string, string)
+examples/SocketLogWriter_Manual.go:9:6: main redeclared in this block
+	previous declaration at examples/SimpleNetLogServer.go:21:6
+examples/XMLConfigurationExample.go:5:6: main redeclared in this block
+	previous declaration at examples/SocketLogWriter_Manual.go:9:6
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

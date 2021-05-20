@@ -1,0 +1,11 @@
+Error while executing goptc (f68e77277f2d0ca9343a74b32079f670de3dd825): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/d5/7c/182457/repo/src/github.com/go-distributed/epaxos': exit status 1
+
+Out: package code.google.com/p/gogoprotobuf/proto: unrecognized import path "code.google.com/p/gogoprotobuf/proto" (parse https://code.google.com/p/gogoprotobuf/proto?go-get=1: no go-import meta tags (meta tag github.com/gogo/protobuf did not match import path code.google.com/p/gogoprotobuf/proto))
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

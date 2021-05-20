@@ -1,0 +1,17 @@
+Error while executing goptc (0937b7790bd9a6fa8290998e2b24d2db6639819f): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/eb/3f/431218/repo/src/github.com/remyoudompheng/go-misc': exit status 2
+
+Out: # github.com/remyoudompheng/go-misc/nokia/nbu
+nokia/nbu/nbu.go:72:2: undefined: debugf
+nokia/nbu/nbu.go:109:4: undefined: debugf
+nokia/nbu/nbu.go:111:3: undefined: debugf
+nokia/nbu/nbu.go:137:5: undefined: debugf
+nokia/nbu/nbu.go:152:5: undefined: debugf
+nokia/nbu/nbu.go:158:4: undefined: debugf
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

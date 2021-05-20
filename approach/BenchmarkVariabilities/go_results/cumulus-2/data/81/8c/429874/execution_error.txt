@@ -1,0 +1,13 @@
+Error while executing goptc (eee2810da6adb56eef26ddc6676513485721abf2): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/81/8c/429874/repo/src/github.com/chihaya/chihaya': exit status 1
+
+Out: package github.com/jzelinskie/chihaya/server: cannot find package "github.com/jzelinskie/chihaya/server" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/jzelinskie/chihaya/server (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/81/8c/429874/repo/src/github.com/jzelinskie/chihaya/server (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

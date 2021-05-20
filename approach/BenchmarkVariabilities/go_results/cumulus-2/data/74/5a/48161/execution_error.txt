@@ -1,0 +1,11 @@
+Error while executing goptc (b6e43c0dc1951a4f88c929bbb72c41c3c2b5dc7a): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/74/5a/48161/repo/src/github.com/nats-io/gnatsd': exit status 1
+
+Out: 2017/11/04 09:03:07 command "fetch" failed: fetch: import path missing
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

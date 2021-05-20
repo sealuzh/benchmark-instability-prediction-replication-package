@@ -1,0 +1,40 @@
+Error while executing goptc (a56e4e89d2e7802e4f75817d1a98f0b81caad552): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/56/d7/323053/repo/src/github.com/btcsuite/btcwallet': exit status 1
+
+Out: package code.google.com/p/go.net/websocket: unrecognized import path "code.google.com/p/go.net/websocket" (parse https://code.google.com/p/go.net/websocket?go-get=1: no go-import meta tags (meta tag github.com/golang/go did not match import path code.google.com/p/go.net/websocket))
+package github.com/conformal/btcjson: no Go files in /home/ext-laaber/go-experiments/data/56/d7/323053/repo/src/github.com/conformal/btcjson
+package github.com/btcsuite/btcrpcclient: no Go files in /home/ext-laaber/go-experiments/data/56/d7/323053/repo/src/github.com/btcsuite/btcrpcclient
+# cd /home/ext-laaber/go-experiments/data/56/d7/323053/repo/src/github.com/btcsuite/btcwallet; git pull --ff-only
+You are not currently on a branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+package github.com/btcsuite/btcwallet/chain: exit status 1
+package github.com/btcsuite/btcwallet/internal/prompt: cannot find package "github.com/btcsuite/btcwallet/internal/prompt" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/btcsuite/btcwallet/internal/prompt (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/56/d7/323053/repo/src/github.com/btcsuite/btcwallet/internal/prompt (from $GOPATH)
+package github.com/btcsuite/btcwallet/waddrmgr: cannot find package "github.com/btcsuite/btcwallet/waddrmgr" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/btcsuite/btcwallet/waddrmgr (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/56/d7/323053/repo/src/github.com/btcsuite/btcwallet/waddrmgr (from $GOPATH)
+package github.com/btcsuite/btcwallet/wallet/txauthor: cannot find package "github.com/btcsuite/btcwallet/wallet/txauthor" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/btcsuite/btcwallet/wallet/txauthor (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/56/d7/323053/repo/src/github.com/btcsuite/btcwallet/wallet/txauthor (from $GOPATH)
+package github.com/btcsuite/btcwallet/wallet/txrules: cannot find package "github.com/btcsuite/btcwallet/wallet/txrules" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/btcsuite/btcwallet/wallet/txrules (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/56/d7/323053/repo/src/github.com/btcsuite/btcwallet/wallet/txrules (from $GOPATH)
+package github.com/btcsuite/btcwallet/walletdb: cannot find package "github.com/btcsuite/btcwallet/walletdb" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/btcsuite/btcwallet/walletdb (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/56/d7/323053/repo/src/github.com/btcsuite/btcwallet/walletdb (from $GOPATH)
+package github.com/btcsuite/btcwallet/wtxmgr: cannot find package "github.com/btcsuite/btcwallet/wtxmgr" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/btcsuite/btcwallet/wtxmgr (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/56/d7/323053/repo/src/github.com/btcsuite/btcwallet/wtxmgr (from $GOPATH)
+package github.com/conformal/seelog: no Go files in /home/ext-laaber/go-experiments/data/56/d7/323053/repo/src/github.com/conformal/seelog
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

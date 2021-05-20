@@ -1,0 +1,55 @@
+Error while executing goptc (64093349ae463f7c9ac9493a2947d286a2d102d7): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/52/37/124978/repo/src/github.com/google/shipshape': exit status 1
+
+Out: can't load package: package github.com/google/shipshape/shipshape/androidlint_analyzer/androidlint: found packages androidlint (analyzer.go) and main (service.go) in /home/ext-laaber/go-experiments/data/52/37/124978/repo/src/github.com/google/shipshape/shipshape/androidlint_analyzer/androidlint
+can't load package: package github.com/google/shipshape/shipshape/cli: found packages main (shipshape.go) and cli (shipshape_lib.go) in /home/ext-laaber/go-experiments/data/52/37/124978/repo/src/github.com/google/shipshape/shipshape/cli
+can't load package: package github.com/google/shipshape/shipshape/service: found packages service (config.go) and main (go_dispatcher.go) in /home/ext-laaber/go-experiments/data/52/37/124978/repo/src/github.com/google/shipshape/shipshape/service
+can't load package: shipshape/test/test_shipshape_client.go:30:2: found packages client (client.go) and main (example.go) in /home/ext-laaber/go-experiments/data/52/37/124978/repo/src/github.com/google/shipshape/shipshape/util/rpc/client
+github.com/google/shipshape/shipshape/analyzers/codealert
+github.com/google/shipshape/shipshape/analyzers/govet
+github.com/google/shipshape/shipshape/analyzers/jshint
+github.com/google/shipshape/shipshape/analyzers/postmessage
+github.com/google/shipshape/shipshape/analyzers/pylint
+github.com/google/shipshape/shipshape/analyzers/wordcount
+github.com/google/shipshape/shipshape/api
+github.com/google/shipshape/shipshape/proto/note_proto
+github.com/google/shipshape/shipshape/proto/shipshape_config_proto
+github.com/google/shipshape/shipshape/proto/shipshape_context_proto
+github.com/google/shipshape/shipshape/proto/shipshape_reporter_proto
+github.com/google/shipshape/shipshape/proto/shipshape_rpc_proto
+github.com/google/shipshape/shipshape/proto/source_context_proto
+github.com/google/shipshape/shipshape/proto/textrange_proto
+github.com/google/shipshape/shipshape/test
+github.com/google/shipshape/shipshape/util/defaults
+github.com/google/shipshape/shipshape/util/delimited
+github.com/google/shipshape/shipshape/util/docker
+github.com/google/shipshape/shipshape/util/file
+github.com/google/shipshape/shipshape/util/httpencoding
+github.com/google/shipshape/shipshape/util/kindex
+github.com/google/shipshape/shipshape/util/rpc/buffer
+github.com/google/shipshape/shipshape/util/rpc/protocol
+github.com/google/shipshape/shipshape/util/rpc/server
+github.com/google/shipshape/shipshape/util/rpc/stream
+github.com/google/shipshape/shipshape/util/rpc/tools
+github.com/google/shipshape/shipshape/util/strings
+github.com/google/shipshape/shipshape/util/test
+github.com/google/shipshape/third_party/go/src/github.com/golang/protobuf/proto
+github.com/google/shipshape/third_party/go/src/github.com/golang/protobuf/protoc-gen-go
+github.com/google/shipshape/third_party/go/src/github.com/golang/protobuf/protoc-gen-go/descriptor
+github.com/google/shipshape/third_party/go/src/github.com/golang/protobuf/protoc-gen-go/generator
+github.com/google/shipshape/third_party/go/src/github.com/golang/protobuf/protoc-gen-go/internal/grpc
+github.com/google/shipshape/third_party/go/src/github.com/golang/protobuf/protoc-gen-go/plugin
+github.com/google/shipshape/third_party/go/src/gopkg.in/yaml.v2
+github.com/google/shipshape/third_party/go-glog
+github.com/google/shipshape/third_party/kythe/go/platform/analysis
+github.com/google/shipshape/third_party/kythe/go/platform/delimited
+github.com/google/shipshape/third_party/kythe/go/platform/kindex
+github.com/google/shipshape/tools/cloudfs
+github.com/google/shipshape/tools/go
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

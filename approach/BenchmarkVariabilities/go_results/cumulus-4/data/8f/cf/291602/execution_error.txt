@@ -1,0 +1,12 @@
+Error while executing goptc (f877a7d8eb60192550468090e46d205c49dcab1c): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/8f/cf/291602/repo/src/github.com/xindong/frontd': exit status 2
+
+Out: # github.com/xindong/frontd/reuse
+reuse/impl_unix.go:323:18: poller.WaitWrite undefined (type *"github.com/jbenet/go-reuseport/poll".Poller has no field or method WaitWrite)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

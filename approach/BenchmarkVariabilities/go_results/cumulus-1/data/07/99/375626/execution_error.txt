@@ -1,0 +1,22 @@
+Error while executing goptc (6fd6c913a0a5c72584053ff99c684fcd92184415): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/07/99/375626/repo/src/github.com/AaronGoldman/ccfs': exit status 2
+
+Out: # github.com/AaronGoldman/ccfs/interfaces/fuse
+interfaces/fuse/directory.go:71:47: undefined: fs.Intr
+interfaces/fuse/directory.go:71:56: undefined: fuse.Error
+interfaces/fuse/directory.go:117:7: undefined: fs.Intr
+interfaces/fuse/directory.go:118:3: undefined: fuse.Error
+interfaces/fuse/directory.go:253:39: undefined: fs.Intr
+interfaces/fuse/directory.go:253:58: undefined: fuse.Error
+interfaces/fuse/directory.go:286:7: undefined: fs.Intr
+interfaces/fuse/directory.go:287:24: undefined: fuse.Error
+interfaces/fuse/directory.go:443:45: undefined: fs.Intr
+interfaces/fuse/directory.go:443:84: undefined: fuse.Error
+interfaces/fuse/directory.go:443:45: too many errors
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

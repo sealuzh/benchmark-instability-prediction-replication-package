@@ -1,0 +1,41 @@
+Error while executing goptc (1e17c36a30899a150921a6e62d8a7be459afc1ab): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/81/02/156096/repo/src/github.com/git-lfs/git-lfs': exit status 1
+
+Out: [0;32m[INFO]	[mDownloading dependencies. Please wait...
+[0;32m[INFO]	[m--> Fetching github.com/xeipuuv/gojsonpointer
+[0;32m[INFO]	[m--> Fetching github.com/pkg/errors
+[0;32m[INFO]	[m--> Fetching github.com/kr/pty
+[0;32m[INFO]	[m--> Fetching github.com/bgentry/go-netrc
+[0;32m[INFO]	[m--> Fetching github.com/inconshreveable/mousetrap
+[0;32m[INFO]	[m--> Fetching github.com/rubyist/tracerx
+[0;32m[INFO]	[m--> Fetching github.com/kr/text
+[0;32m[INFO]	[m--> Fetching github.com/cheggaaa/pb
+[0;32m[INFO]	[m--> Fetching github.com/olekukonko/ts
+[0;32m[INFO]	[m--> Fetching github.com/kr/pretty
+[0;32m[INFO]	[m--> Fetching github.com/spf13/cobra
+[0;32m[INFO]	[m--> Fetching github.com/xeipuuv/gojsonreference
+[0;32m[INFO]	[m--> Fetching github.com/xeipuuv/gojsonschema
+[0;32m[INFO]	[m--> Fetching github.com/ThomsonReutersEikon/go-ntlm
+[0;32m[INFO]	[m--> Fetching github.com/spf13/pflag
+[0;32m[INFO]	[m--> Fetching github.com/stretchr/testify
+[0;33m[WARN]	[mUnable to checkout github.com/kr/pty
+[0;31m[ERROR]	[mUpdate failed for github.com/kr/pty: Unable to get repository: Cloning into '/home/ext-laaber/.glide/cache/src/https-github.com-kr-pty'...
+fatal: unable to access 'https://github.com/kr/pty/': Could not resolve host: github.com
+: exit status 128
+[0;33m[WARN]	[mUnable to checkout github.com/xeipuuv/gojsonschema
+[0;31m[ERROR]	[mUpdate failed for github.com/xeipuuv/gojsonschema: Unable to get repository: Cloning into '/home/ext-laaber/.glide/cache/src/https-github.com-xeipuuv-gojsonschema'...
+fatal: unable to access 'https://github.com/xeipuuv/gojsonschema/': Could not resolve host: github.com
+: exit status 128
+[0;31m[ERROR]	[mFailed to install: Unable to get repository: Cloning into '/home/ext-laaber/.glide/cache/src/https-github.com-kr-pty'...
+fatal: unable to access 'https://github.com/kr/pty/': Could not resolve host: github.com
+: exit status 128
+Unable to get repository: Cloning into '/home/ext-laaber/.glide/cache/src/https-github.com-xeipuuv-gojsonschema'...
+fatal: unable to access 'https://github.com/xeipuuv/gojsonschema/': Could not resolve host: github.com
+: exit status 128
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

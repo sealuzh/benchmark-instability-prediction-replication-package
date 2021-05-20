@@ -1,0 +1,22 @@
+Error while executing goptc (b7eb2f963f757541940ca8af0d30b620624ea1ab): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/e4/5d/20194/repo/src/github.com/Jguer/yay': exit status 1
+
+Out: package github.com/jguer/yay/aur: cannot find package "github.com/jguer/yay/aur" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/jguer/yay/aur (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/e4/5d/20194/repo/src/github.com/jguer/yay/aur (from $GOPATH)
+package github.com/jguer/yay/aur/vcs: cannot find package "github.com/jguer/yay/aur/vcs" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/jguer/yay/aur/vcs (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/e4/5d/20194/repo/src/github.com/jguer/yay/aur/vcs (from $GOPATH)
+package github.com/jguer/yay/config: cannot find package "github.com/jguer/yay/config" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/jguer/yay/config (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/e4/5d/20194/repo/src/github.com/jguer/yay/config (from $GOPATH)
+package github.com/jguer/yay/pacman: cannot find package "github.com/jguer/yay/pacman" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/jguer/yay/pacman (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/e4/5d/20194/repo/src/github.com/jguer/yay/pacman (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

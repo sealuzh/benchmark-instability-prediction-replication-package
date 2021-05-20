@@ -1,0 +1,12 @@
+Error while executing goptc (c7cdaa04123ff5d53814f5bbca4c55ac7f2eb487): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/e4/2f/452400/repo/src/github.com/vova616/GarageEngine': exit status 1
+
+Out: package github.com/go-gl/gl: build constraints exclude all Go files in /home/ext-laaber/go-experiments/data/e4/2f/452400/repo/src/github.com/go-gl/gl
+package github.com/go-gl/glfw: no Go files in /home/ext-laaber/go-experiments/data/e4/2f/452400/repo/src/github.com/go-gl/glfw
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

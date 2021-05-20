@@ -1,0 +1,16 @@
+Error while executing goptc (c0ffc74a9407e26c512dfd10b84c460346fea37b): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/9d/a0/347076/repo/src/github.com/telehash/gogotelehash': exit status 1
+
+Out: godep: WARNING: Godep workspaces (./Godeps/_workspace) are deprecated and support for them will be removed when go1.8 is released.
+godep: WARNING: Go version (go1.9) & $GO15VENDOREXPERIMENT= wants to enable the vendor experiment, but disabling because a Godep workspace (Godeps/_workspace) exists
+# cd /home/ext-laaber/go-experiments/data/9d/a0/347076/repo/src/golang.org/x/crypto; git checkout 8fec09c61d5d66f460d227fd1df3473d7e015bc6
+fatal: reference is not a tree: 8fec09c61d5d66f460d227fd1df3473d7e015bc6
+godep: error downloading dep (golang.org/x/crypto/curve25519): exit status 128
+godep: Error downloading some deps. Aborting restore and check.
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

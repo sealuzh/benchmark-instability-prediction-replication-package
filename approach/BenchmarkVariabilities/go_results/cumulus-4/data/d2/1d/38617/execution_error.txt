@@ -1,0 +1,14 @@
+Error while executing goptc (25773609b658f2ac1bd17044b4ffa7015e299b48): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/d2/1d/38617/repo/src/github.com/dop251/goja': exit status 2
+
+Out: # github.com/dop251/goja/goja
+goja/main.go:91:26: not enough arguments in call to goja.Compile
+	have (string, string)
+	want (string, string, bool)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

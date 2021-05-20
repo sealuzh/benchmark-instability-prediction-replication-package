@@ -1,0 +1,11 @@
+Error while executing goptc (f67087a17651bea65fd882785d4fd88fb76919fd): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/e8/51/298718/repo/src/github.com/miekg/dns': exit status 1
+
+Out: can't load package: package github.com/miekg/dns: found packages dns (dns.go) and main (restest.go) in /home/ext-laaber/go-experiments/data/e8/51/298718/repo/src/github.com/miekg/dns
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

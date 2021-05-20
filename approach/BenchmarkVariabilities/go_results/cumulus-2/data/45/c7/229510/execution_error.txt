@@ -1,0 +1,11 @@
+Error while executing goptc (1989004ca3bdaa1390135f277fb9be6a9490d483): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/45/c7/229510/repo/src/github.com/JLeliaert/vinamax2': exit status 1
+
+Out: examples/example.go:11:2: local import ".." in non-local package
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

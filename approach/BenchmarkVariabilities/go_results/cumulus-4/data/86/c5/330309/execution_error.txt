@@ -1,0 +1,143 @@
+Error while executing goptc (03781d8a8050dd4e3d824ee414c1456eac179cc0): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release': exit status 1
+
+Out: can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/context: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/context expects import "golang.org/x/net/context"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/context/ctxhttp: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/context/ctxhttp expects import "golang.org/x/net/context/ctxhttp"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/dict: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/dict expects import "golang.org/x/net/dict"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/html: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/html expects import "golang.org/x/net/html"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/html/atom: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/html/atom expects import "golang.org/x/net/html/atom"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/html/charset: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/html/charset expects import "golang.org/x/net/html/charset"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/icmp: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/icmp expects import "golang.org/x/net/icmp"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/idna: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/idna expects import "golang.org/x/net/idna"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/internal/iana: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/internal/iana expects import "golang.org/x/net/internal/iana"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/internal/nettest: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/internal/nettest expects import "golang.org/x/net/internal/nettest"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/internal/timeseries: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/internal/timeseries expects import "golang.org/x/net/internal/timeseries"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/ipv4: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/ipv4 expects import "golang.org/x/net/ipv4"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/ipv6: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/ipv6 expects import "golang.org/x/net/ipv6"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/netutil: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/netutil expects import "golang.org/x/net/netutil"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/proxy: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/proxy expects import "golang.org/x/net/proxy"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/publicsuffix: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/publicsuffix expects import "golang.org/x/net/publicsuffix"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/trace: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/trace expects import "golang.org/x/net/trace"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/webdav: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/webdav expects import "golang.org/x/net/webdav"
+can't load package: package github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/websocket: code in directory /home/ext-laaber/go-experiments/data/86/c5/330309/repo/src/github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/websocket expects import "golang.org/x/net/websocket"
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/api
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/api/client
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/api/client/ps
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/api/server
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/api/types
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/autogen/dockerversion
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/autogen/winresources
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/builder
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/builder/command
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/builder/parser
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/builder/parser/dumper
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/cli
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/cliconfig
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/contrib/docker-device-tool
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/contrib/host-integration
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/contrib/httpserver
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/events
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/execdriver
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/execdriver/execdrivers
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/execdriver/lxc
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/execdriver/native
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/execdriver/native/template
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/execdriver/windows
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/graphdriver
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/graphdriver/aufs
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/graphdriver/btrfs
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/graphdriver/devmapper
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/graphdriver/graphtest
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/graphdriver/overlay
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/graphdriver/vfs
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/graphdriver/zfs
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/logger
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/logger/fluentd
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/logger/gelf
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/logger/journald
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/logger/jsonfilelog
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/logger/syslog
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/daemon/network
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/docker
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/dockerinit
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/graph
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/graph/tags
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/image
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/integration-cli
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/links
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/opts
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/ansiescape
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/archive
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/broadcastwriter
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/chrootarchive
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/devicemapper
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/directory
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/fileutils
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/graphdb
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/homedir
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/httputils
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/ioutils
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/jsonlog
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/jsonmessage
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/listenbuffer
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/mflag
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/mflag/example
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/mount
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/namesgenerator
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/nat
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/parsers
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/parsers/filters
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/parsers/kernel
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/parsers/operatingsystem
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/pidfile
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/plugins
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/plugins/pluginrpc-gen
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/plugins/pluginrpc-gen/fixtures
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/pools
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/progressreader
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/promise
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/proxy
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/pubsub
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/random
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/reexec
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/signal
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/sockets
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/stdcopy
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/streamformatter
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/stringid
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/stringutils
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/symlink
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/sysinfo
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/system
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/systemd
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/tailfile
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/tarsum
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/term
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/term/winconsole
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/timeoutconn
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/timeutils
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/tlsconfig
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/truncindex
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/ulimit
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/units
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/urlutil
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/useragent
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/pkg/version
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/registry
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/runconfig
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/utils
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/volume
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/volume/drivers
+github.com/cloudfoundry-attic/garden-linux-release/src/github.com/docker/docker/volume/local
+github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/http2
+github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/http2/h2i
+github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/http2/hpack
+github.com/cloudfoundry-attic/garden-linux-release/src/golang.org/x/net/webdav/internal/xml
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

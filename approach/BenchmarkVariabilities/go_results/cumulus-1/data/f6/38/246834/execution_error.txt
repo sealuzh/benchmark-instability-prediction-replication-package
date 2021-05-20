@@ -1,0 +1,17 @@
+Error while executing goptc (a99726e8bc91581747e4acd1b1494b8efeb34e28): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/f6/38/246834/repo/src/github.com/piotrkowalczuk/pqt': exit status 2
+
+Out: # github.com/piotrkowalczuk/pqt/pqtgo
+pqtgo/generator.go:133:8: undefined: pqcnstr.KindCheck
+pqtgo/generator.go:135:8: undefined: pqcnstr.KindPrimaryKey
+pqtgo/generator.go:137:8: undefined: pqcnstr.KindForeignKey
+pqtgo/generator.go:139:8: undefined: pqcnstr.KindExclusion
+pqtgo/generator.go:141:8: undefined: pqcnstr.KindUnique
+pqtgo/generator.go:143:8: undefined: pqcnstr.KindIndex
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

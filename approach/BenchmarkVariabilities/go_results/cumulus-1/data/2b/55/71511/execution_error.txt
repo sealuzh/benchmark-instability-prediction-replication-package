@@ -1,0 +1,14 @@
+Error while executing goptc (810ce94e0524888fb180dc6992480781bc7c0bd2): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/2b/55/71511/repo/src/github.com/metal3d/idok': exit status 2
+
+Out: # github.com/metal3d/idok/tunnel/go.crypto/openpgp
+tunnel/go.crypto/openpgp/read.go:198:20: multiple-value s.Decrypt() in single-value context
+tunnel/go.crypto/openpgp/read.go:199:24: s.Encrypted undefined (type *packet.SymmetricKeyEncrypted has no field or method Encrypted)
+tunnel/go.crypto/openpgp/read.go:200:49: s.Key undefined (type *packet.SymmetricKeyEncrypted has no field or method Key)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,38 @@
+Error while executing goptc (35189449981a46c6b73e39315b53fbc804349f0e): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/cd/42/225952/repo/src/github.com/rainycape/gondola': exit status 1
+
+Out: package gnd.la/app/cookies: unrecognized import path "gnd.la/app/cookies" (https fetch: Get https://gnd.la/app/cookies?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/app/profile: unrecognized import path "gnd.la/app/profile" (https fetch: Get https://gnd.la/app/profile?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/app/serialize: unrecognized import path "gnd.la/app/serialize" (https fetch: Get https://gnd.la/app/serialize?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/blobstore: unrecognized import path "gnd.la/blobstore" (https fetch: Get https://gnd.la/blobstore?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/cache: unrecognized import path "gnd.la/cache" (https fetch: Get https://gnd.la/cache?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/config: unrecognized import path "gnd.la/config" (https fetch: Get https://gnd.la/config?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/crypto/cryptoutil: unrecognized import path "gnd.la/crypto/cryptoutil" (https fetch: Get https://gnd.la/crypto/cryptoutil?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/crypto/hashutil: unrecognized import path "gnd.la/crypto/hashutil" (https fetch: Get https://gnd.la/crypto/hashutil?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/encoding/base64: unrecognized import path "gnd.la/encoding/base64" (https fetch: Get https://gnd.la/encoding/base64?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/encoding/codec: unrecognized import path "gnd.la/encoding/codec" (https fetch: Get https://gnd.la/encoding/codec?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/form/input: unrecognized import path "gnd.la/form/input" (https fetch: Get https://gnd.la/form/input?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/i18n: unrecognized import path "gnd.la/i18n" (https fetch: Get https://gnd.la/i18n?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/i18n/table: unrecognized import path "gnd.la/i18n/table" (https fetch: Get https://gnd.la/i18n/table?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/internal: unrecognized import path "gnd.la/internal" (https fetch: Get https://gnd.la/internal?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/internal/devutil/devassets: unrecognized import path "gnd.la/internal/devutil/devassets" (https fetch: Get https://gnd.la/internal/devutil/devassets?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/internal/devutil/devserver: unrecognized import path "gnd.la/internal/devutil/devserver" (https fetch: Get https://gnd.la/internal/devutil/devserver?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/internal/runtimeutil: unrecognized import path "gnd.la/internal/runtimeutil" (https fetch: Get https://gnd.la/internal/runtimeutil?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/internal/templateutil: unrecognized import path "gnd.la/internal/templateutil" (https fetch: Get https://gnd.la/internal/templateutil?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/kvs: unrecognized import path "gnd.la/kvs" (https fetch: Get https://gnd.la/kvs?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/log: unrecognized import path "gnd.la/log" (https fetch: Get https://gnd.la/log?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/net/mail: unrecognized import path "gnd.la/net/mail" (https fetch: Get https://gnd.la/net/mail?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/net/urlutil: unrecognized import path "gnd.la/net/urlutil" (https fetch: Get https://gnd.la/net/urlutil?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/orm: unrecognized import path "gnd.la/orm" (https fetch: Get https://gnd.la/orm?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/signals: unrecognized import path "gnd.la/signals" (https fetch: Get https://gnd.la/signals?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/template: unrecognized import path "gnd.la/template" (https fetch: Get https://gnd.la/template?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/template/assets: unrecognized import path "gnd.la/template/assets" (https fetch: Get https://gnd.la/template/assets?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/util/stringutil: unrecognized import path "gnd.la/util/stringutil" (https fetch: Get https://gnd.la/util/stringutil?go-get=1: x509: certificate has expired or is not yet valid)
+package gnd.la/util/types: unrecognized import path "gnd.la/util/types" (https fetch: Get https://gnd.la/util/types?go-get=1: x509: certificate has expired or is not yet valid)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

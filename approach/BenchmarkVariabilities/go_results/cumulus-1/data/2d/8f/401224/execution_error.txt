@@ -1,0 +1,13 @@
+Error while executing goptc (561bede175c7b992f0f43eb0dc42a895ac138d71): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/2d/8f/401224/repo/src/github.com/gocraft/dbr': exit status 1
+
+Out: can't load package: package github.com/gocraft/dbr/test: 
+test/main.go:1:1: expected 'package', found 'EOF'
+github.com/gocraft/dbr
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

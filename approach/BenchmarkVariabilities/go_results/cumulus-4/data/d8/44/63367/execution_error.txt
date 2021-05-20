@@ -1,0 +1,62 @@
+Error while executing goptc (62534ce5c1fcb1e7e3962210d74a44917a68381a): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/d8/44/63367/repo/src/github.com/influxdata/influxdb': exit status 1
+
+Out: >> Getting package collectd.org
+>> Getting package github.com/BurntSushi/toml
+>> Getting package github.com/bmizerany/pat
+>> Getting package github.com/boltdb/bolt
+>> Getting package github.com/davecgh/go-spew
+>> Getting package github.com/dgryski/go-bitstream
+>> Getting package github.com/golang/snappy
+>> Getting package github.com/cespare/xxhash
+>> Getting package github.com/dgrijalva/jwt-go
+>> Getting package github.com/peterh/liner
+>> Getting package golang.org/x/sys
+>> Getting package github.com/uber-go/atomic
+>> Getting package github.com/influxdata/usage-client
+>> Getting package github.com/jwilder/encoding
+>> Getting package github.com/gogo/protobuf
+>> Getting package golang.org/x/crypto
+>> Getting package github.com/retailnext/hllpp
+>> Getting package github.com/spaolacci/murmur3
+>> Getting package github.com/paulbellamy/ratecounter
+>> Getting package github.com/dgryski/go-bits
+>> Getting package github.com/uber-go/zap
+package golang.org/x/crypto: no Go files in /home/ext-laaber/go-experiments/data/d8/44/63367/repo/src/golang.org/x/crypto
+package github.com/influxdata/usage-client: no Go files in /home/ext-laaber/go-experiments/data/d8/44/63367/repo/src/github.com/influxdata/usage-client
+package github.com/jwilder/encoding: no Go files in /home/ext-laaber/go-experiments/data/d8/44/63367/repo/src/github.com/jwilder/encoding
+package golang.org/x/sys: no Go files in /home/ext-laaber/go-experiments/data/d8/44/63367/repo/src/golang.org/x/sys
+package github.com/davecgh/go-spew: no Go files in /home/ext-laaber/go-experiments/data/d8/44/63367/repo/src/github.com/davecgh/go-spew
+package collectd.org: no Go files in /home/ext-laaber/go-experiments/data/d8/44/63367/repo/src/collectd.org
+package github.com/uber-go/zap: code in directory /home/ext-laaber/go-experiments/data/d8/44/63367/repo/src/github.com/uber-go/zap expects import "go.uber.org/zap"
+package github.com/gogo/protobuf: no Go files in /home/ext-laaber/go-experiments/data/d8/44/63367/repo/src/github.com/gogo/protobuf
+>> Setting github.com/BurntSushi/toml to version 99064174e013895bbd9b025c31100bd1d9b590ca
+>> Setting github.com/davecgh/go-spew to version 346938d642f2ec3594ed81d874461961cd0faa76
+>> Setting github.com/boltdb/bolt to version 4b1ebc1869ad66568b313d0dc410e2be72670dda
+>> Setting github.com/dgryski/go-bitstream to version 7d46cd22db7004f0cceb6f7975824b560cf0e486
+>> Setting github.com/paulbellamy/ratecounter to version 5a11f585a31379765c190c033b6ad39956584447
+>> Setting collectd.org to version e84e8af5356e7f47485bbc95c96da6dd7984a67e
+>> Setting github.com/dgrijalva/jwt-go to version 24c63f56522a87ec5339cc3567883f1039378fdb
+>> Setting github.com/bmizerany/pat to version c068ca2f0aacee5ac3681d68e4d0a003b7d1fd2c
+>> Setting github.com/jwilder/encoding to version 27894731927e49b0a9023f00312be26733744815
+>> Setting github.com/cespare/xxhash to version 4a94f899c20bc44d4f5f807cb14529e72aca99d6
+>> Setting github.com/influxdata/usage-client to version 6d3895376368aa52a3a81d2a16e90f0f52371967
+>> Setting github.com/retailnext/hllpp to version 38a7bb71b483e855d35010808143beaf05b67f9d
+>> Setting github.com/gogo/protobuf to version 30433562cfbf487fe1df7cd26c7bab168d2f14d0
+>> Setting github.com/uber-go/zap to version fbae0281ffd546fa6d1959fec6075ac5da7fb577
+>> Setting github.com/uber-go/atomic to version 74ca5ec650841aee9f289dce76e928313a37cbc6
+>> Setting github.com/peterh/liner to version 88609521dc4b6c858fd4c98b628147da928ce4ac
+>> Setting golang.org/x/sys to version 90796e5a05ce440b41c768bd9af257005e470461
+>> Setting golang.org/x/crypto to version 9477e0b78b9ac3d0b03822fd95422e2fe07627cd
+>> Setting github.com/spaolacci/murmur3 to version 0d12bf811670bf6a1a63828dfbd003eded177fce
+>> Setting github.com/dgryski/go-bits to version 2ad8d707cc05b1815ce6ff2543bb5e8d8f9298ef
+>> Setting github.com/golang/snappy to version d9eb7a3d35ec988b8585d4a0068e462c27d28380
+>> Building package collectd.org
+can't load package: package collectd.org: no Go files in /home/ext-laaber/go-experiments/data/d8/44/63367/repo/src/collectd.org
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,25 @@
+Error while executing goptc (05f588fd195fe3e235a4951e0beee55e27eac189): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/3a/b3/285480/repo/src/github.com/minio/mc': exit status 2
+
+Out: # cd /home/ext-laaber/go-experiments/data/3a/b3/285480/repo/.cache/govendor/github.com/fatih/structs; git reset --hard 5721d85c9a0e65ee65005e7da48c56612ae04ee3
+fatal: Could not parse object '5721d85c9a0e65ee65005e7da48c56612ae04ee3'.
+# cd /home/ext-laaber/go-experiments/data/3a/b3/285480/repo/.cache/govendor/github.com/minio/minio; git reset --hard 0060549addd566b2ac568891efa1579be3024a97
+fatal: Could not parse object '0060549addd566b2ac568891efa1579be3024a97'.
+# cd /home/ext-laaber/go-experiments/data/3a/b3/285480/repo/.cache/govendor/github.com/minio/minio; git reset --hard 0060549addd566b2ac568891efa1579be3024a97
+fatal: Could not parse object '0060549addd566b2ac568891efa1579be3024a97'.
+# cd /home/ext-laaber/go-experiments/data/3a/b3/285480/repo/.cache/govendor/github.com/minio/minio; git reset --hard 0060549addd566b2ac568891efa1579be3024a97
+fatal: Could not parse object '0060549addd566b2ac568891efa1579be3024a97'.
+# cd /home/ext-laaber/go-experiments/data/3a/b3/285480/repo/.cache/govendor/github.com/minio/minio; git reset --hard 0060549addd566b2ac568891efa1579be3024a97
+fatal: Could not parse object '0060549addd566b2ac568891efa1579be3024a97'.
+Error: Remotes failed for:
+	Failed for "github.com/fatih/structs" (failed to clone repo): exit status 128
+	Failed for "github.com/minio/minio/pkg/quick" (failed to sync repo to 0060549addd566b2ac568891efa1579be3024a97): exit status 128
+	Failed for "github.com/minio/minio/pkg/safe" (failed to sync repo to 0060549addd566b2ac568891efa1579be3024a97): exit status 128
+
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

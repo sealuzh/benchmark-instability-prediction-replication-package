@@ -1,0 +1,22 @@
+204 with only one data point:
+
+nsqio/nsq,BenchmarkProtocolV2Sub128k,1,-1,-1,-0.0,-0.0
+
+mesos/mesos-go, all
+
+go-gl/mathgl, all
+
+uber/tchannel-go,BenchmarkCallsConcurrentServer,1,-1,-1,-0.0,-0.0
+
+____________________________________________________________________________________
+
+9 with all points are 0:
+prometheus/common,BenchmarkEmptyLabelSignature,99,0.0,0.0,-1,-1
+codegangsta/martini-contrib,Benchmark_WithCORS,472,0.0,0.0,-1,-1
+codegangsta/martini-contrib,Benchmark_WithoutCORS,472,0.0,0.0,-1,-1
+DNAProject/DNA,BenchmarkReadVarBytes,535,0.0,0.0,-1,-1
+DNAProject/DNA,BenchmarkReadVarString,535,0.0,0.0,-1,-1
+DNAProject/DNA,BenchmarkReadVarUint,535,0.0,0.0,-1,-1
+TuftsBCB/io,BenchmarkReadCIF,891,0.0,0.0,-1,-1
+cgrates/cgrates,BenchmarkGuard,22,0.0,0.0,-1,-1
+cgrates/cgrates,BenchmarkGuardian,22,0.0,0.0,-1,-1

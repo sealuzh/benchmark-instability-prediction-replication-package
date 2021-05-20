@@ -1,0 +1,12 @@
+Error while executing goptc (7f96e5894dbf9eaa67ce75bbfbabaece4ecba834): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/af/31/269572/repo/src/github.com/google/cloud-print-connector': exit status 1
+
+Out: go: missing Bazaar command. See https://golang.org/s/gogetcmd
+package launchpad.net/go-xdg/v0: exec: "bzr": executable file not found in $PATH
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

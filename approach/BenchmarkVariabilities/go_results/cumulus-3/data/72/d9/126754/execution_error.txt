@@ -1,0 +1,11 @@
+Error while executing goptc (4ed622240cf31b3a9ce00babda9dd97cbd3b7834): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/72/d9/126754/repo/src/github.com/bbiskup/edify': exit status 1
+
+Out: package edifact_experiments/edifact: unrecognized import path "edifact_experiments/edifact" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

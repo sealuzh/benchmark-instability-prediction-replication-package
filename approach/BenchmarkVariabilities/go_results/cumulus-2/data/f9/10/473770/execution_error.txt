@@ -1,0 +1,14 @@
+Error while executing goptc (127548423af29b6b5da436d96fec780f61eaacfa): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/f9/10/473770/repo/src/github.com/op/go-logging': exit status 1
+
+Out: # cd .; git clone https://github.com/op/gologging /home/ext-laaber/go-experiments/data/f9/10/473770/repo/src/github.com/op/gologging
+Cloning into '/home/ext-laaber/go-experiments/data/f9/10/473770/repo/src/github.com/op/gologging'...
+fatal: could not read Username for 'https://github.com': terminal prompts disabled
+package github.com/op/gologging: exit status 128
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

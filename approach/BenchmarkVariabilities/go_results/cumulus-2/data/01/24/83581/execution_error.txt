@@ -1,0 +1,17 @@
+Error while executing goptc (c540818b3f38d571a91223fdbe7efed5867549bd): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/01/24/83581/repo/src/github.com/mewkiz/flac': exit status 1
+
+Out: # cd .; git clone https://github.com/karlek/rsf /home/ext-laaber/go-experiments/data/01/24/83581/repo/src/github.com/karlek/rsf
+Cloning into '/home/ext-laaber/go-experiments/data/01/24/83581/repo/src/github.com/karlek/rsf'...
+fatal: could not read Username for 'https://github.com': terminal prompts disabled
+package github.com/karlek/rsf/frame: exit status 128
+package github.com/karlek/rsf/meta: cannot find package "github.com/karlek/rsf/meta" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/karlek/rsf/meta (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/01/24/83581/repo/src/github.com/karlek/rsf/meta (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

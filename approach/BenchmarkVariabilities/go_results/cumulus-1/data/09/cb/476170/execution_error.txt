@@ -1,0 +1,16 @@
+Error while executing goptc (faffa564a742994d550da209998ba67bddb39319): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/09/cb/476170/repo/src/github.com/soumya92/barista': exit status 2
+
+Out: # pkg-config --cflags alsa
+Package alsa was not found in the pkg-config search path.
+Perhaps you should add the directory containing `alsa.pc'
+to the PKG_CONFIG_PATH environment variable
+No package 'alsa' found
+pkg-config: exit status 1
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

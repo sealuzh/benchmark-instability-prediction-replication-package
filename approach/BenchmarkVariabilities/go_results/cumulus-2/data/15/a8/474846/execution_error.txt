@@ -1,0 +1,25 @@
+Error while executing goptc (cd4c3df381e5f3f4972270779eb425059d44c241): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/15/a8/474846/repo/src/github.com/cpmech/gosl': exit status 2
+
+Out: # github.com/cpmech/gosl/fun/fftw
+fun/fftw/plan1d.go:10:19: fatal error: fftw3.h: No such file or directory
+ #include "fftw3.h"
+                   ^
+compilation terminated.
+# github.com/cpmech/gosl/mpi
+mpi/mpi.go:11:17: fatal error: mpi.h: No such file or directory
+ #include "mpi.h"
+                 ^
+compilation terminated.
+# github.com/cpmech/gosl/la/oblas
+la/oblas/oblas.go:22:19: fatal error: cblas.h: No such file or directory
+ #include <cblas.h>
+                   ^
+compilation terminated.
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,14 @@
+Error while executing goptc (45b8a8702e6b5dfa18f386adf68d9339c60f6dbf): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/03/07/370048/repo/src/github.com/cocaine/cocaine-framework-go': exit status 2
+
+Out: # github.com/cocaine/cocaine-framework-go/cmd
+cmd/bridge_main.go:14:34: not enough arguments in call to cocaine12.NewLogger
+	have ()
+	want (context.Context, ...string)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

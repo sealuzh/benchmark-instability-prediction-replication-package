@@ -1,0 +1,12 @@
+Error while executing goptc (a9296bf6ee794d8726f013c254654bb606da0b7e): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/c0/12/50140/repo/src/github.com/matloob/regexp': exit status 1
+
+Out: regexp.go:71:2: use of internal package not allowed
+backtrack.go:18:2: use of internal package not allowed
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

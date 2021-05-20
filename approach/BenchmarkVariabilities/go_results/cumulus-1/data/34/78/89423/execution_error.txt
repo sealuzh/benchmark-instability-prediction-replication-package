@@ -1,0 +1,12 @@
+Error while executing goptc (9a70a3a9252c00d86b20b51f3373868b0409f205): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/34/78/89423/repo/src/github.com/andres-erbsen/chatterbox': exit status 1
+
+Out: package golang.org/x/oprotobuf/proto: unrecognized import path "golang.org/x/oprotobuf/proto" (parse https://golang.org/x/oprotobuf/proto?go-get=1: no go-import meta tags ())
+package golang.org/x/exp/fsnotify: no Go files in /home/ext-laaber/go-experiments/data/34/78/89423/repo/src/golang.org/x/exp/fsnotify
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

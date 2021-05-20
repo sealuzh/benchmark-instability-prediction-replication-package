@@ -1,0 +1,11 @@
+Error while executing goptc (cb808d060587afc331bdab7c4b6b68a3313da427): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/da/82/273779/repo/src/github.com/weidewang/go-transit': exit status 1
+
+Out: package config: unrecognized import path "config" (import path does not begin with hostname)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

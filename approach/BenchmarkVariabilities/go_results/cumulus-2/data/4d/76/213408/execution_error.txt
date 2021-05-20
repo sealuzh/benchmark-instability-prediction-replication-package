@@ -1,0 +1,16 @@
+Error while executing goptc (0b372b11ed65fe2d675f63c3a0c4336ac45c13be): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/4d/76/213408/repo/src/github.com/go-openapi/runtime': exit status 1
+
+Out: package github.com/casualjim/go-swagger/errors: cannot find package "github.com/casualjim/go-swagger/errors" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/casualjim/go-swagger/errors (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/4d/76/213408/repo/src/github.com/casualjim/go-swagger/errors (from $GOPATH)
+package github.com/casualjim/go-swagger/swag: cannot find package "github.com/casualjim/go-swagger/swag" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/casualjim/go-swagger/swag (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/4d/76/213408/repo/src/github.com/casualjim/go-swagger/swag (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

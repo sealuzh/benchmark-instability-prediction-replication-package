@@ -1,0 +1,13 @@
+Error while executing goptc (fdef56cb2b7c8cbc474f6f667fdfbbf157aaa654): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/25/3d/446766/repo/src/github.com/TuftsBCB/io': exit status 1
+
+Out: package github.com/BurntSushi/bcbgo/apps/matt: cannot find package "github.com/BurntSushi/bcbgo/apps/matt" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/BurntSushi/bcbgo/apps/matt (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/25/3d/446766/repo/src/github.com/BurntSushi/bcbgo/apps/matt (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

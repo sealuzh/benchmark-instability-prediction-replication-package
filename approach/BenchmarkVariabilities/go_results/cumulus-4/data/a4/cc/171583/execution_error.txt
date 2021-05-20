@@ -1,0 +1,11 @@
+Error while executing goptc (a40d53313b00b6bdd6971658617047e06e31832f): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/a4/cc/171583/repo/src/github.com/RoaringBitmap/roaring': exit status 1
+
+Out: can't load package: package github.com/RoaringBitmap/roaring: found packages goroaring (container_test.go) and roaring (roaring_test.go) in /home/ext-laaber/go-experiments/data/a4/cc/171583/repo/src/github.com/RoaringBitmap/roaring
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,24 @@
+Error while executing goptc (e130d97558da97862b63559fa31be05c88ce3cc7): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/af/c5/264230/repo/src/github.com/pborman/uuid': exit status 2
+
+Out: # github.com/pborman/uuid
+./hash.go:27:22: undefined: os.Error
+./hash.go:62:24: cannot use md5.New() (type hash.Hash) as type Hash in argument to NewHash:
+	hash.Hash does not implement Hash (wrong type for Sum method)
+		have Sum([]byte) []byte
+		want Sum() []byte
+./hash.go:70:25: cannot use sha1.New() (type hash.Hash) as type Hash in argument to NewHash:
+	hash.Hash does not implement Hash (wrong type for Sum method)
+		have Sum([]byte) []byte
+		want Sum() []byte
+./node.go:44:11: undefined: os.Error
+./time.go:52:23: undefined: os.Error
+./time.go:53:20: undefined: os.Time
+./util.go:25:12: err.String undefined (type error has no field or method String)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

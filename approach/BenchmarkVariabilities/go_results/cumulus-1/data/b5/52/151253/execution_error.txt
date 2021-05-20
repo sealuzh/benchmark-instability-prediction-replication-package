@@ -1,0 +1,15 @@
+Error while executing goptc (7ef8827413037355f8a71646a8016d4d71aeb4fa): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/b5/52/151253/repo/src/github.com/goshawkdb/server': exit status 1
+
+Out: package goshawkdb.io/server/capnp: unrecognized import path "goshawkdb.io/server/capnp" (parse https://goshawkdb.io/server/capnp?go-get=1: no go-import meta tags ())
+package goshawkdb.io/server/configuration: unrecognized import path "goshawkdb.io/server/configuration" (parse https://goshawkdb.io/server/configuration?go-get=1: no go-import meta tags ())
+package goshawkdb.io/server/consistenthash: unrecognized import path "goshawkdb.io/server/consistenthash" (parse https://goshawkdb.io/server/consistenthash?go-get=1: no go-import meta tags ())
+package goshawkdb.io/server/paxos: unrecognized import path "goshawkdb.io/server/paxos" (parse https://goshawkdb.io/server/paxos?go-get=1: no go-import meta tags ())
+package goshawkdb.io/server/txnengine: unrecognized import path "goshawkdb.io/server/txnengine" (parse https://goshawkdb.io/server/txnengine?go-get=1: no go-import meta tags ())
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

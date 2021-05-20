@@ -1,0 +1,15 @@
+Error while executing goptc (cb849acea6148000db8a55743f71476b0897ea41): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/5d/91/21986/repo/src/github.com/moovweb/rubex': exit status 2
+
+Out: # github.com/moovweb/rubex
+./regex.go:7:23: fatal error: oniguruma.h: No such file or directory
+ #include <oniguruma.h>
+                       ^
+compilation terminated.
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

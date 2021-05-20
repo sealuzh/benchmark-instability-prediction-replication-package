@@ -1,0 +1,25 @@
+Error while executing goptc (7d7ad0f369417de4a2c2ce6f2cf7509bc99c6893): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/08/af/242287/repo/src/github.com/MG-RAST/golib': exit status 2
+
+Out: # github.com/MG-RAST/golib/clbanning/x2j/examples
+clbanning/x2j/examples/getmetrics.go:39:6: main redeclared in this block
+	previous declaration at clbanning/x2j/examples/books.go:33:6
+clbanning/x2j/examples/gonuts1.go:34:6: main redeclared in this block
+	previous declaration at clbanning/x2j/examples/getmetrics.go:39:6
+clbanning/x2j/examples/gonuts2.go:56:6: main redeclared in this block
+	previous declaration at clbanning/x2j/examples/gonuts1.go:34:6
+clbanning/x2j/examples/gonuts3.go:11:5: doc redeclared in this block
+	previous declaration at clbanning/x2j/examples/books.go:8:5
+clbanning/x2j/examples/gonuts3.go:26:6: main redeclared in this block
+	previous declaration at clbanning/x2j/examples/gonuts2.go:56:6
+clbanning/x2j/examples/gonuts4.go:12:5: doc redeclared in this block
+	previous declaration at clbanning/x2j/examples/gonuts3.go:11:5
+clbanning/x2j/examples/gonuts4.go:32:6: main redeclared in this block
+	previous declaration at clbanning/x2j/examples/gonuts3.go:26:6
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

@@ -1,0 +1,12 @@
+Error while executing goptc (2ccf43e938868e380894a8404f405630216bb024): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/34/66/59937/repo/src/github.com/xlvector/caspercloud': exit status 2
+
+Out: # github.com/xlvector/caspercloud
+./parser.pb.go:149:11: cannot use _Parser_ProcessParseRequest_Handler (type func(interface {}, "context".Context, []byte) (proto.Message, error)) as type grpc.methodHandler in field value
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

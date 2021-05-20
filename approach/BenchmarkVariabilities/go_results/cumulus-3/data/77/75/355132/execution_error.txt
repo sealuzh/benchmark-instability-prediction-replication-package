@@ -1,0 +1,13 @@
+Error while executing goptc (e7061307bcfa917352782349ca492e69867602d3): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/77/75/355132/repo/src/github.com/01org/ciao': exit status 2
+
+Out: # github.com/01org/ciao/ciao-cli
+ciao-cli/ciao-cli.go:198:29: cannot use opt (type gophercloud.AuthOptions) as type "github.com/rackspace/gophercloud/openstack/identity/v3/tokens".AuthOptionsV3er in argument to "github.com/rackspace/gophercloud/openstack/identity/v3/tokens".Create:
+	gophercloud.AuthOptions does not implement "github.com/rackspace/gophercloud/openstack/identity/v3/tokens".AuthOptionsV3er (missing ToAuthOptionsV3Map method)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

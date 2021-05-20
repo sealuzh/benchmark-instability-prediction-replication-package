@@ -1,0 +1,32 @@
+Error while executing goptc (993970d644258159e3800d269ce3571931a0540c): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/f0/71/277805/repo/src/github.com/zx48/linq': exit status 2
+
+Out: # github.com/zx48/linq/samples
+samples/gomilestone.go:17:6: main redeclared in this block
+	previous declaration at samples/citylots.go:56:6
+samples/gomilestone.go:42:51: main.func1 redeclared in this block
+	previous declaration at samples/citylots.go:79:16
+samples/gomilestone.go:44:13: main.func2 redeclared in this block
+	previous declaration at samples/citylots.go:82:14
+samples/gomilestone.go:46:5: main.func3 redeclared in this block
+	previous declaration at samples/citylots.go:84:13
+samples/gomilestone.go:52:18: main.func4 redeclared in this block
+	previous declaration at samples/citylots.go:86:5
+samples/gomilestone.go:57:5: main.func5 redeclared in this block
+	previous declaration at samples/citylots.go:91:18
+samples/gomilestone.go:62:31: main.func6 redeclared in this block
+	previous declaration at samples/citylots.go:97:5
+samples/naughtystrings.go:17:6: main redeclared in this block
+	previous declaration at samples/gomilestone.go:17:6
+samples/naughtystrings.go:26:9: main.func1 redeclared in this block
+	previous declaration at samples/gomilestone.go:42:51
+samples/naughtystrings.go:32:11: main.func2 redeclared in this block
+	previous declaration at samples/gomilestone.go:44:13
+samples/naughtystrings.go:32:11: too many errors
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

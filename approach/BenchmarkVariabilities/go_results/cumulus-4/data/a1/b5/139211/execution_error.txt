@@ -1,0 +1,14 @@
+Error while executing goptc (a74d9a5801560e5e95c67a276df30ee127ca9e8b): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/a1/b5/139211/repo/src/github.com/go-redis/redis': exit status 1
+
+Out: # cd .; git clone https://github.com/togoio/redisgoproxy /home/ext-laaber/go-experiments/data/a1/b5/139211/repo/src/github.com/togoio/redisgoproxy
+Cloning into '/home/ext-laaber/go-experiments/data/a1/b5/139211/repo/src/github.com/togoio/redisgoproxy'...
+fatal: could not read Username for 'https://github.com': terminal prompts disabled
+package github.com/togoio/redisgoproxy/bufreader: exit status 128
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

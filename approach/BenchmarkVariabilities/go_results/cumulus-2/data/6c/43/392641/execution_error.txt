@@ -1,0 +1,50 @@
+Error while executing goptc (c0c3d0670918a8940da504774b986c46e94bf6a5): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/6c/43/392641/repo/src/github.com/btccom/copernicus': exit status 1
+
+Out: [0;33m[WARN]	[mThe name listed in the config file (copernicus) does not match the current location (github.com/btccom/copernicus)
+[0;32m[INFO]	[mDownloading dependencies. Please wait...
+[0;32m[INFO]	[m--> Found desired version locally github.com/btcsuite/fastsha256 637e656429416087660c84436a2a035d69d54e2e!
+[0;32m[INFO]	[m--> Found desired version locally github.com/davecgh/go-spew 346938d642f2ec3594ed81d874461961cd0faa76!
+[0;32m[INFO]	[m--> Found desired version locally github.com/pkg/errors 645ef00459ed84a119197bfb8d8205042c6df63d!
+[0;32m[INFO]	[m--> Found desired version locally github.com/syndtr/goleveldb e9e2c8f6d3b9c313fb4acaac5ab06285bcf30b04!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/crypto 122d919ec1efcfb58483215da23f815853e24b81!
+[0;32m[INFO]	[m--> Found desired version locally gopkg.in/yaml.v2 cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b!
+[0;32m[INFO]	[m--> Fetching github.com/btcsuite/go-socks
+[0;32m[INFO]	[m--> Fetching github.com/astaxie/beego
+[0;32m[INFO]	[m--> Fetching github.com/cupcake/rdb
+[0;32m[INFO]	[m--> Fetching github.com/siddontang/go
+[0;32m[INFO]	[m--> Fetching github.com/BurntSushi/toml
+[0;32m[INFO]	[m--> Fetching github.com/boltdb/bolt
+[0;32m[INFO]	[m--> Fetching github.com/edsrzf/mmap-go
+[0;32m[INFO]	[m--> Fetching github.com/syndtr/gosnappy
+[0;32m[INFO]	[m--> Fetching github.com/jjz/secp256k1-go
+[0;32m[INFO]	[m--> Fetching github.com/siddontang/ledisdb
+[0;32m[INFO]	[m--> Fetching github.com/siddontang/rdb
+[0;33m[WARN]	[mUnable to checkout github.com/jjz/secp256k1-go
+[0;31m[ERROR]	[mUpdate failed for github.com/jjz/secp256k1-go: Unable to get repository: Cloning into '/home/ext-laaber/.glide/cache/src/http-github.com-jjz-secp256k1-go.git'...
+Submodule 'secp256k1/c-secp256k1' (git@github.com:bitcoin-core/secp256k1.git) registered for path 'secp256k1/c-secp256k1'
+Cloning into '/home/ext-laaber/.glide/cache/src/http-github.com-jjz-secp256k1-go.git/secp256k1/c-secp256k1'...
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@github.com:bitcoin-core/secp256k1.git' into submodule path '/home/ext-laaber/.glide/cache/src/http-github.com-jjz-secp256k1-go.git/secp256k1/c-secp256k1' failed
+: exit status 1
+[0;31m[ERROR]	[mFailed to install: Unable to get repository: Cloning into '/home/ext-laaber/.glide/cache/src/http-github.com-jjz-secp256k1-go.git'...
+Submodule 'secp256k1/c-secp256k1' (git@github.com:bitcoin-core/secp256k1.git) registered for path 'secp256k1/c-secp256k1'
+Cloning into '/home/ext-laaber/.glide/cache/src/http-github.com-jjz-secp256k1-go.git/secp256k1/c-secp256k1'...
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+fatal: clone of 'git@github.com:bitcoin-core/secp256k1.git' into submodule path '/home/ext-laaber/.glide/cache/src/http-github.com-jjz-secp256k1-go.git/secp256k1/c-secp256k1' failed
+: exit status 1
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

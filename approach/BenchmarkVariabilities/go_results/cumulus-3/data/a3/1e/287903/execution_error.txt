@@ -1,0 +1,16 @@
+Error while executing goptc (11c69e484089895e555dd5f5e9698add58e4fc63): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/a3/1e/287903/repo/src/github.com/mcuadros/go-syslog': exit status 1
+
+Out: can't load package: package github.com/mcuadros/go-syslog: code in directory /home/ext-laaber/go-experiments/data/a3/1e/287903/repo/src/github.com/mcuadros/go-syslog expects import "gopkg.in/mcuadros/go-syslog.v2"
+github.com/mcuadros/go-syslog/example
+github.com/mcuadros/go-syslog/format
+github.com/mcuadros/go-syslog/internal/syslogparser
+github.com/mcuadros/go-syslog/internal/syslogparser/rfc3164
+github.com/mcuadros/go-syslog/internal/syslogparser/rfc5424
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

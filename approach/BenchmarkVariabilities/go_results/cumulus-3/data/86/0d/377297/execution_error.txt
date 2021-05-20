@@ -1,0 +1,60 @@
+Error while executing goptc (3120d228c32d302723490640cb96a90d50e4e6b1): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/86/0d/377297/repo/src/github.com/uber/zanzibar': exit status 1
+
+Out: [0;32m[INFO]	[mDownloading dependencies. Please wait...
+[0;32m[INFO]	[m--> Found desired version locally github.com/davecgh/go-spew 346938d642f2ec3594ed81d874461961cd0faa76!
+[0;32m[INFO]	[m--> Found desired version locally github.com/pmezard/go-difflib 792786c7400a136282c1664665ae0a8db921c6c2!
+[0;32m[INFO]	[m--> Found desired version locally github.com/stretchr/testify f6abca593680b2315d2075e0f5e2a9751e3f431a!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/net 5f8847ae0d0e90b6a9dc8148e7ad616874625171!
+[0;32m[INFO]	[m--> Fetching github.com/anmitsu/go-shlex
+[0;32m[INFO]	[m--> Fetching github.com/apache/thrift
+[0;32m[INFO]	[m--> Fetching github.com/buger/jsonparser
+[0;32m[INFO]	[m--> Fetching go.uber.org/zap
+[0;32m[INFO]	[m--> Fetching github.com/go-validator/validator
+[0;32m[INFO]	[m--> Fetching github.com/uber/tchannel-go
+[0;32m[INFO]	[m--> Fetching go.uber.org/atomic
+[0;32m[INFO]	[m--> Fetching github.com/mcuadros/go-jsonschema-generator
+[0;32m[INFO]	[m--> Fetching go.uber.org/thriftrw
+[0;32m[INFO]	[m--> Fetching github.com/go-yaml/yaml
+[0;32m[INFO]	[m--> Fetching github.com/uber-go/atomic
+[0;32m[INFO]	[m--> Fetching github.com/julienschmidt/httprouter
+[0;32m[INFO]	[m--> Fetching github.com/kardianos/osext
+[0;32m[INFO]	[m--> Fetching github.com/jessevdk/go-flags
+[0;32m[INFO]	[m--> Fetching github.com/opentracing/opentracing-go
+[0;32m[INFO]	[m--> Fetching github.com/facebookgo/clock
+[0;32m[INFO]	[m--> Fetching github.com/mailru/easyjson
+[0;32m[INFO]	[m--> Fetching github.com/pkg/errors
+[0;32m[INFO]	[m--> Fetching github.com/uber-go/tally
+[0;32m[INFO]	[mSetting references.
+[0;32m[INFO]	[m--> Setting version for github.com/anmitsu/go-shlex to 648efa622239a2f6ff949fed78ee37b48d499ba4.
+[0;32m[INFO]	[m--> Setting version for github.com/uber-go/tally to 34be4a565ce6286a0ba91a54a81be3f6181ca2e2.
+[0;32m[INFO]	[m--> Setting version for github.com/apache/thrift to 9549b25c77587b29be4e0b5c258221a4ed85d37a.
+[0;32m[INFO]	[m--> Setting version for github.com/mailru/easyjson to dffba8d13bbd998df17d8557570cdea0624b9d1d.
+[0;32m[INFO]	[m--> Setting version for github.com/pkg/errors to 645ef00459ed84a119197bfb8d8205042c6df63d.
+[0;32m[INFO]	[m--> Setting version for github.com/uber-go/atomic to e682c1008ac17bf26d2e4b5ad6cdd08520ed0b22.
+[0;32m[INFO]	[m--> Setting version for github.com/buger/jsonparser to 5b691c8ebc4af5191baa426561d62f1b5115d6e5.
+[0;32m[INFO]	[m--> Setting version for github.com/davecgh/go-spew to 346938d642f2ec3594ed81d874461961cd0faa76.
+[0;32m[INFO]	[m--> Setting version for github.com/jessevdk/go-flags to 5695738f733662da3e9afc2283bba6f3c879002d.
+[0;32m[INFO]	[m--> Setting version for github.com/julienschmidt/httprouter to 8c199fb6259ffc1af525cc3ad52ee60ba8359669.
+[0;32m[INFO]	[m--> Setting version for github.com/uber/tchannel-go to 79387824978f91318be3bfb43ae12e04c38cfe97.
+[0;32m[INFO]	[m--> Setting version for github.com/facebookgo/clock to 600d898af40aa09a7a93ecb9265d87b0504b6f03.
+[0;32m[INFO]	[m--> Setting version for github.com/kardianos/osext to c2c54e542fb797ad986b31721e1baedf214ca413.
+[0;32m[INFO]	[m--> Setting version for github.com/pmezard/go-difflib to 792786c7400a136282c1664665ae0a8db921c6c2.
+[0;32m[INFO]	[m--> Setting version for github.com/go-validator/validator to 3e4f037f12a1221a0864cf0dd2e81c452ab22448.
+[0;32m[INFO]	[m--> Setting version for github.com/go-yaml/yaml to a83829b6f1293c91addabc89d0571c246397bbf4.
+[0;32m[INFO]	[m--> Setting version for github.com/mcuadros/go-jsonschema-generator to b230f1338bcd899d31970d8f08207cfb955592c3.
+[0;32m[INFO]	[m--> Setting version for github.com/stretchr/testify to f6abca593680b2315d2075e0f5e2a9751e3f431a.
+[0;32m[INFO]	[m--> Setting version for github.com/opentracing/opentracing-go to 6edb48674bd9467b8e91fda004f2bd7202d60ce4.
+[0;32m[INFO]	[m--> Setting version for go.uber.org/atomic to e682c1008ac17bf26d2e4b5ad6cdd08520ed0b22.
+[0;32m[INFO]	[m--> Setting version for go.uber.org/thriftrw to bbc73fe4e851cac67043d021242eb03920c2f1dd.
+[0;31m[ERROR]	[mFailed to set version on go.uber.org/thriftrw to bbc73fe4e851cac67043d021242eb03920c2f1dd: Unable to update checked out version: exit status 128
+[0;32m[INFO]	[m--> Setting version for golang.org/x/net to 5f8847ae0d0e90b6a9dc8148e7ad616874625171.
+[0;32m[INFO]	[m--> Setting version for go.uber.org/zap to a2773be06b9ac7c318a3a105b5c310af5730c6b4.
+[0;31m[ERROR]	[mFailed to set references: Unable to update checked out version: exit status 128 (Skip to cleanup)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

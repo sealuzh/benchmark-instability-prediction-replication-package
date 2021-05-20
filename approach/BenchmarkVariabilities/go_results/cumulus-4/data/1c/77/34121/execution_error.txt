@@ -1,0 +1,11 @@
+Error while executing goptc (174f8ed44a0bf65e7c8fb228b60b58de62654cd2): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/1c/77/34121/repo/src/github.com/blevesearch/bleve': exit status 1
+
+Out: 2017/11/04 19:00:26 command "fetch" failed: fetch: import path missing
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

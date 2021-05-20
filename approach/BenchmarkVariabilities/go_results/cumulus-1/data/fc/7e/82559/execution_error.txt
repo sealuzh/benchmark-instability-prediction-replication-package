@@ -1,0 +1,22 @@
+Error while executing goptc (f714a01712f1d2c31c3c3d95492cd96b58a4b845): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/fc/7e/82559/repo/src/github.com/chop-dbhi/origins': exit status 2
+
+Out: # github.com/chop-dbhi/origins/http
+http/main.go:29:3: e.HTTP2 undefined (type *echo.Echo has no field or method HTTP2)
+http/main.go:32:3: e.SetDebug undefined (type *echo.Echo has no field or method SetDebug)
+http/main.go:42:4: cannot use cors.New(cors.Options literal).Handler (type func(http.Handler) http.Handler) as type echo.MiddlewareFunc in argument to e.Use
+http/main.go:45:9: cannot use s.serverContext (type func(*echo.Context) error) as type echo.MiddlewareFunc in argument to e.Use
+http/main.go:47:3: e.Get undefined (type *echo.Echo has no field or method Get, but does have GET)
+http/main.go:48:3: e.Get undefined (type *echo.Echo has no field or method Get, but does have GET)
+http/main.go:50:3: e.Get undefined (type *echo.Echo has no field or method Get, but does have GET)
+http/main.go:51:3: e.Get undefined (type *echo.Echo has no field or method Get, but does have GET)
+http/main.go:52:3: e.Get undefined (type *echo.Echo has no field or method Get, but does have GET)
+http/main.go:53:3: e.Get undefined (type *echo.Echo has no field or method Get, but does have GET)
+http/main.go:53:3: too many errors
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

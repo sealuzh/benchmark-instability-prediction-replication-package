@@ -1,0 +1,11 @@
+Error while executing goptc (e3578a034497021f3878980d9934f28f1b69cbec): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/88/8c/96845/repo/src/github.com/phil-mansfield/gotetra': exit status 1
+
+Out: package code.google.com/p/gcfg: unrecognized import path "code.google.com/p/gcfg" (parse https://code.google.com/p/gcfg?go-get=1: no go-import meta tags ())
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

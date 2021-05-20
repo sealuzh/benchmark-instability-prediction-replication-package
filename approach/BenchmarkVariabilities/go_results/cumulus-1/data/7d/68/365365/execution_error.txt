@@ -1,0 +1,16 @@
+Error while executing goptc (37102bbc0ac6e6e66f7ed0a73256989caa309088): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/7d/68/365365/repo/src/github.com/semanticize/dumpparser': exit status 1
+
+Out: package github.com/semanticize/st/dumpparser/wikidump: cannot find package "github.com/semanticize/st/dumpparser/wikidump" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/semanticize/st/dumpparser/wikidump (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/7d/68/365365/repo/src/github.com/semanticize/st/dumpparser/wikidump (from $GOPATH)
+package github.com/semanticize/st/storage: cannot find package "github.com/semanticize/st/storage" in any of:
+	/home/ext-laaber/go-install/go/src/github.com/semanticize/st/storage (from $GOROOT)
+	/home/ext-laaber/go-experiments/data/7d/68/365365/repo/src/github.com/semanticize/st/storage (from $GOPATH)
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

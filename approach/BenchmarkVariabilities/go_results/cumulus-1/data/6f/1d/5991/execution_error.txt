@@ -1,0 +1,66 @@
+Error while executing goptc (8c3a4acfb536949ed27a888dc3e7b341853122fc): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/6f/1d/5991/repo/src/github.com/jrconlin/pushgo': exit status 1
+
+Out: >> Getting package golang.org/x/net/websocket
+>> Getting package github.com/bbangert/toml
+>> Getting package github.com/bradfitz/gomemcache/memcache
+>> Getting package github.com/cactus/go-statsd-client/statsd
+>> Getting package github.com/coreos/go-etcd/etcd
+>> Getting package github.com/glycerine/rbtree
+>> Getting package github.com/gorilla/context
+>> Getting package github.com/gorilla/mux
+>> Getting package github.com/varstr/gomc
+>> Getting package github.com/kitcambridge/envconf
+>> Getting package github.com/gogo/protobuf/...
+>> Getting package github.com/jacobsa/oglematchers
+>> Getting package github.com/mattn/goveralls
+>> Getting package github.com/glycerine/go-capnproto/...
+>> Getting package github.com/smartystreets/goconvey
+>> Getting package github.com/rafrombrc/gomock/...
+package github.com/rafrombrc/gomock/sample
+	imports code.google.com/p/gomock/sample/imp1: unrecognized import path "code.google.com/p/gomock/sample/imp1" (parse https://code.google.com/p/gomock/sample/imp1?go-get=1: no go-import meta tags (meta tag github.com/golang/mock did not match import path code.google.com/p/gomock/sample/imp1))
+package github.com/rafrombrc/gomock/sample
+	imports code.google.com/p/gomock/sample/imp2: unrecognized import path "code.google.com/p/gomock/sample/imp2" (parse https://code.google.com/p/gomock/sample/imp2?go-get=1: no go-import meta tags (meta tag github.com/golang/mock did not match import path code.google.com/p/gomock/sample/imp2))
+package github.com/rafrombrc/gomock/sample
+	imports code.google.com/p/gomock/sample/imp3: unrecognized import path "code.google.com/p/gomock/sample/imp3" (parse https://code.google.com/p/gomock/sample/imp3?go-get=1: no go-import meta tags (meta tag github.com/golang/mock did not match import path code.google.com/p/gomock/sample/imp3))
+package github.com/rafrombrc/gomock/sample
+	imports code.google.com/p/gomock/sample/imp4: unrecognized import path "code.google.com/p/gomock/sample/imp4" (parse https://code.google.com/p/gomock/sample/imp4?go-get=1: no go-import meta tags (meta tag github.com/golang/mock did not match import path code.google.com/p/gomock/sample/imp4))
+package github.com/rafrombrc/gomock/sample/mock_user
+	imports code.google.com/p/gomock/gomock: unrecognized import path "code.google.com/p/gomock/gomock" (parse https://code.google.com/p/gomock/gomock?go-get=1: no go-import meta tags (meta tag github.com/golang/mock did not match import path code.google.com/p/gomock/gomock))
+>> Setting github.com/coreos/go-etcd/etcd to version 6fe04d580dfb71c9e34cbce2f4df9eefd1e1241e
+>> Setting github.com/bradfitz/gomemcache/memcache to version 4faecadd4f695d18a912ba110120fcfd460aca98
+>> Setting github.com/bbangert/toml to version a2063ce2e5cf10e54ab24075840593d60f59b611
+>> Setting golang.org/x/net/websocket to version cbcac7bb8415db9b6cb4d1ebab1dc9afbd688b97
+>> Setting github.com/jacobsa/oglematchers to version 4fc24f97b5b74022c2a3f4ca7eed57ca29083d3e
+>> Setting github.com/mattn/goveralls to version eddc233731034b539ce80ec41380bf14efd473d3
+>> Setting github.com/smartystreets/goconvey to version 8298bc7d36389ffd3e57b85d9797850d8c2382a9
+>> Setting github.com/gogo/protobuf/... to version d59ce9ecb817e6fbca932115f03520207f5a8a07
+>> Setting github.com/rafrombrc/gomock/... to version c922279faf77f29ce5781e96eb0711837fcb477c
+>> Setting github.com/cactus/go-statsd-client/statsd to version f934df28073069859c4b8a26e837e0fc55e79d37
+>> Setting github.com/glycerine/rbtree to version cd7940bb26b149ce2faf398e7c63fff01aa7b394
+>> Setting github.com/kitcambridge/envconf to version fdc1968532255bdb56182329cdaa1e5b9aa6a6ac
+>> Setting github.com/varstr/gomc to version 7b9f299f292d3dd707fe2749d966968c9bf1e128
+>> Setting github.com/gorilla/context to version 14f550f51af52180c2eefed15e5fd18d63c0a64a
+>> Setting github.com/gorilla/mux to version 4b8fbc56f3b2400a7c7ea3dba9b3539787c486b6
+>> Setting github.com/glycerine/go-capnproto/... to version c082c595166badf95e5a2e973f5dd4ca9d4c0cdb
+>> Building package golang.org/x/net/websocket
+>> Building package github.com/bbangert/toml
+>> Building package github.com/bradfitz/gomemcache/memcache
+>> Building package github.com/cactus/go-statsd-client/statsd
+>> Building package github.com/coreos/go-etcd/etcd
+>> Building package github.com/glycerine/rbtree
+>> Building package github.com/gorilla/context
+>> Building package github.com/gorilla/mux
+>> Building package github.com/varstr/gomc
+# github.com/varstr/gomc
+../../varstr/gomc/const.go:4:36: fatal error: libmemcached/memcached.h: No such file or directory
+ #include <libmemcached/memcached.h>
+                                    ^
+compilation terminated.
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

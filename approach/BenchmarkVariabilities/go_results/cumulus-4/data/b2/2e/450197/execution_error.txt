@@ -1,0 +1,14 @@
+Error while executing goptc (d2b93f1012c50dcd5e91fdf344e28c63f0b7db50): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/b2/2e/450197/repo/src/github.com/goburrow/modbus': exit status 2
+
+Out: # github.com/goburrow/modbus
+./modbus.go:96:7: cannot use data (type [4]byte) as type []byte in field value
+./modbus.go:136:38: cannot use response.FunctionCode (type byte) as type int in field value
+./modbus.go:138:25: cannot use response.Data[0] (type byte) as type int in assignment
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

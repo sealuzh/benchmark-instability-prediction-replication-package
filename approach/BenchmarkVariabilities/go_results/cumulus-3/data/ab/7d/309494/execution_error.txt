@@ -1,0 +1,15 @@
+Error while executing goptc (cff370d33e418772d89c3a4a117b87757e1470b2): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/ab/7d/309494/repo/src/github.com/Psiphon-Labs/psiphon-tunnel-core': exit status 2
+
+Out: # github.com/Psiphon-Labs/psiphon-tunnel-core/ConsoleClient
+github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tls/crypto/chacha20poly1305.chacha20Poly1305Open: relocation target runtime.cpuid_ebx7 not defined
+github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tls/crypto/chacha20poly1305.chacha20Poly1305Seal: relocation target runtime.cpuid_ebx7 not defined
+github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tls/crypto/chacha20poly1305.chacha20Poly1305Open: undefined: "runtime.cpuid_ebx7"
+github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tls/crypto/chacha20poly1305.chacha20Poly1305Seal: undefined: "runtime.cpuid_ebx7"
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

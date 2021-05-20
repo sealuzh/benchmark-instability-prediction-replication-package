@@ -1,0 +1,75 @@
+Error while executing goptc (b149654ddfc6de52bd7b457e1cfe8a5ed3804c3d): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/55/bd/38005/repo/src/github.com/nicholasjackson/building-microservices-in-go': exit status 1
+
+Out: [0;32m[INFO]	[mDownloading dependencies. Please wait...
+[0;32m[INFO]	[m--> Found desired version locally github.com/davecgh/go-spew 6d212800a42e8ab5c146b8ace3490ee17e5225f9!
+[0;32m[INFO]	[m--> Found desired version locally github.com/dgrijalva/jwt-go 2268707a8f0843315e2004ee4f1d021dc08baedf!
+[0;32m[INFO]	[m--> Found desired version locally github.com/golang/protobuf 18c9bb3261723cd5401db4d0c9fbc5c3b6c70fe8!
+[0;32m[INFO]	[m--> Found desired version locally github.com/gorilla/context 08b5f424b9271eedf6f9f0ce86cb9396ed337a42!
+[0;32m[INFO]	[m--> Found desired version locally github.com/mattn/go-colorable 5411d3eea5978e6cdc258b30de592b60df6aba96!
+[0;32m[INFO]	[m--> Found desired version locally github.com/mattn/go-isatty 57fdcb988a5c543893cc61bce354a6e24ab70022!
+[0;32m[INFO]	[m--> Found desired version locally github.com/pborman/uuid 1b00554d822231195d1babd97ff4a781231955c9!
+[0;32m[INFO]	[m--> Found desired version locally github.com/pmezard/go-difflib d8ed2627bdf02c080bf22230dbb337003b7aba2d!
+[0;32m[INFO]	[m--> Found desired version locally github.com/Sirupsen/logrus ba1b36c82c5e05c4f912a88eab0dcd91a171688f!
+[0;32m[INFO]	[m--> Found desired version locally github.com/stretchr/testify 69483b4bd14f5845b5a1e55bca19e954e827f1d0!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/crypto 5a033cc77e57eca05bdb50522851d29e03569cbe!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/net feeb485667d1fdabe727840fe00adc22431bc86e!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/sys 9d4e42a20653790449273b3c85e67d6d8bae6e2e!
+[0;32m[INFO]	[m--> Found desired version locally golang.org/x/text 470f45bf29f4147d6fbd7dfd0a02a848e49f5bf4!
+[0;32m[INFO]	[m--> Found desired version locally google.golang.org/genproto 411e09b969b1170a9f0c467558eb4c4c110d9c77!
+[0;32m[INFO]	[m--> Found desired version locally google.golang.org/grpc d2e1b51f33ff8c5e4a15560ff049d200e83726c5!
+[0;32m[INFO]	[m--> Fetching github.com/cenkalti/backoff
+[0;32m[INFO]	[m--> Fetching github.com/dvyukov/go-fuzz
+[0;32m[INFO]	[m--> Fetching github.com/fatih/color
+[0;32m[INFO]	[m--> Fetching github.com/golang/freetype
+[0;32m[INFO]	[m--> Fetching github.com/blendlabs/go-exception
+[0;32m[INFO]	[m--> Fetching github.com/gorilla/mux
+[0;32m[INFO]	[m--> Fetching github.com/hashicorp/go-cleanhttp
+[0;32m[INFO]	[m--> Fetching github.com/hashicorp/consul
+[0;32m[INFO]	[m--> Fetching github.com/eapache/go-resiliency
+[0;32m[INFO]	[m--> Fetching github.com/hashicorp/go-immutable-radix
+[0;32m[INFO]	[m--> Fetching github.com/go-playground/locales
+[0;32m[INFO]	[m--> Fetching github.com/hashicorp/go-memdb
+[0;32m[INFO]	[m--> Fetching github.com/gorilla/websocket
+[0;32m[INFO]	[m--> Fetching github.com/hashicorp/go-rootcerts
+[0;32m[INFO]	[m--> Fetching github.com/golang/glog
+[0;32m[INFO]	[m--> Fetching github.com/bshuster-repo/logrus-logstash-hook
+[0;32m[INFO]	[m--> Fetching github.com/go-playground/universal-translator
+[0;32m[INFO]	[m--> Fetching github.com/hashicorp/golang-lru
+[0;32m[INFO]	[m--> Fetching github.com/hashicorp/serf
+[0;32m[INFO]	[m--> Fetching github.com/alexcesaro/statsd
+[0;32m[INFO]	[m--> Fetching github.com/igm/sockjs-go
+[0;32m[INFO]	[m--> Fetching github.com/juju/ratelimit
+[0;32m[INFO]	[m--> Fetching github.com/koding/cache
+[0;32m[INFO]	[m--> Fetching github.com/koding/kite
+[0;32m[INFO]	[m--> Fetching github.com/koding/logging
+[0;32m[INFO]	[m--> Fetching github.com/micro/cli
+[0;32m[INFO]	[m--> Fetching github.com/micro/go-micro
+[0;32m[INFO]	[m--> Fetching github.com/micro/mdns
+[0;32m[INFO]	[m--> Fetching github.com/micro/misc
+[0;32m[INFO]	[m--> Fetching github.com/miekg/dns
+[0;32m[INFO]	[m--> Fetching github.com/mitchellh/go-homedir
+[0;32m[INFO]	[m--> Fetching github.com/mitchellh/hashstructure
+[0;32m[INFO]	[m--> Fetching github.com/nats-io/go-nats
+[0;32m[INFO]	[m--> Fetching github.com/nats-io/nats
+[0;32m[INFO]	[m--> Fetching github.com/nats-io/nuid
+[0;32m[INFO]	[m--> Fetching github.com/nicholasjackson/bench
+[0;32m[INFO]	[m--> Fetching github.com/satori/go.uuid
+[0;32m[INFO]	[m--> Fetching github.com/SermoDigital/jose
+[0;32m[INFO]	[m--> Fetching github.com/stretchr/objx
+[0;32m[INFO]	[m--> Fetching github.com/wcharczuk/go-chart
+[0;32m[INFO]	[m--> Fetching golang.org/x/image
+[0;32m[INFO]	[m--> Fetching gopkg.in/alexcesaro/statsd.v2
+[0;32m[INFO]	[m--> Fetching gopkg.in/go-playground/validator.v9
+[0;32m[INFO]	[m--> Fetching gopkg.in/mgo.v2
+[0;32m[INFO]	[m--> Fetching labix.org/v2/mgo
+[0;33m[WARN]	[mUnable to checkout labix.org/v2/mgo
+[0;31m[ERROR]	[mUpdate failed for labix.org/v2/mgo: bzr is not installed
+[0;31m[ERROR]	[mFailed to install: bzr is not installed
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

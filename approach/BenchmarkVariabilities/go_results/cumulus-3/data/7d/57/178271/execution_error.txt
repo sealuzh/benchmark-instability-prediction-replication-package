@@ -1,0 +1,13 @@
+Error while executing goptc (893648c1bd6846b46bc82f91a913080f59736f27): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/7d/57/178271/repo/src/github.com/micro/go-plugins': exit status 2
+
+Out: # github.com/micro/go-plugins/client/grpc
+client/grpc/grpc.go:54:8: undefined: "google.golang.org/grpc/metadata".NewContext
+client/grpc/grpc.go:99:8: undefined: "google.golang.org/grpc/metadata".NewContext
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+

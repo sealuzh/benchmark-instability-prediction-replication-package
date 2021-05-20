@@ -1,0 +1,23 @@
+Error while executing goptc (30dd5200243ade9e445b6e8b544ea4cd5a5b2e87): exit status 2
+
+Out: panic: Error while fetching dependencies for '/home/ext-laaber/go-experiments/data/0a/95/361196/repo/src/github.com/guregu/kami': exit status 2
+
+Out: # github.com/guregu/kami
+./handler_17.go:47:2: duplicate case func("context".Context, http.ResponseWriter, *http.Request) in type switch
+	previous case at ./handler_17.go:45:2
+./middleware_17.go:151:2: duplicate case func("context".Context, http.ResponseWriter, *http.Request) "context".Context in type switch
+	previous case at ./middleware_17.go:149:2
+./middleware_17.go:207:2: duplicate case func("context".Context, mutil.WriterProxy, *http.Request) "context".Context in type switch
+	previous case at ./middleware_17.go:205:2
+./middleware_17.go:215:2: duplicate case func("context".Context, *http.Request) "context".Context in type switch
+	previous case at ./middleware_17.go:211:2
+./middleware_17.go:223:2: duplicate case func("context".Context) "context".Context in type switch
+	previous case at ./middleware_17.go:219:2
+./middleware_17.go:235:2: duplicate case func("context".Context, http.ResponseWriter, *http.Request) "context".Context in type switch
+	previous case at ./middleware_17.go:231:2
+
+
+goroutine 1 [running]:
+main.main()
+	/home/ext-laaber/go-path/src/bitbucket.org/sealuzh/goptc/main.go:86 +0x1ca
+
